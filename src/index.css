@@ -1,0 +1,351 @@
+:root {
+  font-family: Inter, 'Segoe UI', sans-serif;
+  color: #edf2ff;
+  background: #07101a;
+  line-height: 1.5;
+  font-weight: 500;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html, body, #root {
+  margin: 0;
+  min-height: 100%;
+  height: 100%;
+}
+
+body {
+  background:
+    radial-gradient(circle at top, rgba(99, 102, 241, 0.23), transparent 28%),
+    linear-gradient(180deg, #040b13 0%, #0b1220 100%);
+}
+
+button, input, textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.app-shell {
+  display: grid;
+  grid-template-columns: 260px minmax(0, 1.2fr) 380px;
+  gap: 20px;
+  min-height: 100vh;
+  padding: 22px;
+}
+
+.sidebar, .right-rail, .main-panel {
+  background: rgba(13, 20, 34, 0.9);
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  border-radius: 24px;
+  backdrop-filter: blur(14px);
+}
+
+.sidebar {
+  padding: 20px 18px;
+}
+
+.brand-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 6px 18px;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.18);
+  margin-bottom: 18px;
+}
+
+.brand-icon {
+  width: 38px;
+  height: 38px;
+  display: grid;
+  place-items: center;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #7c3aed, #f97316);
+  color: white;
+}
+
+.eyebrow {
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #9fb4d9;
+}
+
+.brand-box h1,
+.topbar h2 {
+  margin: 4px 0 0;
+  font-size: 1.4rem;
+}
+
+.nav-stack {
+  display: grid;
+  gap: 8px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: transparent;
+  border: 1px solid rgba(148, 163, 184, 0.12);
+  border-radius: 12px;
+  color: #dce7ff;
+  padding: 10px 12px;
+  text-align: left;
+}
+
+.nav-item.active {
+  background: rgba(59, 130, 246, 0.12);
+  border-color: rgba(96, 165, 250, 0.45);
+}
+
+.mini-card, .card {
+  margin-top: 20px;
+  background: rgba(15, 23, 42, 0.82);
+  border: 1px solid rgba(148, 163, 184, 0.12);
+  border-radius: 18px;
+  padding: 14px;
+}
+
+.mini-label, .panel-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #cfe2ff;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.status-line {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+  color: #b8c7e8;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border-radius: 50%;
+  background: rgba(148, 163, 184, 0.5);
+}
+
+.dot.on {
+  background: #34d399;
+  box-shadow: 0 0 10px rgba(52, 211, 153, 0.75);
+}
+
+.primary-button,
+.secondary-button,
+.ghost-button,
+.icon-button {
+  border: none;
+  border-radius: 12px;
+  padding: 10px 12px;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.primary-button {
+  background: linear-gradient(135deg, #7c3aed, #f97316);
+}
+
+.secondary-button {
+  background: #1d4ed8;
+}
+
+.ghost-button {
+  background: rgba(148, 163, 184, 0.08);
+  border: 1px solid rgba(148, 163, 184, 0.15);
+}
+
+.icon-button {
+  width: 42px;
+  background: rgba(59, 130, 246, 0.15);
+}
+
+.chip-list, .shortcut-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chip, .shortcut-pill {
+  background: rgba(148, 163, 184, 0.08);
+  color: #dfeaff;
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  border-radius: 999px;
+  padding: 8px 10px;
+}
+
+.main-panel {
+  padding: 18px;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 8px 18px;
+}
+
+.live-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(34, 197, 94, 0.12);
+  border: 1px solid rgba(74, 222, 128, 0.35);
+  color: #bbf7d0;
+}
+
+.chat-card {
+  background: rgba(7, 15, 24, 0.9);
+  border: 1px solid rgba(148, 163, 184, 0.12);
+  border-radius: 24px;
+  padding: 18px;
+}
+
+.message-list {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  min-height: 320px;
+  max-height: 460px;
+  overflow: auto;
+  padding-right: 4px;
+}
+
+.bubble {
+  max-width: 78%;
+  padding: 12px 14px;
+  border-radius: 18px;
+  line-height: 1.55;
+}
+
+.bubble.assistant {
+  background: rgba(96, 165, 250, 0.12);
+  border: 1px solid rgba(96, 165, 250, 0.2);
+  color: #edf6ff;
+}
+
+.bubble.user {
+  margin-left: auto;
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  color: white;
+}
+
+.composer {
+  margin-top: 16px;
+  display: grid;
+  gap: 12px;
+}
+
+.composer textarea,
+.panel input,
+.shortcut-row input {
+  width: 100%;
+  background: rgba(15, 23, 42, 0.9);
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  border-radius: 14px;
+  padding: 12px 14px;
+  color: #edf2ff;
+  resize: vertical;
+}
+
+.composer textarea {
+  min-height: 100px;
+}
+
+.composer-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.right-rail {
+  padding: 18px;
+}
+
+.panel label {
+  display: block;
+  color: #b7c8e7;
+  margin-bottom: 6px;
+  font-size: 0.8rem;
+}
+
+.wide { width: 100%; margin-top: 12px; }
+
+.memory-list,
+.log-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.memory-list li {
+  color: #dfeaff;
+  background: rgba(148, 163, 184, 0.06);
+  border-radius: 12px;
+  padding: 8px 10px;
+}
+
+.shortcut-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.log-list li {
+  background: rgba(148, 163, 184, 0.06);
+  border-radius: 12px;
+  padding: 10px;
+  display: grid;
+  gap: 8px;
+}
+
+.log-list li span {
+  font-size: 0.7rem;
+  color: #96a9d2;
+}
+
+.log-list li strong {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.66rem;
+}
+
+.log-list li p {
+  margin: 0;
+  color: #e4edff;
+}
+
+.log-list li.warn strong { color: #fbbf24; }
+.log-list li.error strong { color: #f87171; }
+.log-list li.success strong { color: #34d399; }
+
+.terminal {
+  height: 210px;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+@media (max-width: 1100px) {
+  .app-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar, .right-rail, .main-panel {
+    min-width: 0;
+  }
+}
