@@ -308,13 +308,49 @@ function App() {
       addLog('Voice capture started.', 'info');
     };
 
-    recognition.onresult = (event) => {
-      const transcript = event.results[0][0].transcript;
-      const finalText = transcript.trim();
-      if (!finalText) return;
+    recognition.onresult = async (event) => {
+      // Some browsers provide multiple results; gather the latest final transcript reliably
+      let finalTranscript = '';
+      try {
+        for (let i = 0; i < event.results.length; i++) {
+          const res = event.results[i];
+          // take the most confident alternative from each result
+          if (res && res[0] && res[0].transcript) {
+            finalTranscript += (res[0].transcript + ' ');
+          }
+        }
+        finalTranscript = finalTranscript.trim();
+      } catch (err) {
+        // fallback to the simple path
+        finalTranscript = (event.results[0] && event.results[0][0] && event.results[0][0].transcript) || '';
+      }
+
+      const finalText = (finalTranscript || '').trim();
+      addLog(`Raw transcript: ${JSON.stringify(finalTranscript)}`, 'info');
+
+      if (!finalText) {
+        addLog('Transcript empty, ignoring.', 'warn');
+        return;
+      }
+
+      // Try to parse voice commands like: "Ella text John Smith hi" or "text +1555123 hello"
+      const cmd = parseVoiceCommand(finalText);
+      if (cmd && cmd.type === 'sms') {
+        addLog(`Voice shortcut detected. Recipient: ${cmd.recipient} Message: ${cmd.message}`, 'info');
+        // trigger the phone shortcut flow using the parsed recipient and message
+        await triggerShortcutWithRecipient(cmd.recipient, cmd.message);
+        // update UI with clear entries
+        setMessages((prev) => [...prev, { id: Date.now(), role: 'user', text: finalText }]);
+        setMessages((prev) => [...prev, { id: Date.now() + 1, role: 'assistant', text: `Sending message to ${cmd.recipient}` }]);
+        setInput('');
+        return;
+      }
+
+      // default behavior: insert transcribed text into composer and send as chat
       setInput(finalText);
-      setTimeout(() => sendMessage(finalText), 120);
-      addLog(`Voice transcript captured: ${finalText}`, 'info');
+      addLog(`Voice transcript captured (chat): ${finalText}`, 'info');
+      // small delay to allow UI update then send
+      setTimeout(() => sendMessage(finalText), 200);
     };
 
     recognition.onerror = (event) => {
@@ -380,7 +416,59 @@ function App() {
     const message = shortcut.action || shortcut.label || '';
     if (!message) return;
     addLog(`Sending via phone shortcut: ${message}`, 'info');
-    sendTextViaShortcut(message);
+    triggerShortcutWithRecipient(readStorage(storageKeys.phone, ''), message);
+  };
+
+  // Parse simple voice commands to extract recipient and message.
+  // Supports:
+  //  - "text John Smith hi"
+  //  - "Ella text John Smith hi"
+  //  - "text +15551234567 hi"
+  const parseVoiceCommand = (text) => {
+    const t = text.trim();
+    // Normalize leading wakeword
+    const normalized = t.replace(/^ella[,\s]*/i, '').trim();
+
+    // Regex: text <recipient> <message>
+    const m = normalized.match(/^(?:text|send (?:a )?text(?: message)?(?: to)?)[\s,]+(.+?)\s+(?:saying|that|says|:|-|,)??\s*(.+)$/i);
+    if (m && m[1] && m[2]) {
+      const recipient = m[1].trim();
+      const message = m[2].trim();
+      return { type: 'sms', recipient, message };
+    }
+
+    // Fallback: if starts with a plus and digits
+    const m2 = normalized.match(/^(?:text|send text)\s+([+\d][\d\s-]+)\s+(.+)$/i);
+    if (m2 && m2[1] && m2[2]) {
+      return { type: 'sms', recipient: m2[1].replace(/\s+/g, ''), message: m2[2].trim() };
+    }
+
+    return null;
+  };
+
+  // Trigger the Apple Shortcut by writing RECIPIENT|MESSAGE to clipboard then opening Shortcuts.
+  const triggerShortcutWithRecipient = async (recipient, message) => {
+    const shortcutName = readStorage(storageKeys.shortcutName, 'Ella Send SMS');
+    if (!recipient || !message) {
+      addLog('Missing recipient or message for shortcut trigger.', 'warn');
+      return;
+    }
+    const raw = `${recipient}|${message}`;
+
+    try {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        await navigator.clipboard.writeText(raw);
+        addLog('Shortcut payload written to clipboard.', 'info');
+      } else {
+        addLog('Clipboard API not available; shortcut may get the page URL instead.', 'warn');
+      }
+    } catch (err) {
+      addLog('Failed to write to clipboard: ' + (err.message || err), 'warn');
+    }
+
+    const url = `shortcuts://run-shortcut?name=${encodeURIComponent(shortcutName)}`;
+    addLog(`Opening Shortcuts app to run: ${shortcutName}`, 'info');
+    window.location.href = url;
   };
 
   const handleComposerKeyDown = (event) => {
