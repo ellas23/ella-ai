@@ -1,0 +1,6179 @@
+{
+  "name": "while",
+  "voiceSample": null,
+  "activeVoice": "while",
+  "voiceProfiles": {
+    "ben": {
+      "voiceName": "Microsoft Zira Desktop",
+      "style": {
+        "tone": "neutral",
+        "directness": "balanced",
+        "pace": "medium",
+        "warmth": "warm"
+      },
+      "samples": [
+        {
+          "text": "smiley face lives i realize",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-12T20:55:56.703Z",
+          "length": 27
+        },
+        {
+          "text": "of course i'd be happy to help you find some activities that wine pairings read your visit what types of activities are you interested in",
+          "style": {
+            "tone": "neutral",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-12T20:56:36.702Z",
+          "length": 137
+        },
+        {
+          "text": "hiking biking or perhaps we should be stroll through the difference",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-12T20:56:41.711Z",
+          "length": 67
+        },
+        {
+          "text": "and which ones would you like to taste or cabinets on the by their sharpening for take years i have you you're having these those are great as for you ever watch their share of what are your like like was my best to assist you with a warning bells response hello",
+          "style": {
+            "tone": "polite",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "enthusiastic"
+          },
+          "timestamp": "2026-08-12T20:56:57.708Z",
+          "length": 262
+        },
+        {
+          "text": "sure thing",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-12T20:56:59.195Z",
+          "length": 10
+        },
+        {
+          "text": "here to help with any questions you might have",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-12T20:57:02.700Z",
+          "length": 46
+        },
+        {
+          "text": "what's on your mind",
+          "style": {
+            "tone": "neutral",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-12T20:57:04.720Z",
+          "length": 19
+        },
+        {
+          "text": "hi there",
+          "style": {
+            "tone": "friendly",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-12T20:57:26.197Z",
+          "length": 8
+        },
+        {
+          "text": "hello in i'm here to help answer your questions you bet you that you have a guess so go ahead and shared with me",
+          "style": {
+            "tone": "friendly",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-12T20:57:34.710Z",
+          "length": 112
+        },
+        {
+          "text": "any questions",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-12T20:58:01.202Z",
+          "length": 13
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-12T20:58:36.696Z",
+          "length": 3
+        },
+        {
+          "text": "hello",
+          "style": {
+            "tone": "friendly",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-12T20:58:40.701Z",
+          "length": 5
+        },
+        {
+          "text": "hey",
+          "style": {
+            "tone": "friendly",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-13T12:33:03.398Z",
+          "length": 3
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-13T12:33:23.900Z",
+          "length": 3
+        },
+        {
+          "text": "here",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-13T12:33:31.456Z",
+          "length": 4
+        },
+        {
+          "text": "hey there",
+          "style": {
+            "tone": "friendly",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-13T12:33:52.479Z",
+          "length": 9
+        },
+        {
+          "text": "okay thank you",
+          "style": {
+            "tone": "polite",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-13T12:33:56.196Z",
+          "length": 14
+        },
+        {
+          "text": "hey hello my name is ben nye there",
+          "style": {
+            "tone": "friendly",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-13T12:34:00.960Z",
+          "length": 34
+        },
+        {
+          "text": "i remember that your name is that",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-13T12:34:06.405Z",
+          "length": 33
+        },
+        {
+          "text": "copying your style",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-13T12:34:08.604Z",
+          "length": 18
+        },
+        {
+          "text": "your time",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-13T12:34:09.926Z",
+          "length": 9
+        },
+        {
+          "text": "hello",
+          "style": {
+            "tone": "friendly",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-13T12:34:23.934Z",
+          "length": 5
+        },
+        {
+          "text": "i know how can i says you today",
+          "style": {
+            "tone": "neutral",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-13T12:34:26.941Z",
+          "length": 31
+        },
+        {
+          "text": "please feel free to ask any questions or share your by there and i will do",
+          "style": {
+            "tone": "polite",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "respectful"
+          },
+          "timestamp": "2026-08-13T12:34:32.603Z",
+          "length": 74
+        },
+        {
+          "text": "i have always his while preserving the original wording in a tent",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-13T12:34:36.931Z",
+          "length": 65
+        }
+      ],
+      "confidence": 1,
+      "updatedAt": "2026-08-13T12:34:36.931Z"
+    },
+    "here": {
+      "voiceName": "Microsoft Zira Desktop",
+      "style": {
+        "tone": "neutral",
+        "directness": "balanced",
+        "pace": "medium",
+        "warmth": "warm"
+      },
+      "samples": [
+        {
+          "text": "how can i assist you today",
+          "style": {
+            "tone": "neutral",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:34:07.390Z",
+          "length": 26
+        },
+        {
+          "text": "please feel free to ask me anything and i'll do my best to provide a helpful response while maintaining a neutral to balance directors and more more",
+          "style": {
+            "tone": "polite",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "respectful"
+          },
+          "timestamp": "2026-08-15T15:34:16.891Z",
+          "length": 148
+        },
+        {
+          "text": "hi there",
+          "style": {
+            "tone": "friendly",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:34:24.387Z",
+          "length": 8
+        },
+        {
+          "text": "how can i help you today",
+          "style": {
+            "tone": "neutral",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:34:26.896Z",
+          "length": 24
+        },
+        {
+          "text": "hi there",
+          "style": {
+            "tone": "friendly",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:34:51.392Z",
+          "length": 8
+        },
+        {
+          "text": "eleven",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:34:52.940Z",
+          "length": 6
+        },
+        {
+          "text": "hi there",
+          "style": {
+            "tone": "friendly",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:34:57.888Z",
+          "length": 8
+        },
+        {
+          "text": "how can i help you today",
+          "style": {
+            "tone": "neutral",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:35:00.388Z",
+          "length": 24
+        },
+        {
+          "text": "smiling face with smiley guys guy their giggle what's up",
+          "style": {
+            "tone": "neutral",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:35:05.422Z",
+          "length": 56
+        },
+        {
+          "text": "oh shut up",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:35:08.917Z",
+          "length": 10
+        },
+        {
+          "text": "hello",
+          "style": {
+            "tone": "friendly",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:35:26.889Z",
+          "length": 5
+        },
+        {
+          "text": "but",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:35:28.407Z",
+          "length": 3
+        },
+        {
+          "text": "hi there",
+          "style": {
+            "tone": "friendly",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:35:32.385Z",
+          "length": 8
+        },
+        {
+          "text": "how can i help you today",
+          "style": {
+            "tone": "neutral",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:35:34.383Z",
+          "length": 24
+        },
+        {
+          "text": "hello",
+          "style": {
+            "tone": "friendly",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:35:44.905Z",
+          "length": 5
+        },
+        {
+          "text": "i'm here to help answer any questions you may have what would you like to them",
+          "style": {
+            "tone": "polite",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:35:50.913Z",
+          "length": 78
+        },
+        {
+          "text": "thanks i remember that your name is here",
+          "style": {
+            "tone": "polite",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:35:56.400Z",
+          "length": 40
+        },
+        {
+          "text": "why are they are being year styled and learning in overtime",
+          "style": {
+            "tone": "neutral",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:35:59.895Z",
+          "length": 59
+        },
+        {
+          "text": "hello",
+          "style": {
+            "tone": "friendly",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:36:08.901Z",
+          "length": 5
+        },
+        {
+          "text": "how can i assist you today",
+          "style": {
+            "tone": "neutral",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:36:11.391Z",
+          "length": 26
+        },
+        {
+          "text": "please feel free to ask me anything and i'll do my best to help either how can i says you today",
+          "style": {
+            "tone": "polite",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "respectful"
+          },
+          "timestamp": "2026-08-15T15:36:18.892Z",
+          "length": 95
+        },
+        {
+          "text": "hey",
+          "style": {
+            "tone": "friendly",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:36:20.904Z",
+          "length": 3
+        },
+        {
+          "text": "giggle what's up",
+          "style": {
+            "tone": "neutral",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:36:22.405Z",
+          "length": 16
+        },
+        {
+          "text": "hello how can i assist you today",
+          "style": {
+            "tone": "friendly",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:36:35.391Z",
+          "length": 32
+        },
+        {
+          "text": "hey there giggle so you wanna get all up in here",
+          "style": {
+            "tone": "friendly",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:37:16.391Z",
+          "length": 48
+        }
+      ],
+      "confidence": 1,
+      "updatedAt": "2026-08-15T15:37:16.391Z"
+    },
+    "hoping": {
+      "voiceName": "Microsoft Zira Desktop",
+      "style": {
+        "tone": "neutral",
+        "directness": "balanced",
+        "pace": "medium",
+        "warmth": "warm"
+      },
+      "samples": [
+        {
+          "text": "please feel free to ask me anything",
+          "style": {
+            "tone": "polite",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "respectful"
+          },
+          "timestamp": "2026-08-12T20:51:43.422Z",
+          "length": 35
+        },
+        {
+          "text": "and i will tell i guess it anyway",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-12T20:51:45.928Z",
+          "length": 33
+        },
+        {
+          "text": "after response fucking years that i don't get here",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-12T20:51:49.486Z",
+          "length": 50
+        },
+        {
+          "text": "rephrase your words but i strive to preserve the original intent of your question so why dared to billboard is gonna sell off and as to how to answer any questions you may go please go ahead and ask your questions the i'll do my best to provide a helpful response",
+          "style": {
+            "tone": "polite",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "respectful"
+          },
+          "timestamp": "2026-08-12T20:52:07.713Z",
+          "length": 263
+        },
+        {
+          "text": "hi there",
+          "style": {
+            "tone": "friendly",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-12T20:52:32.697Z",
+          "length": 8
+        },
+        {
+          "text": "people either and i'm here to help you have any questions or concerns you might have",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-12T20:52:38.202Z",
+          "length": 84
+        },
+        {
+          "text": "that's i wash itself thing was brings you here child to prevent your major if you had a question about five bases are slightly i as get overtime curious please go ahead and ask me anything else you live better to assist i do they bring their of anything in that can be mysterious that leave us wondering can you tell me a little bit more about that",
+          "style": {
+            "tone": "polite",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "respectful"
+          },
+          "timestamp": "2026-08-12T20:52:58.866Z",
+          "length": 348
+        },
+        {
+          "text": "curious about smiley face was finally nice",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "enthusiastic"
+          },
+          "timestamp": "2026-08-12T20:53:03.220Z",
+          "length": 42
+        },
+        {
+          "text": "oh i see so",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-12T20:53:19.816Z",
+          "length": 11
+        },
+        {
+          "text": "curious about something that you like by is figuring it out",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-12T20:53:24.698Z",
+          "length": 59
+        },
+        {
+          "text": "well as here to assist you with whatever you me so go ahead and tell me more about what's up your mind",
+          "style": {
+            "tone": "neutral",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-12T20:53:31.238Z",
+          "length": 102
+        },
+        {
+          "text": "smiling face with style replies",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-12T20:53:34.733Z",
+          "length": 31
+        },
+        {
+          "text": "oh my gosh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-12T20:53:46.849Z",
+          "length": 10
+        },
+        {
+          "text": "to help help the enthusiasm so you want to know about",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-12T20:53:51.720Z",
+          "length": 53
+        },
+        {
+          "text": "what's up your mind",
+          "style": {
+            "tone": "neutral",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-12T20:53:53.728Z",
+          "length": 19
+        },
+        {
+          "text": "do tell him i'll do my best to assist you",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-12T20:53:57.231Z",
+          "length": 41
+        },
+        {
+          "text": "smiley faces were revised",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-12T20:54:00.226Z",
+          "length": 25
+        },
+        {
+          "text": "hello",
+          "style": {
+            "tone": "friendly",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-12T20:54:07.704Z",
+          "length": 5
+        },
+        {
+          "text": "people i know that i'm here to help you with any questions you might have helped her that",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-12T20:54:13.847Z",
+          "length": 89
+        },
+        {
+          "text": "what can i says day today",
+          "style": {
+            "tone": "neutral",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-12T20:54:17.877Z",
+          "length": 25
+        },
+        {
+          "text": "hi there guys are being your style and where to get overtime",
+          "style": {
+            "tone": "friendly",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-12T20:54:22.708Z",
+          "length": 60
+        },
+        {
+          "text": "hi there",
+          "style": {
+            "tone": "friendly",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-12T20:54:39.194Z",
+          "length": 8
+        },
+        {
+          "text": "i'm here to help you with any questions or task is rebecca how did you like to tackle today please go ahead and let me know and i'll do my best to provide accurate information while maintaining a neutral tell felt directness and want",
+          "style": {
+            "tone": "polite",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "respectful"
+          },
+          "timestamp": "2026-08-12T20:54:55.719Z",
+          "length": 233
+        },
+        {
+          "text": "thanks",
+          "style": {
+            "tone": "polite",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-12T20:54:58.195Z",
+          "length": 6
+        },
+        {
+          "text": "how remember that your name is here i'm hoping here style and learning get overtime",
+          "style": {
+            "tone": "neutral",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-12T20:55:04.207Z",
+          "length": 83
+        }
+      ],
+      "confidence": 1,
+      "updatedAt": "2026-08-12T20:55:04.207Z"
+    },
+    "scared": {
+      "voiceName": "Microsoft Zira Desktop",
+      "style": {
+        "tone": "neutral",
+        "directness": "balanced",
+        "pace": "medium",
+        "warmth": "warm"
+      },
+      "samples": [
+        {
+          "text": "please feel free to ask any questions or share your by there and i will do",
+          "style": {
+            "tone": "polite",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "respectful"
+          },
+          "timestamp": "2026-08-13T12:34:32.603Z",
+          "length": 74
+        },
+        {
+          "text": "i have always his while preserving the original wording in a tent",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-13T12:34:36.931Z",
+          "length": 65
+        },
+        {
+          "text": "of course i'm here to assist you",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-13T12:34:47.401Z",
+          "length": 32
+        },
+        {
+          "text": "what would you like to know where to stay",
+          "style": {
+            "tone": "polite",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-13T12:34:49.947Z",
+          "length": 41
+        },
+        {
+          "text": "please",
+          "style": {
+            "tone": "polite",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "respectful"
+          },
+          "timestamp": "2026-08-13T12:34:52.144Z",
+          "length": 6
+        },
+        {
+          "text": "have you ever try",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-13T12:34:57.534Z",
+          "length": 17
+        },
+        {
+          "text": "smile guess",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-13T12:35:02.590Z",
+          "length": 11
+        },
+        {
+          "text": "well it's nice to meet you",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "enthusiastic"
+          },
+          "timestamp": "2026-08-13T12:35:05.404Z",
+          "length": 26
+        },
+        {
+          "text": "how can i help you today",
+          "style": {
+            "tone": "neutral",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-13T12:35:07.409Z",
+          "length": 24
+        },
+        {
+          "text": "hi there he will sell you wanna know about campaign by style",
+          "style": {
+            "tone": "friendly",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-13T12:36:16.417Z",
+          "length": 60
+        },
+        {
+          "text": "what i played that you like my aesthetic but i gotta say it's not just about it was said they can it's about being confident and comfortable get ghetto like don't be afraid to try new things and experiment with different books but also don't forget to stay true to yourself and what makes you",
+          "style": {
+            "tone": "neutral",
+            "directness": "direct",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-13T12:36:37.152Z",
+          "length": 292
+        },
+        {
+          "text": "have any questions on a there",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-13T12:36:42.023Z",
+          "length": 29
+        },
+        {
+          "text": "start by do what we are advancing total that right",
+          "style": {
+            "tone": "neutral",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-13T12:36:44.626Z",
+          "length": 50
+        },
+        {
+          "text": "please go ahead and ask your question marks over to my best provided helpful to have your response",
+          "style": {
+            "tone": "polite",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "respectful"
+          },
+          "timestamp": "2026-08-13T12:36:52.412Z",
+          "length": 98
+        },
+        {
+          "text": "hello",
+          "style": {
+            "tone": "friendly",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-13T12:37:11.932Z",
+          "length": 5
+        },
+        {
+          "text": "after to help answer any questions you may have",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-13T12:37:15.438Z",
+          "length": 47
+        },
+        {
+          "text": "track whereas today",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-13T12:37:18.445Z",
+          "length": 19
+        },
+        {
+          "text": "please feel free to speak your mind and i'll do my best to provide help for responses while preserving your original wording as much as possible",
+          "style": {
+            "tone": "polite",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "respectful"
+          },
+          "timestamp": "2026-08-13T12:37:26.906Z",
+          "length": 144
+        },
+        {
+          "text": "sure i'd be happy to help",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-13T12:37:35.915Z",
+          "length": 25
+        },
+        {
+          "text": "what did you like to before the steps",
+          "style": {
+            "tone": "neutral",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-13T12:37:38.444Z",
+          "length": 37
+        },
+        {
+          "text": "please go ahead and ask your questions or share your thoughts and i'll do my best to provide health for responses",
+          "style": {
+            "tone": "polite",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "respectful"
+          },
+          "timestamp": "2026-08-13T12:37:45.419Z",
+          "length": 113
+        },
+        {
+          "text": "i will appear to help you with any questions or concerns you wake up",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-13T12:38:13.015Z",
+          "length": 68
+        },
+        {
+          "text": "you betcha that you have offices while preserving the original wording in a joke",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-13T12:38:17.431Z",
+          "length": 80
+        },
+        {
+          "text": "did you please provide for projects to verify what you mean by this i want to make sure i give you an actor help helpful response",
+          "style": {
+            "tone": "polite",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "respectful"
+          },
+          "timestamp": "2026-08-13T12:38:26.414Z",
+          "length": 129
+        },
+        {
+          "text": "hey i'm scared i wish you luck",
+          "style": {
+            "tone": "friendly",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-13T12:38:52.994Z",
+          "length": 30
+        }
+      ],
+      "confidence": 1,
+      "updatedAt": "2026-08-13T12:38:52.994Z"
+    },
+    "happy": {
+      "voiceName": "Microsoft Zira Desktop",
+      "style": {
+        "tone": "neutral",
+        "directness": "balanced",
+        "pace": "medium",
+        "warmth": "warm"
+      },
+      "samples": [
+        {
+          "text": "have if you",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-13T12:41:17.678Z",
+          "length": 11
+        },
+        {
+          "text": "oh my gosh have i ever try things that boy",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-13T12:41:22.545Z",
+          "length": 42
+        },
+        {
+          "text": "he will begin",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-13T12:41:25.411Z",
+          "length": 13
+        },
+        {
+          "text": "excited still i tried so many things in my life",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-13T12:41:28.920Z",
+          "length": 47
+        },
+        {
+          "text": "a yellow",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:06:25.658Z",
+          "length": 8
+        },
+        {
+          "text": "ella",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:06:31.677Z",
+          "length": 4
+        },
+        {
+          "text": "ella",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:07:23.667Z",
+          "length": 4
+        },
+        {
+          "text": "hello",
+          "style": {
+            "tone": "friendly",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:08:15.676Z",
+          "length": 5
+        },
+        {
+          "text": "but here",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:08:17.162Z",
+          "length": 8
+        },
+        {
+          "text": "hi there",
+          "style": {
+            "tone": "friendly",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:08:34.693Z",
+          "length": 8
+        },
+        {
+          "text": "but",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:08:36.179Z",
+          "length": 3
+        },
+        {
+          "text": "hello how can i assist you today please feel free to ask me anything and i'll do my best to help with a woman balanced approach",
+          "style": {
+            "tone": "polite",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "respectful"
+          },
+          "timestamp": "2026-08-15T15:08:56.669Z",
+          "length": 127
+        },
+        {
+          "text": "of course i'll do my best to provide concise",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:09:08.671Z",
+          "length": 44
+        },
+        {
+          "text": "hi there",
+          "style": {
+            "tone": "friendly",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:09:10.170Z",
+          "length": 8
+        },
+        {
+          "text": "of course i'll do my best to provide answers that are direct balanced and war while preserving the users original wording in a tent please go ahead and ask your question",
+          "style": {
+            "tone": "polite",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "respectful"
+          },
+          "timestamp": "2026-08-15T15:09:38.172Z",
+          "length": 169
+        },
+        {
+          "text": "hello",
+          "style": {
+            "tone": "friendly",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:09:53.672Z",
+          "length": 5
+        },
+        {
+          "text": "love him",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "enthusiastic"
+          },
+          "timestamp": "2026-08-15T15:09:55.201Z",
+          "length": 8
+        },
+        {
+          "text": "hello",
+          "style": {
+            "tone": "friendly",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:10:13.165Z",
+          "length": 5
+        },
+        {
+          "text": "but",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:10:14.674Z",
+          "length": 3
+        },
+        {
+          "text": "hi there",
+          "style": {
+            "tone": "friendly",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:10:18.165Z",
+          "length": 8
+        },
+        {
+          "text": "hello with opposite of course but here to help answer any question",
+          "style": {
+            "tone": "friendly",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:10:46.172Z",
+          "length": 66
+        },
+        {
+          "text": "well",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:10:47.193Z",
+          "length": 4
+        },
+        {
+          "text": "oh what obviously a they're either and up here to help you with any questions or concerns you might have so you love someone",
+          "style": {
+            "tone": "neutral",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "enthusiastic"
+          },
+          "timestamp": "2026-08-15T15:11:24.203Z",
+          "length": 124
+        },
+        {
+          "text": "hello",
+          "style": {
+            "tone": "friendly",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:11:27.671Z",
+          "length": 5
+        },
+        {
+          "text": "how can a",
+          "style": {
+            "tone": "neutral",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T15:11:29.167Z",
+          "length": 9
+        }
+      ],
+      "confidence": 1,
+      "updatedAt": "2026-08-15T15:11:29.167Z"
+    },
+    "all": {
+      "voiceName": "Microsoft Zira Desktop",
+      "style": {
+        "tone": "neutral",
+        "directness": "balanced",
+        "pace": "medium",
+        "warmth": "warm"
+      },
+      "samples": [
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T19:51:22.826Z",
+          "length": 3
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T19:51:43.331Z",
+          "length": 3
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T19:52:03.823Z",
+          "length": 3
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T19:52:24.328Z",
+          "length": 3
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T19:53:06.331Z",
+          "length": 3
+        },
+        {
+          "text": "oh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T19:55:26.335Z",
+          "length": 2
+        },
+        {
+          "text": "well",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T19:55:31.397Z",
+          "length": 4
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T19:57:02.326Z",
+          "length": 3
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T19:57:42.827Z",
+          "length": 3
+        },
+        {
+          "text": "cigarette smoke here",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T20:08:03.326Z",
+          "length": 20
+        },
+        {
+          "text": "note",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T20:08:08.352Z",
+          "length": 4
+        },
+        {
+          "text": "i can reach the server",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T21:20:05.321Z",
+          "length": 22
+        },
+        {
+          "text": "sure it was back in his running over your elders is correct",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T21:20:08.818Z",
+          "length": 59
+        },
+        {
+          "text": "is it",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T21:20:13.823Z",
+          "length": 5
+        },
+        {
+          "text": "yeah",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T21:20:19.490Z",
+          "length": 4
+        },
+        {
+          "text": "server",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T21:20:39.843Z",
+          "length": 6
+        },
+        {
+          "text": "the million",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T21:20:41.354Z",
+          "length": 11
+        },
+        {
+          "text": "engine",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T21:21:47.844Z",
+          "length": 6
+        },
+        {
+          "text": "today",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T21:22:10.820Z",
+          "length": 5
+        },
+        {
+          "text": "my name",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T21:22:25.955Z",
+          "length": 7
+        },
+        {
+          "text": "but",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T21:22:56.848Z",
+          "length": 3
+        },
+        {
+          "text": "best",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T21:23:12.522Z",
+          "length": 4
+        },
+        {
+          "text": "yeah",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T21:23:17.902Z",
+          "length": 4
+        },
+        {
+          "text": "oh my god",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T21:23:23.475Z",
+          "length": 9
+        },
+        {
+          "text": "for the last day",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T21:24:55.336Z",
+          "length": 16
+        }
+      ],
+      "confidence": 1,
+      "updatedAt": "2026-08-15T21:24:55.336Z"
+    },
+    "just": {
+      "voiceName": "Microsoft Zira Desktop",
+      "style": {
+        "tone": "neutral",
+        "directness": "balanced",
+        "pace": "medium",
+        "warmth": "warm"
+      },
+      "samples": [
+        {
+          "text": "i know how can i do today",
+          "style": {
+            "tone": "neutral",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T21:29:03.928Z",
+          "length": 25
+        },
+        {
+          "text": "hi there",
+          "style": {
+            "tone": "friendly",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T21:29:18.918Z",
+          "length": 8
+        },
+        {
+          "text": "not your to me",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T21:29:21.452Z",
+          "length": 14
+        },
+        {
+          "text": "hey there",
+          "style": {
+            "tone": "friendly",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T21:29:46.917Z",
+          "length": 9
+        },
+        {
+          "text": "best buy the",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T21:29:52.099Z",
+          "length": 12
+        },
+        {
+          "text": "that's just like",
+          "style": {
+            "tone": "neutral",
+            "directness": "direct",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T21:29:54.436Z",
+          "length": 16
+        },
+        {
+          "text": "how can i help you today",
+          "style": {
+            "tone": "neutral",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T21:30:03.402Z",
+          "length": 24
+        },
+        {
+          "text": "please written as mean anything",
+          "style": {
+            "tone": "polite",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "respectful"
+          },
+          "timestamp": "2026-08-15T21:30:05.907Z",
+          "length": 31
+        },
+        {
+          "text": "poop",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T21:31:23.516Z",
+          "length": 4
+        },
+        {
+          "text": "the",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T21:31:28.958Z",
+          "length": 3
+        },
+        {
+          "text": "the way that",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T21:31:32.041Z",
+          "length": 12
+        },
+        {
+          "text": "yeah",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T21:31:33.451Z",
+          "length": 4
+        },
+        {
+          "text": "with",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T21:31:38.572Z",
+          "length": 4
+        },
+        {
+          "text": "saturday alone",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T21:31:42.169Z",
+          "length": 14
+        },
+        {
+          "text": "several added seven eleven",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T21:31:46.625Z",
+          "length": 26
+        },
+        {
+          "text": "were",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T21:31:48.510Z",
+          "length": 4
+        },
+        {
+          "text": "what are you",
+          "style": {
+            "tone": "neutral",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T21:31:52.555Z",
+          "length": 12
+        },
+        {
+          "text": "ways",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T21:31:53.615Z",
+          "length": 4
+        },
+        {
+          "text": "yeah",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T21:31:58.919Z",
+          "length": 4
+        },
+        {
+          "text": "don't worry about",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T21:32:01.974Z",
+          "length": 17
+        },
+        {
+          "text": "if what i don't",
+          "style": {
+            "tone": "neutral",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T21:32:03.965Z",
+          "length": 15
+        },
+        {
+          "text": "there's your yeah this site is going to close down",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T21:32:08.419Z",
+          "length": 50
+        },
+        {
+          "text": "all the sponsors",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T21:32:10.934Z",
+          "length": 16
+        },
+        {
+          "text": "out back",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T21:32:22.510Z",
+          "length": 8
+        },
+        {
+          "text": "voices",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T21:38:07.838Z",
+          "length": 6
+        },
+        {
+          "text": "oh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-15T21:38:12.847Z",
+          "length": 2
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T05:36:07.677Z",
+          "length": 3
+        },
+        {
+          "text": "what's up",
+          "style": {
+            "tone": "neutral",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T05:36:33.171Z",
+          "length": 9
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T05:37:18.667Z",
+          "length": 3
+        },
+        {
+          "text": "was like to talk about so",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T05:37:33.176Z",
+          "length": 25
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T05:37:53.196Z",
+          "length": 3
+        },
+        {
+          "text": "i say so",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T05:38:15.191Z",
+          "length": 8
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T05:39:09.669Z",
+          "length": 3
+        },
+        {
+          "text": "is there something specific",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T05:39:42.735Z",
+          "length": 27
+        },
+        {
+          "text": "talk about",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T05:39:47.786Z",
+          "length": 10
+        },
+        {
+          "text": "now",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "fast",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T05:40:09.226Z",
+          "length": 3
+        },
+        {
+          "text": "hello",
+          "style": {
+            "tone": "friendly",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T05:40:34.678Z",
+          "length": 5
+        },
+        {
+          "text": "hi there",
+          "style": {
+            "tone": "friendly",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T05:40:44.670Z",
+          "length": 8
+        },
+        {
+          "text": "but",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T09:09:56.626Z",
+          "length": 3
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T09:10:17.131Z",
+          "length": 3
+        },
+        {
+          "text": "well as",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T09:11:02.647Z",
+          "length": 7
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T09:11:38.636Z",
+          "length": 3
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T09:59:55.618Z",
+          "length": 3
+        },
+        {
+          "text": "water",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T10:00:21.122Z",
+          "length": 5
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T10:00:57.116Z",
+          "length": 3
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T10:01:35.115Z",
+          "length": 3
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T10:57:27.116Z",
+          "length": 3
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T10:58:13.102Z",
+          "length": 3
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T10:58:55.612Z",
+          "length": 3
+        },
+        {
+          "text": "up",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T10:59:07.117Z",
+          "length": 2
+        },
+        {
+          "text": "sighs was was",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T10:59:38.119Z",
+          "length": 13
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:00:33.103Z",
+          "length": 3
+        },
+        {
+          "text": "talk about more that",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:01:05.122Z",
+          "length": 20
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:02:09.105Z",
+          "length": 3
+        },
+        {
+          "text": "friday",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:29:42.120Z",
+          "length": 6
+        },
+        {
+          "text": "here",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:42:40.599Z",
+          "length": 4
+        },
+        {
+          "text": "that said like i just got this is yogurt",
+          "style": {
+            "tone": "neutral",
+            "directness": "direct",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:43:44.098Z",
+          "length": 40
+        },
+        {
+          "text": "is and obviously you don't carry didn't set it off as evil chair",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:43:51.774Z",
+          "length": 64
+        },
+        {
+          "text": "looking more and right",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:43:56.707Z",
+          "length": 22
+        },
+        {
+          "text": "women in there",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:43:58.625Z",
+          "length": 14
+        },
+        {
+          "text": "way",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:44:03.647Z",
+          "length": 3
+        },
+        {
+          "text": "noise removal and",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:44:07.222Z",
+          "length": 17
+        },
+        {
+          "text": "in my right",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:44:14.183Z",
+          "length": 11
+        },
+        {
+          "text": "i was younger and so much share",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:44:28.765Z",
+          "length": 31
+        },
+        {
+          "text": "eight",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:44:33.656Z",
+          "length": 5
+        },
+        {
+          "text": "no",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:44:38.633Z",
+          "length": 2
+        },
+        {
+          "text": "mr",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:44:43.621Z",
+          "length": 2
+        },
+        {
+          "text": "that",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:45:05.365Z",
+          "length": 4
+        },
+        {
+          "text": "it",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:45:10.629Z",
+          "length": 2
+        },
+        {
+          "text": "what you mean by than that",
+          "style": {
+            "tone": "neutral",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:45:28.732Z",
+          "length": 26
+        },
+        {
+          "text": "well",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:45:33.669Z",
+          "length": 4
+        },
+        {
+          "text": "younger kids",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:45:44.259Z",
+          "length": 12
+        },
+        {
+          "text": "reports",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:45:59.260Z",
+          "length": 7
+        },
+        {
+          "text": "what are your favorites",
+          "style": {
+            "tone": "neutral",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:46:14.663Z",
+          "length": 23
+        },
+        {
+          "text": "yeah yeah",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:46:20.139Z",
+          "length": 9
+        },
+        {
+          "text": "meyer",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:46:25.127Z",
+          "length": 5
+        },
+        {
+          "text": "a away",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:46:30.232Z",
+          "length": 6
+        },
+        {
+          "text": "we're going to a additional",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:46:45.787Z",
+          "length": 27
+        },
+        {
+          "text": "well yeah",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:46:48.674Z",
+          "length": 9
+        },
+        {
+          "text": "we're gonna create a away",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:46:52.211Z",
+          "length": 25
+        },
+        {
+          "text": "please know what is more share your thoughts",
+          "style": {
+            "tone": "polite",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "respectful"
+          },
+          "timestamp": "2026-08-16T11:47:05.761Z",
+          "length": 44
+        },
+        {
+          "text": "hello",
+          "style": {
+            "tone": "friendly",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:47:11.150Z",
+          "length": 5
+        },
+        {
+          "text": "sharing",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:47:22.236Z",
+          "length": 7
+        },
+        {
+          "text": "as a more balanced",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:47:42.202Z",
+          "length": 18
+        },
+        {
+          "text": "anyway",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:48:05.284Z",
+          "length": 6
+        },
+        {
+          "text": "was one",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:48:06.623Z",
+          "length": 7
+        },
+        {
+          "text": "any questions or share your thoughts about of i know responses while preserving which",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:48:24.726Z",
+          "length": 85
+        },
+        {
+          "text": "ever met",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:48:40.272Z",
+          "length": 8
+        },
+        {
+          "text": "when was one",
+          "style": {
+            "tone": "neutral",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:48:41.644Z",
+          "length": 12
+        },
+        {
+          "text": "then again i guess",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:49:04.705Z",
+          "length": 18
+        },
+        {
+          "text": "never know just stop and answering questions",
+          "style": {
+            "tone": "neutral",
+            "directness": "direct",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:49:47.297Z",
+          "length": 44
+        },
+        {
+          "text": "what's your what's your what's on your life and i guess",
+          "style": {
+            "tone": "neutral",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:50:02.655Z",
+          "length": 55
+        },
+        {
+          "text": "have any questions for me so well",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:50:23.231Z",
+          "length": 33
+        },
+        {
+          "text": "okay",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:50:28.629Z",
+          "length": 4
+        },
+        {
+          "text": "that",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:50:39.745Z",
+          "length": 4
+        },
+        {
+          "text": "one",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:50:44.640Z",
+          "length": 3
+        },
+        {
+          "text": "his boss or something else entirely",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:51:01.615Z",
+          "length": 35
+        },
+        {
+          "text": "one",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:51:03.121Z",
+          "length": 3
+        },
+        {
+          "text": "my mom is going to share what's on your life",
+          "style": {
+            "tone": "neutral",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:51:25.779Z",
+          "length": 44
+        },
+        {
+          "text": "guess",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T11:51:30.638Z",
+          "length": 5
+        }
+      ],
+      "confidence": 1,
+      "updatedAt": "2026-08-16T11:51:30.638Z"
+    },
+    "while": {
+      "voiceName": "Microsoft Zira Desktop ",
+      "style": {
+        "tone": "neutral",
+        "directness": "balanced",
+        "pace": "medium",
+        "warmth": "warm"
+      },
+      "samples": [
+        {
+          "text": "one",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T12:19:53.120Z",
+          "length": 3
+        },
+        {
+          "text": "you know",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T12:20:18.706Z",
+          "length": 8
+        },
+        {
+          "text": "mega",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T12:20:54.671Z",
+          "length": 4
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T12:24:39.460Z",
+          "length": 3
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T12:24:59.465Z",
+          "length": 3
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T12:26:11.470Z",
+          "length": 3
+        },
+        {
+          "text": "yeah",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T12:26:46.469Z",
+          "length": 4
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T12:27:26.463Z",
+          "length": 3
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T12:27:57.468Z",
+          "length": 3
+        },
+        {
+          "text": "what it is",
+          "style": {
+            "tone": "neutral",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T12:28:29.057Z",
+          "length": 10
+        },
+        {
+          "text": "coburg",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T12:28:30.466Z",
+          "length": 6
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T12:29:16.482Z",
+          "length": 3
+        },
+        {
+          "text": "hurry",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "fast",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T12:29:36.039Z",
+          "length": 5
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T12:31:34.466Z",
+          "length": 3
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T12:32:15.464Z",
+          "length": 3
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T12:32:35.458Z",
+          "length": 3
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T12:47:01.377Z",
+          "length": 3
+        },
+        {
+          "text": "hey",
+          "style": {
+            "tone": "friendly",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T12:47:23.885Z",
+          "length": 3
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T12:47:44.406Z",
+          "length": 3
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T12:48:14.875Z",
+          "length": 3
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T12:48:35.377Z",
+          "length": 3
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T12:48:55.876Z",
+          "length": 3
+        },
+        {
+          "text": "here",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T12:49:15.908Z",
+          "length": 4
+        },
+        {
+          "text": "really",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T12:49:20.916Z",
+          "length": 6
+        },
+        {
+          "text": "hey",
+          "style": {
+            "tone": "friendly",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T12:50:12.876Z",
+          "length": 3
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T12:51:23.884Z",
+          "length": 3
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T12:52:04.874Z",
+          "length": 3
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T12:52:21.893Z",
+          "length": 3
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T12:52:41.891Z",
+          "length": 3
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T12:53:12.374Z",
+          "length": 3
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T12:53:32.379Z",
+          "length": 3
+        },
+        {
+          "text": "this is no the freaky",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T12:53:47.493Z",
+          "length": 21
+        },
+        {
+          "text": "do too",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T12:54:04.992Z",
+          "length": 6
+        },
+        {
+          "text": "to learn",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T12:54:08.937Z",
+          "length": 8
+        },
+        {
+          "text": "return",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T12:54:11.433Z",
+          "length": 6
+        },
+        {
+          "text": "was wrong through our think creepy stuff you know that like me like he was i like yeah",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T12:54:25.530Z",
+          "length": 86
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T16:45:42.884Z",
+          "length": 3
+        },
+        {
+          "text": "ha",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T16:45:56.412Z",
+          "length": 2
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T16:46:57.379Z",
+          "length": 3
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T16:47:17.883Z",
+          "length": 3
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T16:47:38.388Z",
+          "length": 3
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T16:47:58.881Z",
+          "length": 3
+        },
+        {
+          "text": "here",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T16:48:17.892Z",
+          "length": 4
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T16:53:07.339Z",
+          "length": 3
+        },
+        {
+          "text": "huh",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-16T16:53:27.855Z",
+          "length": 3
+        },
+        {
+          "text": "richard",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:53:00.739Z",
+          "length": 7
+        },
+        {
+          "text": "good",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:54:02.804Z",
+          "length": 4
+        },
+        {
+          "text": "so",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:54:34.347Z",
+          "length": 2
+        },
+        {
+          "text": "okay",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:55:04.744Z",
+          "length": 4
+        },
+        {
+          "text": "which",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:55:14.302Z",
+          "length": 5
+        },
+        {
+          "text": "trench",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:55:19.322Z",
+          "length": 6
+        },
+        {
+          "text": "this guy",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:55:46.367Z",
+          "length": 8
+        },
+        {
+          "text": "your reduce the other",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:55:51.774Z",
+          "length": 21
+        },
+        {
+          "text": "my son you",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:55:53.758Z",
+          "length": 10
+        },
+        {
+          "text": "can either was just the city",
+          "style": {
+            "tone": "neutral",
+            "directness": "direct",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:56:05.964Z",
+          "length": 28
+        },
+        {
+          "text": "survey",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:56:19.882Z",
+          "length": 6
+        },
+        {
+          "text": "what you",
+          "style": {
+            "tone": "neutral",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:56:32.741Z",
+          "length": 8
+        },
+        {
+          "text": "she picks",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:56:35.773Z",
+          "length": 9
+        },
+        {
+          "text": "the guy",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:56:40.341Z",
+          "length": 7
+        },
+        {
+          "text": "jeremy travelers",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:56:45.367Z",
+          "length": 16
+        },
+        {
+          "text": "don't either",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:56:46.777Z",
+          "length": 12
+        },
+        {
+          "text": "what right",
+          "style": {
+            "tone": "neutral",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:56:59.945Z",
+          "length": 10
+        },
+        {
+          "text": "here",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:57:10.326Z",
+          "length": 4
+        },
+        {
+          "text": "a place",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:57:20.846Z",
+          "length": 7
+        },
+        {
+          "text": "drag the first time",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:57:25.845Z",
+          "length": 19
+        },
+        {
+          "text": "if it were building hours every day country",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:57:41.438Z",
+          "length": 43
+        },
+        {
+          "text": "it is richard rising",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:57:44.426Z",
+          "length": 20
+        },
+        {
+          "text": "sister",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:57:45.990Z",
+          "length": 6
+        },
+        {
+          "text": "true sister",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:57:48.639Z",
+          "length": 11
+        },
+        {
+          "text": "his girlfriend's sister",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:58:04.395Z",
+          "length": 23
+        },
+        {
+          "text": "is it was way to person so is great structure he became kinda joke about his classmates get up the brother every",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "enthusiastic"
+          },
+          "timestamp": "2026-08-19T15:58:13.530Z",
+          "length": 112
+        },
+        {
+          "text": "video get thirty two a genius a player by the",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:58:17.573Z",
+          "length": 45
+        },
+        {
+          "text": "after afternoon",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:58:29.491Z",
+          "length": 15
+        },
+        {
+          "text": "your submission",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:58:30.757Z",
+          "length": 15
+        },
+        {
+          "text": "into a big",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:58:37.990Z",
+          "length": 10
+        },
+        {
+          "text": "in a difficult issue is disturbing",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:58:41.980Z",
+          "length": 34
+        },
+        {
+          "text": "he said pressuring",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:58:42.955Z",
+          "length": 18
+        },
+        {
+          "text": "christian series",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:58:45.981Z",
+          "length": 16
+        },
+        {
+          "text": "story",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:58:47.986Z",
+          "length": 5
+        },
+        {
+          "text": "he got her sister to his",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:59:02.839Z",
+          "length": 24
+        },
+        {
+          "text": "she's gotta give",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:59:05.820Z",
+          "length": 16
+        },
+        {
+          "text": "what's new jersey",
+          "style": {
+            "tone": "neutral",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:59:11.659Z",
+          "length": 17
+        },
+        {
+          "text": "between sister",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:59:16.041Z",
+          "length": 14
+        },
+        {
+          "text": "you don't see a sister",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:59:21.623Z",
+          "length": 22
+        },
+        {
+          "text": "if he could finish their was she would try",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:59:24.348Z",
+          "length": 42
+        },
+        {
+          "text": "the results",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:59:25.860Z",
+          "length": 11
+        },
+        {
+          "text": "everyone",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:59:27.286Z",
+          "length": 8
+        },
+        {
+          "text": "the first place",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:59:28.820Z",
+          "length": 15
+        },
+        {
+          "text": "you're wearing sunglasses",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:59:30.870Z",
+          "length": 25
+        },
+        {
+          "text": "you",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:59:31.827Z",
+          "length": 3
+        },
+        {
+          "text": "serve as much as himself",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:59:36.106Z",
+          "length": 24
+        },
+        {
+          "text": "it's the person",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:59:41.057Z",
+          "length": 15
+        },
+        {
+          "text": "she lost her school",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:59:52.042Z",
+          "length": 19
+        },
+        {
+          "text": "especially",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:59:52.876Z",
+          "length": 10
+        },
+        {
+          "text": "sister",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:59:54.909Z",
+          "length": 6
+        },
+        {
+          "text": "she said",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T15:59:56.432Z",
+          "length": 8
+        },
+        {
+          "text": "still",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T16:00:04.899Z",
+          "length": 5
+        },
+        {
+          "text": "the first place where it was he he believes that true",
+          "style": {
+            "tone": "neutral",
+            "directness": "curious",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T16:00:11.843Z",
+          "length": 53
+        },
+        {
+          "text": "are you",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T16:00:14.278Z",
+          "length": 7
+        },
+        {
+          "text": "coach",
+          "style": {
+            "tone": "neutral",
+            "directness": "balanced",
+            "pace": "medium",
+            "warmth": "warm"
+          },
+          "timestamp": "2026-08-19T16:00:19.333Z",
+          "length": 5
+        }
+      ],
+      "confidence": 1,
+      "updatedAt": "2026-08-19T16:00:19.333Z"
+    }
+  },
+  "speaker": {
+    "id": "while",
+    "samples": [
+      {
+        "text": "sighs was was",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T10:59:38.119Z",
+        "length": 13
+      },
+      {
+        "text": "huh",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:00:33.103Z",
+        "length": 3
+      },
+      {
+        "text": "talk about more that",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:01:05.122Z",
+        "length": 20
+      },
+      {
+        "text": "huh",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:02:09.105Z",
+        "length": 3
+      },
+      {
+        "text": "friday",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:29:42.120Z",
+        "length": 6
+      },
+      {
+        "text": "here",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:42:40.599Z",
+        "length": 4
+      },
+      {
+        "text": "that said like i just got this is yogurt",
+        "style": {
+          "tone": "neutral",
+          "directness": "direct",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:43:44.098Z",
+        "length": 40
+      },
+      {
+        "text": "is and obviously you don't carry didn't set it off as evil chair",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:43:51.774Z",
+        "length": 64
+      },
+      {
+        "text": "looking more and right",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:43:56.707Z",
+        "length": 22
+      },
+      {
+        "text": "women in there",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:43:58.625Z",
+        "length": 14
+      },
+      {
+        "text": "way",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:44:03.647Z",
+        "length": 3
+      },
+      {
+        "text": "noise removal and",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:44:07.222Z",
+        "length": 17
+      },
+      {
+        "text": "in my right",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:44:14.183Z",
+        "length": 11
+      },
+      {
+        "text": "i was younger and so much share",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:44:28.765Z",
+        "length": 31
+      },
+      {
+        "text": "eight",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:44:33.656Z",
+        "length": 5
+      },
+      {
+        "text": "no",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:44:38.633Z",
+        "length": 2
+      },
+      {
+        "text": "mr",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:44:43.621Z",
+        "length": 2
+      },
+      {
+        "text": "that",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:45:05.365Z",
+        "length": 4
+      },
+      {
+        "text": "it",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:45:10.629Z",
+        "length": 2
+      },
+      {
+        "text": "what you mean by than that",
+        "style": {
+          "tone": "neutral",
+          "directness": "curious",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:45:28.732Z",
+        "length": 26
+      },
+      {
+        "text": "well",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:45:33.669Z",
+        "length": 4
+      },
+      {
+        "text": "younger kids",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:45:44.259Z",
+        "length": 12
+      },
+      {
+        "text": "reports",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:45:59.260Z",
+        "length": 7
+      },
+      {
+        "text": "what are your favorites",
+        "style": {
+          "tone": "neutral",
+          "directness": "curious",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:46:14.663Z",
+        "length": 23
+      },
+      {
+        "text": "yeah yeah",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:46:20.139Z",
+        "length": 9
+      },
+      {
+        "text": "meyer",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:46:25.127Z",
+        "length": 5
+      },
+      {
+        "text": "a away",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:46:30.232Z",
+        "length": 6
+      },
+      {
+        "text": "we're going to a additional",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:46:45.787Z",
+        "length": 27
+      },
+      {
+        "text": "well yeah",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:46:48.674Z",
+        "length": 9
+      },
+      {
+        "text": "we're gonna create a away",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:46:52.211Z",
+        "length": 25
+      },
+      {
+        "text": "please know what is more share your thoughts",
+        "style": {
+          "tone": "polite",
+          "directness": "curious",
+          "pace": "medium",
+          "warmth": "respectful"
+        },
+        "timestamp": "2026-08-16T11:47:05.761Z",
+        "length": 44
+      },
+      {
+        "text": "hello",
+        "style": {
+          "tone": "friendly",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:47:11.150Z",
+        "length": 5
+      },
+      {
+        "text": "sharing",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:47:22.236Z",
+        "length": 7
+      },
+      {
+        "text": "as a more balanced",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:47:42.202Z",
+        "length": 18
+      },
+      {
+        "text": "anyway",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:48:05.284Z",
+        "length": 6
+      },
+      {
+        "text": "was one",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:48:06.623Z",
+        "length": 7
+      },
+      {
+        "text": "any questions or share your thoughts about of i know responses while preserving which",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:48:24.726Z",
+        "length": 85
+      },
+      {
+        "text": "ever met",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:48:40.272Z",
+        "length": 8
+      },
+      {
+        "text": "when was one",
+        "style": {
+          "tone": "neutral",
+          "directness": "curious",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:48:41.644Z",
+        "length": 12
+      },
+      {
+        "text": "then again i guess",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:49:04.705Z",
+        "length": 18
+      },
+      {
+        "text": "never know just stop and answering questions",
+        "style": {
+          "tone": "neutral",
+          "directness": "direct",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:49:47.297Z",
+        "length": 44
+      },
+      {
+        "text": "what's your what's your what's on your life and i guess",
+        "style": {
+          "tone": "neutral",
+          "directness": "curious",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:50:02.655Z",
+        "length": 55
+      },
+      {
+        "text": "have any questions for me so well",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:50:23.231Z",
+        "length": 33
+      },
+      {
+        "text": "okay",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:50:28.629Z",
+        "length": 4
+      },
+      {
+        "text": "that",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:50:39.745Z",
+        "length": 4
+      },
+      {
+        "text": "one",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:50:44.640Z",
+        "length": 3
+      },
+      {
+        "text": "his boss or something else entirely",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:51:01.615Z",
+        "length": 35
+      },
+      {
+        "text": "one",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:51:03.121Z",
+        "length": 3
+      },
+      {
+        "text": "my mom is going to share what's on your life",
+        "style": {
+          "tone": "neutral",
+          "directness": "curious",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:51:25.779Z",
+        "length": 44
+      },
+      {
+        "text": "guess",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:51:30.638Z",
+        "length": 5
+      },
+      {
+        "text": "anyway i am while maintaining a dropped out anymore",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:51:57.247Z",
+        "length": 51
+      },
+      {
+        "text": "well as",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:51:58.628Z",
+        "length": 7
+      },
+      {
+        "text": "that",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:52:03.647Z",
+        "length": 4
+      },
+      {
+        "text": "sponsors",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:55:46.119Z",
+        "length": 8
+      },
+      {
+        "text": "as",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:56:38.653Z",
+        "length": 2
+      },
+      {
+        "text": "was",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:56:40.110Z",
+        "length": 3
+      },
+      {
+        "text": "ha",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:57:05.274Z",
+        "length": 2
+      },
+      {
+        "text": "provide more complex organ donation so i can never understand",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:57:24.729Z",
+        "length": 61
+      },
+      {
+        "text": "why is there some yes was like no one is yours",
+        "style": {
+          "tone": "neutral",
+          "directness": "curious",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:57:44.651Z",
+        "length": 46
+      },
+      {
+        "text": "wine and you're not sure how to raise one that want to know about innovation the national my know",
+        "style": {
+          "tone": "neutral",
+          "directness": "curious",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:58:22.167Z",
+        "length": 97
+      },
+      {
+        "text": "i love doing stuff like",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "enthusiastic"
+        },
+        "timestamp": "2026-08-16T11:59:23.238Z",
+        "length": 23
+      },
+      {
+        "text": "we're watching",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:59:24.626Z",
+        "length": 14
+      },
+      {
+        "text": "what your life",
+        "style": {
+          "tone": "neutral",
+          "directness": "curious",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T11:59:58.761Z",
+        "length": 14
+      },
+      {
+        "text": "it's like you to help answer any questions remain have",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:00:24.621Z",
+        "length": 54
+      },
+      {
+        "text": "well let me tell ya",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:01:14.635Z",
+        "length": 19
+      },
+      {
+        "text": "swimming basements my last",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:01:28.663Z",
+        "length": 26
+      },
+      {
+        "text": "i love all sorts of next one dancing singing and playing with dolls",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "enthusiastic"
+        },
+        "timestamp": "2026-08-16T12:02:18.679Z",
+        "length": 67
+      },
+      {
+        "text": "love",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "enthusiastic"
+        },
+        "timestamp": "2026-08-16T12:02:23.644Z",
+        "length": 4
+      },
+      {
+        "text": "as",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:04:18.158Z",
+        "length": 2
+      },
+      {
+        "text": "nice",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "enthusiastic"
+        },
+        "timestamp": "2026-08-16T12:04:28.173Z",
+        "length": 4
+      },
+      {
+        "text": "by",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:05:04.111Z",
+        "length": 2
+      },
+      {
+        "text": "but",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:05:24.610Z",
+        "length": 3
+      },
+      {
+        "text": "huh",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:05:44.618Z",
+        "length": 3
+      },
+      {
+        "text": "by",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:06:10.111Z",
+        "length": 2
+      },
+      {
+        "text": "such as",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:06:35.127Z",
+        "length": 7
+      },
+      {
+        "text": "huh",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:06:55.601Z",
+        "length": 3
+      },
+      {
+        "text": "by",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:07:43.622Z",
+        "length": 2
+      },
+      {
+        "text": "about myself",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:08:15.672Z",
+        "length": 12
+      },
+      {
+        "text": "but",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:08:20.677Z",
+        "length": 3
+      },
+      {
+        "text": "what's missing",
+        "style": {
+          "tone": "neutral",
+          "directness": "curious",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:08:48.674Z",
+        "length": 14
+      },
+      {
+        "text": "why",
+        "style": {
+          "tone": "neutral",
+          "directness": "curious",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:08:53.796Z",
+        "length": 3
+      },
+      {
+        "text": "tell me more about one liners",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:09:23.181Z",
+        "length": 29
+      },
+      {
+        "text": "that's nice",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "enthusiastic"
+        },
+        "timestamp": "2026-08-16T12:09:54.268Z",
+        "length": 11
+      },
+      {
+        "text": "as",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:09:59.134Z",
+        "length": 2
+      },
+      {
+        "text": "like that",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:10:11.203Z",
+        "length": 9
+      },
+      {
+        "text": "a spokesman",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:10:29.632Z",
+        "length": 11
+      },
+      {
+        "text": "as such as was his one missouri",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:11:00.244Z",
+        "length": 31
+      },
+      {
+        "text": "smells of gets more song and",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:11:31.154Z",
+        "length": 28
+      },
+      {
+        "text": "what",
+        "style": {
+          "tone": "neutral",
+          "directness": "curious",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:11:53.686Z",
+        "length": 4
+      },
+      {
+        "text": "it's like",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:12:20.784Z",
+        "length": 9
+      },
+      {
+        "text": "questions",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:12:22.129Z",
+        "length": 9
+      },
+      {
+        "text": "i guess",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:12:33.308Z",
+        "length": 7
+      },
+      {
+        "text": "one",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:16:04.708Z",
+        "length": 3
+      },
+      {
+        "text": "well",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:17:31.615Z",
+        "length": 4
+      },
+      {
+        "text": "that",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:17:57.623Z",
+        "length": 4
+      },
+      {
+        "text": "toronto",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:18:21.692Z",
+        "length": 7
+      },
+      {
+        "text": "just like",
+        "style": {
+          "tone": "neutral",
+          "directness": "direct",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:18:43.639Z",
+        "length": 9
+      },
+      {
+        "text": "running mate",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:19:19.364Z",
+        "length": 12
+      },
+      {
+        "text": "what",
+        "style": {
+          "tone": "neutral",
+          "directness": "curious",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:19:25.124Z",
+        "length": 4
+      },
+      {
+        "text": "what's up",
+        "style": {
+          "tone": "neutral",
+          "directness": "curious",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:19:51.620Z",
+        "length": 9
+      },
+      {
+        "text": "one",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:19:53.120Z",
+        "length": 3
+      },
+      {
+        "text": "you know",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:20:18.706Z",
+        "length": 8
+      },
+      {
+        "text": "mega",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:20:54.671Z",
+        "length": 4
+      },
+      {
+        "text": "huh",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:24:39.460Z",
+        "length": 3
+      },
+      {
+        "text": "huh",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:24:59.465Z",
+        "length": 3
+      },
+      {
+        "text": "huh",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:26:11.470Z",
+        "length": 3
+      },
+      {
+        "text": "yeah",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:26:46.469Z",
+        "length": 4
+      },
+      {
+        "text": "huh",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:27:26.463Z",
+        "length": 3
+      },
+      {
+        "text": "huh",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:27:57.468Z",
+        "length": 3
+      },
+      {
+        "text": "what it is",
+        "style": {
+          "tone": "neutral",
+          "directness": "curious",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:28:29.057Z",
+        "length": 10
+      },
+      {
+        "text": "coburg",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:28:30.466Z",
+        "length": 6
+      },
+      {
+        "text": "huh",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:29:16.482Z",
+        "length": 3
+      },
+      {
+        "text": "hurry",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "fast",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:29:36.039Z",
+        "length": 5
+      },
+      {
+        "text": "huh",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:31:34.466Z",
+        "length": 3
+      },
+      {
+        "text": "huh",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:32:15.464Z",
+        "length": 3
+      },
+      {
+        "text": "huh",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:32:35.458Z",
+        "length": 3
+      },
+      {
+        "text": "huh",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:47:01.377Z",
+        "length": 3
+      },
+      {
+        "text": "hey",
+        "style": {
+          "tone": "friendly",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:47:23.885Z",
+        "length": 3
+      },
+      {
+        "text": "huh",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:47:44.406Z",
+        "length": 3
+      },
+      {
+        "text": "huh",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:48:14.875Z",
+        "length": 3
+      },
+      {
+        "text": "huh",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:48:35.377Z",
+        "length": 3
+      },
+      {
+        "text": "huh",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:48:55.876Z",
+        "length": 3
+      },
+      {
+        "text": "here",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:49:15.908Z",
+        "length": 4
+      },
+      {
+        "text": "really",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:49:20.916Z",
+        "length": 6
+      },
+      {
+        "text": "hey",
+        "style": {
+          "tone": "friendly",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:50:12.876Z",
+        "length": 3
+      },
+      {
+        "text": "huh",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:51:23.884Z",
+        "length": 3
+      },
+      {
+        "text": "huh",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:52:04.874Z",
+        "length": 3
+      },
+      {
+        "text": "huh",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:52:21.893Z",
+        "length": 3
+      },
+      {
+        "text": "huh",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:52:41.891Z",
+        "length": 3
+      },
+      {
+        "text": "huh",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:53:12.374Z",
+        "length": 3
+      },
+      {
+        "text": "huh",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:53:32.379Z",
+        "length": 3
+      },
+      {
+        "text": "this is no the freaky",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:53:47.493Z",
+        "length": 21
+      },
+      {
+        "text": "do too",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:54:04.992Z",
+        "length": 6
+      },
+      {
+        "text": "to learn",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:54:08.937Z",
+        "length": 8
+      },
+      {
+        "text": "return",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:54:11.433Z",
+        "length": 6
+      },
+      {
+        "text": "was wrong through our think creepy stuff you know that like me like he was i like yeah",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T12:54:25.530Z",
+        "length": 86
+      },
+      {
+        "text": "huh",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T16:45:42.884Z",
+        "length": 3
+      },
+      {
+        "text": "ha",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T16:45:56.412Z",
+        "length": 2
+      },
+      {
+        "text": "huh",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T16:46:57.379Z",
+        "length": 3
+      },
+      {
+        "text": "huh",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T16:47:17.883Z",
+        "length": 3
+      },
+      {
+        "text": "huh",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T16:47:38.388Z",
+        "length": 3
+      },
+      {
+        "text": "huh",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T16:47:58.881Z",
+        "length": 3
+      },
+      {
+        "text": "here",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T16:48:17.892Z",
+        "length": 4
+      },
+      {
+        "text": "huh",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T16:53:07.339Z",
+        "length": 3
+      },
+      {
+        "text": "huh",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-16T16:53:27.855Z",
+        "length": 3
+      },
+      {
+        "text": "richard",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:53:00.739Z",
+        "length": 7
+      },
+      {
+        "text": "good",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:54:02.804Z",
+        "length": 4
+      },
+      {
+        "text": "so",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:54:34.347Z",
+        "length": 2
+      },
+      {
+        "text": "okay",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:55:04.744Z",
+        "length": 4
+      },
+      {
+        "text": "which",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:55:14.302Z",
+        "length": 5
+      },
+      {
+        "text": "trench",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:55:19.322Z",
+        "length": 6
+      },
+      {
+        "text": "this guy",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:55:46.367Z",
+        "length": 8
+      },
+      {
+        "text": "your reduce the other",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:55:51.774Z",
+        "length": 21
+      },
+      {
+        "text": "my son you",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:55:53.758Z",
+        "length": 10
+      },
+      {
+        "text": "can either was just the city",
+        "style": {
+          "tone": "neutral",
+          "directness": "direct",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:56:05.964Z",
+        "length": 28
+      },
+      {
+        "text": "survey",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:56:19.882Z",
+        "length": 6
+      },
+      {
+        "text": "what you",
+        "style": {
+          "tone": "neutral",
+          "directness": "curious",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:56:32.741Z",
+        "length": 8
+      },
+      {
+        "text": "she picks",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:56:35.773Z",
+        "length": 9
+      },
+      {
+        "text": "the guy",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:56:40.341Z",
+        "length": 7
+      },
+      {
+        "text": "jeremy travelers",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:56:45.367Z",
+        "length": 16
+      },
+      {
+        "text": "don't either",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:56:46.777Z",
+        "length": 12
+      },
+      {
+        "text": "what right",
+        "style": {
+          "tone": "neutral",
+          "directness": "curious",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:56:59.945Z",
+        "length": 10
+      },
+      {
+        "text": "here",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:57:10.326Z",
+        "length": 4
+      },
+      {
+        "text": "a place",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:57:20.846Z",
+        "length": 7
+      },
+      {
+        "text": "drag the first time",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:57:25.845Z",
+        "length": 19
+      },
+      {
+        "text": "if it were building hours every day country",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:57:41.438Z",
+        "length": 43
+      },
+      {
+        "text": "it is richard rising",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:57:44.426Z",
+        "length": 20
+      },
+      {
+        "text": "sister",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:57:45.990Z",
+        "length": 6
+      },
+      {
+        "text": "true sister",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:57:48.639Z",
+        "length": 11
+      },
+      {
+        "text": "his girlfriend's sister",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:58:04.395Z",
+        "length": 23
+      },
+      {
+        "text": "is it was way to person so is great structure he became kinda joke about his classmates get up the brother every",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "enthusiastic"
+        },
+        "timestamp": "2026-08-19T15:58:13.530Z",
+        "length": 112
+      },
+      {
+        "text": "video get thirty two a genius a player by the",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:58:17.573Z",
+        "length": 45
+      },
+      {
+        "text": "after afternoon",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:58:29.491Z",
+        "length": 15
+      },
+      {
+        "text": "your submission",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:58:30.757Z",
+        "length": 15
+      },
+      {
+        "text": "into a big",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:58:37.990Z",
+        "length": 10
+      },
+      {
+        "text": "in a difficult issue is disturbing",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:58:41.980Z",
+        "length": 34
+      },
+      {
+        "text": "he said pressuring",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:58:42.955Z",
+        "length": 18
+      },
+      {
+        "text": "christian series",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:58:45.981Z",
+        "length": 16
+      },
+      {
+        "text": "story",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:58:47.986Z",
+        "length": 5
+      },
+      {
+        "text": "he got her sister to his",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:59:02.839Z",
+        "length": 24
+      },
+      {
+        "text": "she's gotta give",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:59:05.820Z",
+        "length": 16
+      },
+      {
+        "text": "what's new jersey",
+        "style": {
+          "tone": "neutral",
+          "directness": "curious",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:59:11.659Z",
+        "length": 17
+      },
+      {
+        "text": "between sister",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:59:16.041Z",
+        "length": 14
+      },
+      {
+        "text": "you don't see a sister",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:59:21.623Z",
+        "length": 22
+      },
+      {
+        "text": "if he could finish their was she would try",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:59:24.348Z",
+        "length": 42
+      },
+      {
+        "text": "the results",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:59:25.860Z",
+        "length": 11
+      },
+      {
+        "text": "everyone",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:59:27.286Z",
+        "length": 8
+      },
+      {
+        "text": "the first place",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:59:28.820Z",
+        "length": 15
+      },
+      {
+        "text": "you're wearing sunglasses",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:59:30.870Z",
+        "length": 25
+      },
+      {
+        "text": "you",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:59:31.827Z",
+        "length": 3
+      },
+      {
+        "text": "serve as much as himself",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:59:36.106Z",
+        "length": 24
+      },
+      {
+        "text": "it's the person",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:59:41.057Z",
+        "length": 15
+      },
+      {
+        "text": "she lost her school",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:59:52.042Z",
+        "length": 19
+      },
+      {
+        "text": "especially",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:59:52.876Z",
+        "length": 10
+      },
+      {
+        "text": "sister",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:59:54.909Z",
+        "length": 6
+      },
+      {
+        "text": "she said",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T15:59:56.432Z",
+        "length": 8
+      },
+      {
+        "text": "still",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T16:00:04.899Z",
+        "length": 5
+      },
+      {
+        "text": "the first place where it was he he believes that true",
+        "style": {
+          "tone": "neutral",
+          "directness": "curious",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T16:00:11.843Z",
+        "length": 53
+      },
+      {
+        "text": "are you",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T16:00:14.278Z",
+        "length": 7
+      },
+      {
+        "text": "coach",
+        "style": {
+          "tone": "neutral",
+          "directness": "balanced",
+          "pace": "medium",
+          "warmth": "warm"
+        },
+        "timestamp": "2026-08-19T16:00:19.333Z",
+        "length": 5
+      }
+    ],
+    "style": {
+      "tone": "neutral",
+      "directness": "balanced",
+      "pace": "medium",
+      "warmth": "warm"
+    },
+    "confidence": 1,
+    "lastSeen": "2026-08-19T16:00:19.333Z"
+  },
+  "learning": {
+    "enabled": true,
+    "improvedAt": "2026-08-19T16:00:19.333Z"
+  },
+  "lastUsedAt": "2026-08-19T16:00:24.256Z"
+}
