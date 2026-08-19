@@ -1,0 +1,33 @@
+# Python
+venv_coqui/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# Vosk models (large) — if you plan to keep models out of git
+models/
+models/*.zip
+
+# Logs and runtime
+*.log
+*.sqlite
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# PowerShell output
+*.ps1xml
+
+# Node (if any web UI files get added)
+node_modules/
+dist/
+.build/
+
+# Misc
+*.swp
