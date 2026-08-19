@@ -83,7 +83,7 @@ const buildReply = (text, memory) => {
   return 'I understand. I can keep it simple, clear, and useful while remembering what we discussed earlier.';
 };
 
-const speakText = (text) => {
+const speakText = (text, voiceName = null) => {
   if (!('speechSynthesis' in window)) return;
 
   window.speechSynthesis.cancel();
@@ -93,33 +93,13 @@ const speakText = (text) => {
   utterance.volume = 1;
   utterance.lang = 'en-US';
 
-  // If a specific voice is selected, try to use it
-  if (selectedVoice) {
-    const v = (speechSynthesis.getVoices() || []).find((x) => x.name === selectedVoice);
+  if (voiceName) {
+    const v = (window.speechSynthesis.getVoices() || []).find((x) => x.name === voiceName);
     if (v) utterance.voice = v;
   }
 
   window.speechSynthesis.speak(utterance);
 };
-
-// load available voices and pick a female-leaning default
-const loadVoices = () => {
-  const v = speechSynthesis.getVoices();
-  setVoices(v);
-  if (!selectedVoice) {
-    const female = v.find((x) => /female|zira|zira desktop|samantha|alloy|zira/i.test(x.name));
-    if (female) setSelectedVoice(female.name);
-    else if (v[0]) setSelectedVoice(v[0].name);
-  }
-};
-
-if (typeof window !== 'undefined') {
-  window.speechSynthesis.onvoiceschanged = loadVoices;
-}
-
-useEffect(() => {
-  try { loadVoices(); } catch (e) { /* ignore */ }
-}, []);
 
 function App() {
   const [messages, setMessages] = useState(() => readStorage(storageKeys.messages, defaultMessages));
@@ -173,7 +153,28 @@ function App() {
   }, [selectedVoice]);
 
   useEffect(() => {
+    const loadVoices = () => {
+      const v = window.speechSynthesis?.getVoices?.() || [];
+      setVoices(v);
+      if (!selectedVoice) {
+        const female = v.find((x) => /female|zira|samantha|alloy|aria/i.test(x.name));
+        if (female) setSelectedVoice(female.name);
+        else if (v[0]) setSelectedVoice(v[0].name);
+      }
+    };
+
+    loadVoices();
+    if (window.speechSynthesis) {
+      window.speechSynthesis.onvoiceschanged = loadVoices;
+    }
+
     addLog('System booted and chat memory loaded.', 'info');
+
+    return () => {
+      if (window.speechSynthesis) {
+        window.speechSynthesis.onvoiceschanged = null;
+      }
+    };
   }, []);
 
   useEffect(() => {
@@ -268,7 +269,7 @@ function App() {
       setMessages((prev) => [...prev, assistantMessage]);
       setIsThinking(false);
       addLog('Assistant responded with a contextual summary.', 'success');
-      speakText(reply);
+      speakText(reply, selectedVoice);
     }, 250);
   };
 
@@ -461,137 +462,96 @@ function App() {
                 </select>
 
                 <div style={{marginTop:12}}>
-                  <button className="primary-button" onClick={()=>{ speakText('Hello, this is a voice test.'); addLog('Voice test triggered','info'); }}>Test voice</button>
-                </div>
-              </div>
+                            <button className="primary-button" onClick={()=>{ speakText('Hello, this is a voice test.', selectedVoice); addLog('Voice test triggered','info'); }}>Test voice</button>
+                          </div>
+                        </div>
 
-              <div className="admin-terminal">
-                <div className="panel-header"><TerminalSquare size={16} /> <span>Debug terminal</span></div>
-                <div ref={terminalRef} className="terminal" />
-              </div>
+                        <div className="admin-terminal">
+                          <div className="panel-header"><TerminalSquare size={16} /> <span>Debug terminal</span></div>
+                          <div ref={terminalRef} className="terminal" />
+                        </div>
 
-              <div className="admin-logs">
-                <div className="panel-header"><ShieldCheck size={16} /> <span>Debug log</span></div>
-                <ul className="log-list">
-                  {logs.slice(-40).reverse().map((entry) => (
-                    <li key={entry.id} className={entry.level}>
-                      <span>{entry.timestamp}</span>
-                      <strong>{entry.level}</strong>
-                      <p>{entry.message}</p>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          </section>
-        )}
-      </main>
+                        <div className="admin-logs">
+                          <div className="panel-header"><ShieldCheck size={16} /> <span>Debug log</span></div>
+                          <ul className="log-list">
+                            {logs.slice(-40).reverse().map((entry) => (
+                              <li key={entry.id} className={entry.level}>
+                                <span>{entry.timestamp}</span>
+                                <strong>{entry.level}</strong>
+                                <p>{entry.message}</p>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      </div>
+                    </section>
+                  )}
+                </main>
 
-      <aside className="right-rail">
-        <div className="panel card">
-          <div className="panel-header">
-            <Phone size={16} />
-            <span>Texting</span>
-          </div>
-          <label>Phone number</label>
-          <input value={phone} onChange={(event) => setPhone(event.target.value)} placeholder="+1 555 123 4567" />
-          <button className="primary-button wide" onClick={sendText}>Open SMS</button>
-        </div>
+                <aside className="right-rail">
+                  {selectedTab !== 'admin' && (
+                    <>
+                      <div className="panel card">
+                        <div className="panel-header">
+                          <Phone size={16} />
+                          <span>Texting</span>
+                        </div>
+                        <label>Phone number</label>
+                        <input value={phone} onChange={(event) => setPhone(event.target.value)} placeholder="+1 555 123 4567" />
+                        <div style={{display:'flex',gap:8,marginTop:8}}>
+                          <button className="primary-button wide" onClick={sendText}>Open SMS</button>
+                          <button className="secondary-button wide" onClick={() => sendTextViaShortcut(input || 'Hello Ella')} style={{padding:'10px 12px'}}>Send via Phone Shortcut</button>
+                        </div>
+                      </div>
 
-        <div className="panel card">
-          <div className="panel-header">
-            <BrainCircuit size={16} />
-            <span>Memory</span>
-          </div>
-          <ul className="memory-list">
-            {memory.slice(-4).reverse().map((item) => (
-              <li key={item.id}>{item.text}</li>
-            ))}
-          </ul>
-        </div>
+                      <div className="panel card">
+                        <div className="panel-header">
+                          <BrainCircuit size={16} />
+                          <span>Memory</span>
+                        </div>
+                        <ul className="memory-list">
+                          {memory.slice(-4).reverse().map((item) => (
+                            <li key={item.id}>{item.text}</li>
+                          ))}
+                        </ul>
+                      </div>
 
-        <div className="panel card">
-          <div className="panel-header">
-            <Waves size={16} />
-            <span>Shortcuts</span>
-          </div>
-          <div className="shortcut-row">
-            <input value={shortcutDraft} onChange={(event) => setShortcutDraft(event.target.value)} placeholder="Add shortcut" />
-            <button className="icon-button" onClick={addShortcut}><Plus size={16} /></button>
-          </div>
-          <div className="shortcut-list">
-            {shortcuts.map((shortcut) => (
-              <button key={shortcut.id} className="shortcut-pill" onClick={() => setInput(shortcut.action)}>
-                {shortcut.label}
-              </button>
-            ))}
-          </div>
-        </div>
+                      <div className="panel card">
+                        <div className="panel-header">
+                          <Waves size={16} />
+                          <span>Shortcuts</span>
+                        </div>
+                        <div className="shortcut-row">
+                          <input value={shortcutDraft} onChange={(event) => setShortcutDraft(event.target.value)} placeholder="Add shortcut" />
+                          <button className="icon-button" onClick={addShortcut}><Plus size={16} /></button>
+                        </div>
+                        <div className="shortcut-list">
+                          {shortcuts.map((shortcut) => (
+                            <button key={shortcut.id} className="shortcut-pill" onClick={() => handleShortcutAction(shortcut)}>
+                              {shortcut.label}
+                            </button>
+                          ))}
+                        </div>
+                      </div>
 
-        {/* right rail panels remain for non-admin views */}
-        {selectedTab !== 'admin' && (
-          <>
-            <div className="panel card">
-              <div className="panel-header">
-                <Phone size={16} />
-                <span>Texting</span>
-              </div>
-              <label>Phone number</label>
-              <input value={phone} onChange={(event) => setPhone(event.target.value)} placeholder="+1 555 123 4567" />
-              <div style={{display:'flex',gap:8,marginTop:8}}>
-                <button className="primary-button wide" onClick={sendText}>Open SMS</button>
-                <button className="secondary-button wide" onClick={() => sendTextViaShortcut(input)} style={{padding:'10px 12px'}}>Send via Phone Shortcut</button>
-              </div>
-            </div>
-
-            <div className="panel card">
-              <div className="panel-header">
-                <BrainCircuit size={16} />
-                <span>Memory</span>
-              </div>
-              <ul className="memory-list">
-                {memory.slice(-4).reverse().map((item) => (
-                  <li key={item.id}>{item.text}</li>
-                ))}
-              </ul>
-            </div>
-
-            <div className="panel card">
-              <div className="panel-header">
-                <Waves size={16} />
-                <span>Shortcuts</span>
-              </div>
-              <div className="shortcut-row">
-                <input value={shortcutDraft} onChange={(event) => setShortcutDraft(event.target.value)} placeholder="Add shortcut" />
-                <button className="icon-button" onClick={addShortcut}><Plus size={16} /></button>
-              </div>
-              <div className="shortcut-list">
-                {shortcuts.map((shortcut) => (
-                  <button key={shortcut.id} className="shortcut-pill" onClick={() => handleShortcutAction(shortcut)}>
-                    {shortcut.label}
-                  </button>
-                ))}
-              </div>
-            </div>
-
-            <div className="panel card logs-card">
-              <div className="panel-header">
-                <ShieldCheck size={16} />
-                <span>Debug log</span>
-              </div>
-              <ul className="log-list">
-                {logs.slice(-8).reverse().map((entry) => (
-                  <li key={entry.id} className={entry.level}>
-                    <span>{entry.timestamp}</span>
-                    <strong>{entry.level}</strong>
-                    <p>{entry.message}</p>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </>
-        )}
-      </aside>
+                      <div className="panel card logs-card">
+                        <div className="panel-header">
+                          <ShieldCheck size={16} />
+                          <span>Debug log</span>
+                        </div>
+                        <ul className="log-list">
+                          {logs.slice(-8).reverse().map((entry) => (
+                            <li key={entry.id} className={entry.level}>
+                              <span>{entry.timestamp}</span>
+                              <strong>{entry.level}</strong>
+                              <p>{entry.message}</p>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    </>
+                  )}
+                </aside>
     </div>
   );
 }
