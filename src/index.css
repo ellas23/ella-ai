@@ -243,6 +243,11 @@ button {
   color: white;
 }
 
+.bubble.typing {
+  opacity: 0.8;
+  font-style: italic;
+}
+
 .composer {
   margin-top: 16px;
   display: grid;

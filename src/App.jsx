@@ -69,7 +69,29 @@ const buildReply = (text, memory) => {
     return 'Hello. I am ready to help with short answers, texts, planning, and daily tasks.';
   }
 
+  if (lower.includes('weather')) {
+    return 'I can help you check the weather, but for live conditions I would need a weather service connected to the app.';
+  }
+
+  if (lower.includes('who are you') || lower.includes('what are you')) {
+    return 'I am Ella, your local assistant. I can chat, keep context, open texts, and help you plan your day.';
+  }
+
   return 'I understand. I can keep it simple, clear, and useful while remembering what we discussed earlier.';
+};
+
+const speakText = (text) => {
+  if (!('speechSynthesis' in window)) {
+    return;
+  }
+
+  window.speechSynthesis.cancel();
+  const utterance = new SpeechSynthesisUtterance(text);
+  utterance.rate = 0.95;
+  utterance.pitch = 1.15;
+  utterance.volume = 1;
+  utterance.lang = 'en-US';
+  window.speechSynthesis.speak(utterance);
 };
 
 function App() {
@@ -82,6 +104,7 @@ function App() {
   const [shortcutDraft, setShortcutDraft] = useState('');
   const [voiceStatus, setVoiceStatus] = useState('Ready');
   const [isVoiceOn, setIsVoiceOn] = useState(false);
+  const [isThinking, setIsThinking] = useState(false);
   const terminalRef = useRef(null);
   const recognitionRef = useRef(null);
 
@@ -191,6 +214,7 @@ function App() {
     const text = (overrideText ?? input).trim();
     if (!text) return;
 
+    setIsThinking(true);
     const userMessage = { id: Date.now(), role: 'user', text };
     setMessages((prev) => [...prev, userMessage]);
     setInput('');
@@ -202,8 +226,11 @@ function App() {
     const reply = buildReply(text, nextMemory);
 
     setTimeout(() => {
-      setMessages((prev) => [...prev, { id: Date.now() + 2, role: 'assistant', text: reply }]);
+      const assistantMessage = { id: Date.now() + 2, role: 'assistant', text: reply };
+      setMessages((prev) => [...prev, assistantMessage]);
+      setIsThinking(false);
       addLog('Assistant responded with a contextual summary.', 'success');
+      speakText(reply);
     }, 250);
   };
 
@@ -244,8 +271,11 @@ function App() {
 
     recognition.onresult = (event) => {
       const transcript = event.results[0][0].transcript;
-      setInput((prev) => (prev ? `${prev} ${transcript}` : transcript));
-      addLog(`Voice transcript captured: ${transcript}`, 'info');
+      const finalText = transcript.trim();
+      if (!finalText) return;
+      setInput(finalText);
+      setTimeout(() => sendMessage(finalText), 120);
+      addLog(`Voice transcript captured: ${finalText}`, 'info');
     };
 
     recognition.onerror = (event) => {
@@ -268,6 +298,13 @@ function App() {
     const body = encodeURIComponent(input.trim() || 'Hi Ella, can you help me?');
     window.location.href = `sms:${target}?body=${body}`;
     addLog(`Opening SMS flow for ${target}.`, 'info');
+  };
+
+  const handleComposerKeyDown = (event) => {
+    if (event.key === 'Enter' && !event.shiftKey) {
+      event.preventDefault();
+      sendMessage();
+    }
   };
 
   return (
@@ -325,6 +362,7 @@ function App() {
                 {message.text}
               </div>
             ))}
+            {isThinking && <div className="bubble assistant typing">Ella is thinking...</div>}
           </div>
 
           <div className="composer">
@@ -333,6 +371,7 @@ function App() {
               onChange={(event) => setInput(event.target.value)}
               rows={3}
               placeholder="Ask Ella anything..."
+              onKeyDown={handleComposerKeyDown}
             />
             <div className="composer-actions">
               <button className="secondary-button" onClick={() => sendMessage()}><Send size={16} /> Send</button>
