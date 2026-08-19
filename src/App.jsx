@@ -340,18 +340,38 @@ function App() {
     addLog(`Opening SMS flow for ${target}.`, 'info');
   };
 
-  // Send via Apple Shortcuts: expects a shortcut that parses input as "PHONE|MESSAGE"
-  const sendTextViaShortcut = (message) => {
+  // Send via Apple Shortcuts using the clipboard as the reliable input channel
+  // Many iOS versions pass the current page URL into the shortcut when opened via the run-shortcut URL.
+  // To avoid the web URL being used as the message, write the intended "PHONE|MESSAGE" to the clipboard
+  // then open the shortcut (which should read clipboard contents via Get Clipboard as its first action).
+  const sendTextViaShortcut = async (message) => {
     const shortcutName = readStorage(storageKeys.shortcutName, 'Ella Send SMS');
     const phoneNumber = (phone || '').trim();
     if (!phoneNumber) {
       addLog('No phone number configured for shortcuts.', 'warn');
       return;
     }
-    const payload = encodeURIComponent(`${phoneNumber}|${message}`);
-    const url = `shortcuts://run-shortcut?name=${encodeURIComponent(shortcutName)}&input=${payload}`;
-    addLog(`Triggering Apple Shortcut ${shortcutName} for ${phoneNumber}.`, 'info');
-    // Attempt to open shortcuts URL — only works on iOS devices with Shortcuts installed
+
+    const raw = `${phoneNumber}|${message}`;
+    addLog(`Preparing shortcut payload: ${raw}`, 'info');
+
+    // Try to write to the clipboard first (requires HTTPS and user gesture)
+    try {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        await navigator.clipboard.writeText(raw);
+        addLog('Payload written to clipboard.', 'info');
+      } else {
+        addLog('Clipboard API not available; shortcut may receive the page URL instead.', 'warn');
+      }
+    } catch (err) {
+      addLog('Failed to write to clipboard: ' + (err.message || err), 'warn');
+    }
+
+    // Open the shortcut by name. The shortcut should start with Get Clipboard to read the payload.
+    const url = `shortcuts://run-shortcut?name=${encodeURIComponent(shortcutName)}`;
+    addLog(`Opening Shortcuts app to run: ${shortcutName}`, 'info');
+
+    // Attempt to open the shortcuts URL
     window.location.href = url;
   };
 
