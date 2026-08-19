@@ -22,6 +22,9 @@ const storageKeys = {
   memory: 'ella-memory',
   logs: 'ella-debug-logs',
   shortcuts: 'ella-shortcuts',
+  phone: 'ella-phone-number',
+  shortcutName: 'ella-shortcut-name',
+  selectedVoice: 'ella-selected-voice',
 };
 
 const defaultMessages = [
@@ -81,9 +84,7 @@ const buildReply = (text, memory) => {
 };
 
 const speakText = (text) => {
-  if (!('speechSynthesis' in window)) {
-    return;
-  }
+  if (!('speechSynthesis' in window)) return;
 
   window.speechSynthesis.cancel();
   const utterance = new SpeechSynthesisUtterance(text);
@@ -91,8 +92,34 @@ const speakText = (text) => {
   utterance.pitch = 1.15;
   utterance.volume = 1;
   utterance.lang = 'en-US';
+
+  // If a specific voice is selected, try to use it
+  if (selectedVoice) {
+    const v = (speechSynthesis.getVoices() || []).find((x) => x.name === selectedVoice);
+    if (v) utterance.voice = v;
+  }
+
   window.speechSynthesis.speak(utterance);
 };
+
+// load available voices and pick a female-leaning default
+const loadVoices = () => {
+  const v = speechSynthesis.getVoices();
+  setVoices(v);
+  if (!selectedVoice) {
+    const female = v.find((x) => /female|zira|zira desktop|samantha|alloy|zira/i.test(x.name));
+    if (female) setSelectedVoice(female.name);
+    else if (v[0]) setSelectedVoice(v[0].name);
+  }
+};
+
+if (typeof window !== 'undefined') {
+  window.speechSynthesis.onvoiceschanged = loadVoices;
+}
+
+useEffect(() => {
+  try { loadVoices(); } catch (e) { /* ignore */ }
+}, []);
 
 function App() {
   const [messages, setMessages] = useState(() => readStorage(storageKeys.messages, defaultMessages));
@@ -100,11 +127,14 @@ function App() {
   const [shortcuts, setShortcuts] = useState(() => readStorage(storageKeys.shortcuts, defaultShortcuts));
   const [logs, setLogs] = useState(() => readStorage(storageKeys.logs, [{ id: 1, level: 'info', message: 'Ella control hub ready', timestamp: new Date().toLocaleTimeString() }]));
   const [input, setInput] = useState('');
-  const [phone, setPhone] = useState('+15551234567');
+  const [phone, setPhone] = useState(() => readStorage(storageKeys.phone, '+15551234567'));
   const [shortcutDraft, setShortcutDraft] = useState('');
   const [voiceStatus, setVoiceStatus] = useState('Ready');
   const [isVoiceOn, setIsVoiceOn] = useState(false);
   const [isThinking, setIsThinking] = useState(false);
+  const [voices, setVoices] = useState([]);
+  const [selectedVoice, setSelectedVoice] = useState(() => readStorage(storageKeys.selectedVoice, null));
+  const [selectedTab, setSelectedTab] = useState('dashboard');
   const terminalRef = useRef(null);
   const recognitionRef = useRef(null);
 
@@ -133,6 +163,14 @@ function App() {
   useEffect(() => {
     localStorage.setItem(storageKeys.logs, JSON.stringify(logs));
   }, [logs]);
+
+  useEffect(() => {
+    localStorage.setItem(storageKeys.phone, phone);
+  }, [phone]);
+
+  useEffect(() => {
+    localStorage.setItem(storageKeys.selectedVoice, selectedVoice);
+  }, [selectedVoice]);
 
   useEffect(() => {
     addLog('System booted and chat memory loaded.', 'info');
@@ -296,8 +334,32 @@ function App() {
   const sendText = () => {
     const target = phone.trim() || '+15551234567';
     const body = encodeURIComponent(input.trim() || 'Hi Ella, can you help me?');
+    // fallback: open native SMS app with prefilled message
     window.location.href = `sms:${target}?body=${body}`;
     addLog(`Opening SMS flow for ${target}.`, 'info');
+  };
+
+  // Send via Apple Shortcuts: expects a shortcut that parses input as "PHONE|MESSAGE"
+  const sendTextViaShortcut = (message) => {
+    const shortcutName = readStorage(storageKeys.shortcutName, 'Ella Send SMS');
+    const phoneNumber = (phone || '').trim();
+    if (!phoneNumber) {
+      addLog('No phone number configured for shortcuts.', 'warn');
+      return;
+    }
+    const payload = encodeURIComponent(`${phoneNumber}|${message}`);
+    const url = `shortcuts://run-shortcut?name=${encodeURIComponent(shortcutName)}&input=${payload}`;
+    addLog(`Triggering Apple Shortcut ${shortcutName} for ${phoneNumber}.`, 'info');
+    // Attempt to open shortcuts URL — only works on iOS devices with Shortcuts installed
+    window.location.href = url;
+  };
+
+  const handleShortcutAction = (shortcut) => {
+    // Shortcut actions send directly via phone shortcut rather than putting text into chat
+    const message = shortcut.action || shortcut.label || '';
+    if (!message) return;
+    addLog(`Sending via phone shortcut: ${message}`, 'info');
+    sendTextViaShortcut(message);
   };
 
   const handleComposerKeyDown = (event) => {
@@ -319,10 +381,10 @@ function App() {
         </div>
 
         <nav className="nav-stack">
-          <button className="nav-item active"><LayoutDashboard size={16} /> Dashboard</button>
-          <button className="nav-item"><MessageSquareText size={16} /> Chat</button>
-          <button className="nav-item"><BrainCircuit size={16} /> Memory</button>
-          <button className="nav-item"><ShieldCheck size={16} /> Admin</button>
+          <button className={`nav-item ${selectedTab==='dashboard' ? 'active' : ''}`} onClick={()=>setSelectedTab('dashboard')}><LayoutDashboard size={16} /> Dashboard</button>
+          <button className={`nav-item ${selectedTab==='chat' ? 'active' : ''}`} onClick={()=>setSelectedTab('chat')}><MessageSquareText size={16} /> Chat</button>
+          <button className={`nav-item ${selectedTab==='memory' ? 'active' : ''}`} onClick={()=>setSelectedTab('memory')}><BrainCircuit size={16} /> Memory</button>
+          <button className={`nav-item ${selectedTab==='admin' ? 'active' : ''}`} onClick={()=>setSelectedTab('admin')}><ShieldCheck size={16} /> Admin</button>
         </nav>
 
         <div className="mini-card">
@@ -355,30 +417,74 @@ function App() {
           <div className="live-pill"><Bot size={14} /> online</div>
         </header>
 
-        <section className="chat-card">
-          <div className="message-list">
-            {messages.map((message) => (
-              <div key={message.id} className={`bubble ${message.role === 'assistant' ? 'assistant' : 'user'}`}>
-                {message.text}
-              </div>
-            ))}
-            {isThinking && <div className="bubble assistant typing">Ella is thinking...</div>}
-          </div>
-
-          <div className="composer">
-            <textarea
-              value={input}
-              onChange={(event) => setInput(event.target.value)}
-              rows={3}
-              placeholder="Ask Ella anything..."
-              onKeyDown={handleComposerKeyDown}
-            />
-            <div className="composer-actions">
-              <button className="secondary-button" onClick={() => sendMessage()}><Send size={16} /> Send</button>
-              <button className="ghost-button" onClick={launchVoice}><Mic size={16} /> Speech</button>
+        {selectedTab === 'chat' && (
+          <section className="chat-card">
+            <div className="message-list">
+              {messages.map((message) => (
+                <div key={message.id} className={`bubble ${message.role === 'assistant' ? 'assistant' : 'user'}`}>
+                  {message.text}
+                </div>
+              ))}
+              {isThinking && <div className="bubble assistant typing">Ella is thinking...</div>}
             </div>
-          </div>
-        </section>
+
+            <div className="composer">
+              <textarea
+                value={input}
+                onChange={(event) => setInput(event.target.value)}
+                rows={3}
+                placeholder="Ask Ella anything..."
+                onKeyDown={handleComposerKeyDown}
+              />
+              <div className="composer-actions">
+                <button className="secondary-button" onClick={() => sendMessage()}><Send size={16} /> Send</button>
+                <button className="ghost-button" onClick={launchVoice}><Mic size={16} /> Speech</button>
+              </div>
+            </div>
+          </section>
+        )}
+
+        {selectedTab === 'admin' && (
+          <section className="chat-card admin-full">
+            <div className="admin-grid">
+              <div className="admin-settings">
+                <div className="panel-header"><ShieldCheck size={16} /> <span>Settings</span></div>
+                <label>Default phone number</label>
+                <input value={phone} onChange={(e)=>setPhone(e.target.value)} placeholder="+1 555 123 4567" />
+
+                <label style={{marginTop:10}}>Phone Shortcut name</label>
+                <input value={readStorage(storageKeys.shortcutName,'Ella Send SMS')} onChange={(e)=>{ localStorage.setItem(storageKeys.shortcutName, e.target.value); addLog('Shortcut name set: '+e.target.value,'info'); }} placeholder="Ella Send SMS" />
+
+                <label style={{marginTop:10}}>TTS Voice</label>
+                <select value={selectedVoice || ''} onChange={(e)=>setSelectedVoice(e.target.value)}>
+                  {voices.map((v)=> <option key={v.name} value={v.name}>{v.name} {v.lang ? `(${v.lang})` : ''}</option>)}
+                </select>
+
+                <div style={{marginTop:12}}>
+                  <button className="primary-button" onClick={()=>{ speakText('Hello, this is a voice test.'); addLog('Voice test triggered','info'); }}>Test voice</button>
+                </div>
+              </div>
+
+              <div className="admin-terminal">
+                <div className="panel-header"><TerminalSquare size={16} /> <span>Debug terminal</span></div>
+                <div ref={terminalRef} className="terminal" />
+              </div>
+
+              <div className="admin-logs">
+                <div className="panel-header"><ShieldCheck size={16} /> <span>Debug log</span></div>
+                <ul className="log-list">
+                  {logs.slice(-40).reverse().map((entry) => (
+                    <li key={entry.id} className={entry.level}>
+                      <span>{entry.timestamp}</span>
+                      <strong>{entry.level}</strong>
+                      <p>{entry.message}</p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </section>
+        )}
       </main>
 
       <aside className="right-rail">
@@ -422,29 +528,69 @@ function App() {
           </div>
         </div>
 
-        <div className="panel card terminal-card">
-          <div className="panel-header">
-            <TerminalSquare size={16} />
-            <span>Debug terminal</span>
-          </div>
-          <div ref={terminalRef} className="terminal" />
-        </div>
+        {/* right rail panels remain for non-admin views */}
+        {selectedTab !== 'admin' && (
+          <>
+            <div className="panel card">
+              <div className="panel-header">
+                <Phone size={16} />
+                <span>Texting</span>
+              </div>
+              <label>Phone number</label>
+              <input value={phone} onChange={(event) => setPhone(event.target.value)} placeholder="+1 555 123 4567" />
+              <div style={{display:'flex',gap:8,marginTop:8}}>
+                <button className="primary-button wide" onClick={sendText}>Open SMS</button>
+                <button className="secondary-button wide" onClick={() => sendTextViaShortcut(input)} style={{padding:'10px 12px'}}>Send via Phone Shortcut</button>
+              </div>
+            </div>
 
-        <div className="panel card logs-card">
-          <div className="panel-header">
-            <ShieldCheck size={16} />
-            <span>Debug log</span>
-          </div>
-          <ul className="log-list">
-            {logs.slice(-8).reverse().map((entry) => (
-              <li key={entry.id} className={entry.level}>
-                <span>{entry.timestamp}</span>
-                <strong>{entry.level}</strong>
-                <p>{entry.message}</p>
-              </li>
-            ))}
-          </ul>
-        </div>
+            <div className="panel card">
+              <div className="panel-header">
+                <BrainCircuit size={16} />
+                <span>Memory</span>
+              </div>
+              <ul className="memory-list">
+                {memory.slice(-4).reverse().map((item) => (
+                  <li key={item.id}>{item.text}</li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="panel card">
+              <div className="panel-header">
+                <Waves size={16} />
+                <span>Shortcuts</span>
+              </div>
+              <div className="shortcut-row">
+                <input value={shortcutDraft} onChange={(event) => setShortcutDraft(event.target.value)} placeholder="Add shortcut" />
+                <button className="icon-button" onClick={addShortcut}><Plus size={16} /></button>
+              </div>
+              <div className="shortcut-list">
+                {shortcuts.map((shortcut) => (
+                  <button key={shortcut.id} className="shortcut-pill" onClick={() => handleShortcutAction(shortcut)}>
+                    {shortcut.label}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            <div className="panel card logs-card">
+              <div className="panel-header">
+                <ShieldCheck size={16} />
+                <span>Debug log</span>
+              </div>
+              <ul className="log-list">
+                {logs.slice(-8).reverse().map((entry) => (
+                  <li key={entry.id} className={entry.level}>
+                    <span>{entry.timestamp}</span>
+                    <strong>{entry.level}</strong>
+                    <p>{entry.message}</p>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </>
+        )}
       </aside>
     </div>
   );
