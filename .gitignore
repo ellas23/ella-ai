@@ -1,36 +1,81 @@
-# Python
-venv_coqui/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+# Secrets and local configuration
 .env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.secret
+*credentials*
+*credential*
+*tokens*
+*token*
+*sessions*
+*session*
+data/ssh_credentials.dpapi.json
+data/email_config.json
+data/*secret*
+data/*token*
+data/*credential*
+data/*session*
 
-# Vosk models (large) — if you plan to keep models out of git
-models/
-models/*.zip
+# Python environments and generated files
+venv/
+venv_*/
+.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyd
 
-# Logs and runtime
-*.log
-*.sqlite
-
-# OS
-.DS_Store
-Thumbs.db
-
-# VS Code
-.vscode/
-
-# PowerShell output
-*.ps1xml
-
-# Node (if any web UI files get added)
+# Node and build output
 node_modules/
 dist/
+build/
 .build/
+.vercel/
 
-# Misc
+# Local model files and archives
+models/
+*.bin
+*.gguf
+*.onnx
+*.zip
+*.tar
+*.tar.gz
+
+# Runtime data, logs, caches, and temporary files
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.tmp
+*.cache
+.cache/
+.ella/
+.ella-agent-results/
+data/tts_status.json
+data/voice_status.json
+data/action_requests.json
+data/automation_history.json
+data/conversations.json
+data/email_intelligence.json
+data/pc_control_audit.json
+data/pc_control_confirmations.json
+data/remote_control_audit.json
+data/watch_commands.json
+data/worker_tasks.json
+data/research/*.json
+data/research/reports/
+data/research/tasks/
+data/research/reports/
+data/files/originals/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
 *.swp
-
-.vercel
-.env*
+*.swo
+*.ps1xml
