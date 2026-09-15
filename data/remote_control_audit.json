@@ -1,0 +1,188 @@
+[
+  {
+    "id": "remote-1788879309075-67917b",
+    "requestId": "register-6e71d47c-a334-49f2-8bbb-5a69eac9b4af",
+    "deviceId": "dashboard-test",
+    "action": "register",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-08T14:55:09.076Z"
+  },
+  {
+    "id": "remote-1788879322621-6e5547",
+    "requestId": "delete-c680368f-dab7-4ee6-9873-a0383aaea6a2",
+    "deviceId": "dashboard-test",
+    "action": "delete",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-08T14:55:22.622Z"
+  },
+  {
+    "id": "remote-1788880965986-b1afd8",
+    "requestId": "register-4c74b5ec-830a-4289-9cf7-67a45c583e22",
+    "deviceId": "erons-imac",
+    "action": "register",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-08T15:22:45.986Z"
+  },
+  {
+    "id": "remote-1788880970635-d418ac",
+    "requestId": "4899f89f-740e-443d-97fa-dd1a9229249d",
+    "deviceId": "erons-imac",
+    "action": "status",
+    "status": "FAILED",
+    "timestamp": "2026-09-08T15:22:50.635Z",
+    "error": "SSH connection or remote operation failed"
+  },
+  {
+    "id": "remote-1788881109284-fc08b8",
+    "requestId": "8fd68dc3-2633-4a6a-8f5f-5829652524e7",
+    "deviceId": "erons-imac",
+    "action": "status",
+    "status": "FAILED",
+    "timestamp": "2026-09-08T15:25:09.284Z",
+    "error": "SSH connection or remote operation failed"
+  },
+  {
+    "id": "remote-1788883514054-b54652",
+    "requestId": "6ee6f2af-65bd-4ef8-a7ee-2a6ad93f582d",
+    "deviceId": "erons-imac",
+    "action": "status",
+    "status": "SUCCESS",
+    "timestamp": "2026-09-08T16:05:14.055Z",
+    "elapsedMs": 1231
+  },
+  {
+    "id": "remote-1788886688780-11c380",
+    "requestId": "66ae5613-1887-444e-bf0f-724b55406bd2",
+    "deviceId": "erons-imac",
+    "action": "mac_screen_view",
+    "status": "ONLINE",
+    "timestamp": "2026-09-08T16:58:08.780Z",
+    "viewer": true
+  },
+  {
+    "id": "remote-1788886766087-75b3aa",
+    "requestId": "aed4bef2-61f7-4255-bd93-81f1f94466f4",
+    "deviceId": "erons-imac",
+    "action": "mac_screen_view",
+    "status": "ONLINE",
+    "timestamp": "2026-09-08T16:59:26.087Z",
+    "viewer": true
+  },
+  {
+    "id": "remote-1788886798242-b223ef",
+    "requestId": "9f4b8bc9-7c80-4d6d-a757-6fbbd99e0108",
+    "deviceId": "erons-imac",
+    "action": "mac_screen_view",
+    "status": "ONLINE",
+    "timestamp": "2026-09-08T16:59:58.242Z",
+    "viewer": true
+  },
+  {
+    "id": "remote-1788886807401-1a36c6",
+    "requestId": "4b293b9a-6d28-4aaa-9438-8d4c7997c73c",
+    "deviceId": "erons-imac",
+    "action": "mac_screen_view",
+    "status": "ONLINE",
+    "timestamp": "2026-09-08T17:00:07.401Z",
+    "viewer": true
+  },
+  {
+    "id": "remote-1788886880048-2a1674",
+    "requestId": "2c24140d-2fe8-4311-a5e1-c6284d87a9ea",
+    "deviceId": "erons-imac",
+    "action": "mac_screen_view",
+    "status": "ONLINE",
+    "timestamp": "2026-09-08T17:01:20.048Z",
+    "viewer": true
+  },
+  {
+    "id": "remote-1788886924186-8e0501",
+    "requestId": "10d604a0-0feb-4f88-8c32-8419c88ae0b2",
+    "deviceId": "erons-imac",
+    "action": "mac_screen_view",
+    "status": "ONLINE",
+    "timestamp": "2026-09-08T17:02:04.186Z",
+    "viewer": true
+  },
+  {
+    "id": "remote-1788888574616-cdd0a2",
+    "requestId": "192b082d-3013-43a6-865e-7d575917600d",
+    "deviceId": "erons-imac",
+    "action": "mac_screen_view",
+    "status": "ONLINE",
+    "timestamp": "2026-09-08T17:29:34.616Z",
+    "viewer": true
+  },
+  {
+    "id": "remote-1788892293362-9bb540",
+    "requestId": "ace4ee72-0a21-453b-acc8-32734ad1968d",
+    "deviceId": "erons-imac",
+    "action": "mac_screen_view",
+    "status": "ONLINE",
+    "timestamp": "2026-09-08T18:31:33.362Z",
+    "viewer": true
+  },
+  {
+    "id": "remote-1788892298593-9d6e70",
+    "requestId": "0307241f-8f86-4cbf-a705-ad5b92e5a232",
+    "deviceId": "erons-imac",
+    "action": "mac_screen_view",
+    "status": "ONLINE",
+    "timestamp": "2026-09-08T18:31:38.593Z",
+    "viewer": true
+  },
+  {
+    "id": "remote-1788898748155-2c2c12",
+    "requestId": "c13dcd2d-49f3-465a-b9ad-337f06da2fca",
+    "deviceId": "erons-imac",
+    "action": "mac_screen_view",
+    "status": "OFFLINE",
+    "timestamp": "2026-09-08T20:19:08.155Z",
+    "viewer": true
+  },
+  {
+    "id": "remote-1788900302784-9ee36e",
+    "requestId": "70942368-ce00-47d1-b9e0-8ed5d9108051",
+    "deviceId": "erons-imac",
+    "action": "mac_screen_view",
+    "status": "OFFLINE",
+    "timestamp": "2026-09-08T20:45:02.784Z",
+    "viewer": true
+  },
+  {
+    "id": "remote-1788909331660-ae103b",
+    "requestId": "ff4dcb4e-95f4-42c9-8484-dff441d16b3b",
+    "deviceId": "erons-imac",
+    "action": "mac_screen_view",
+    "status": "OFFLINE",
+    "timestamp": "2026-09-08T23:15:31.661Z",
+    "viewer": true
+  },
+  {
+    "id": "remote-1788921527968-9b1287",
+    "requestId": "b8f9a7e0-25ec-4ea1-adf0-24fe34c31c9e",
+    "deviceId": "erons-imac",
+    "action": "mac_screen_view",
+    "status": "OFFLINE",
+    "timestamp": "2026-09-09T02:38:47.968Z",
+    "viewer": true
+  },
+  {
+    "id": "remote-1789044690807-fe60e6",
+    "requestId": "4ed32ae9-614a-405b-ad87-346b8c3046a4",
+    "deviceId": "erons-imac",
+    "action": "mac_screen_view",
+    "status": "OFFLINE",
+    "timestamp": "2026-09-10T12:51:30.808Z",
+    "viewer": true
+  },
+  {
+    "id": "remote-1789045559998-fbaba4",
+    "requestId": "97ca75b4-1692-49e4-9279-b9e5dc0604e4",
+    "deviceId": "erons-imac",
+    "action": "mac_screen_view",
+    "status": "OFFLINE",
+    "timestamp": "2026-09-10T13:05:59.998Z",
+    "viewer": true
+  }
+]

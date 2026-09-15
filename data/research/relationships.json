@@ -1,0 +1,752 @@
+[
+  {
+    "relationshipId": "relationship-cb5d37a5062a",
+    "fromKnowledgeId": "knowledge-dbdeebd63ca4",
+    "toKnowledgeId": "knowledge-eb0a8134be90",
+    "type": "CONTRADICTED_BY",
+    "taskIds": [
+      "research-research-api-1788798579759"
+    ],
+    "createdAt": "2026-09-07T16:29:41.865Z"
+  },
+  {
+    "relationshipId": "relationship-a0c3ef9ace24",
+    "fromKnowledgeId": "knowledge-dbdeebd63ca4",
+    "toKnowledgeId": "knowledge-8d30ae3a0330",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-research-api-1788798579759"
+    ],
+    "createdAt": "2026-09-07T16:29:41.865Z"
+  },
+  {
+    "relationshipId": "relationship-9eab9247c58a",
+    "fromKnowledgeId": "knowledge-ff17c141ce10",
+    "toKnowledgeId": "knowledge-28c7a388fa39",
+    "type": "CONTRADICTED_BY",
+    "taskIds": [
+      "research-research-api-1788798681588"
+    ],
+    "createdAt": "2026-09-07T16:31:23.398Z"
+  },
+  {
+    "relationshipId": "relationship-37df6c2b3146",
+    "fromKnowledgeId": "knowledge-ff17c141ce10",
+    "toKnowledgeId": "knowledge-6f98f2f3ec4b",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-research-api-1788798681588"
+    ],
+    "createdAt": "2026-09-07T16:31:23.398Z"
+  },
+  {
+    "relationshipId": "relationship-f7fca03c19ad",
+    "fromKnowledgeId": "knowledge-e4eba056e04f",
+    "toKnowledgeId": "knowledge-63ca75a700d1",
+    "type": "CONTRADICTED_BY",
+    "taskIds": [
+      "research-research-api-1788798681588"
+    ],
+    "createdAt": "2026-09-07T16:31:23.781Z"
+  },
+  {
+    "relationshipId": "relationship-878b28b6e770",
+    "fromKnowledgeId": "knowledge-e4eba056e04f",
+    "toKnowledgeId": "knowledge-35b5894e439b",
+    "type": "CONTRADICTED_BY",
+    "taskIds": [
+      "research-research-api-1788798681588"
+    ],
+    "createdAt": "2026-09-07T16:31:23.781Z"
+  },
+  {
+    "relationshipId": "relationship-db9aa89ae786",
+    "fromKnowledgeId": "knowledge-63ca75a700d1",
+    "toKnowledgeId": "knowledge-35b5894e439b",
+    "type": "CONTRADICTED_BY",
+    "taskIds": [
+      "research-research-api-1788798681588"
+    ],
+    "createdAt": "2026-09-07T16:31:23.781Z"
+  },
+  {
+    "relationshipId": "relationship-75c0c851704b",
+    "fromKnowledgeId": "knowledge-d90d636750ec",
+    "toKnowledgeId": "knowledge-65235fff81bb",
+    "type": "CONTRADICTED_BY",
+    "taskIds": [
+      "research-research-api-1788798853258"
+    ],
+    "createdAt": "2026-09-07T16:34:15.380Z"
+  },
+  {
+    "relationshipId": "relationship-c7dc61588909",
+    "fromKnowledgeId": "knowledge-d90d636750ec",
+    "toKnowledgeId": "knowledge-e2b06cc60ebb",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-research-api-1788798853258"
+    ],
+    "createdAt": "2026-09-07T16:34:15.380Z"
+  },
+  {
+    "relationshipId": "relationship-9fa9d7646191",
+    "fromKnowledgeId": "knowledge-b8ed0be523be",
+    "toKnowledgeId": "knowledge-4111188f16cf",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-research-api-1788798853258"
+    ],
+    "createdAt": "2026-09-07T16:34:15.816Z"
+  },
+  {
+    "relationshipId": "relationship-7ae09957a928",
+    "fromKnowledgeId": "knowledge-b8ed0be523be",
+    "toKnowledgeId": "knowledge-f70949d30239",
+    "type": "CONTRADICTED_BY",
+    "taskIds": [
+      "research-research-api-1788798853258"
+    ],
+    "createdAt": "2026-09-07T16:34:15.816Z"
+  },
+  {
+    "relationshipId": "relationship-fba2a22098b8",
+    "fromKnowledgeId": "knowledge-4111188f16cf",
+    "toKnowledgeId": "knowledge-f70949d30239",
+    "type": "CONTRADICTED_BY",
+    "taskIds": [
+      "research-research-api-1788798853258"
+    ],
+    "createdAt": "2026-09-07T16:34:15.816Z"
+  },
+  {
+    "relationshipId": "relationship-8d37c33f7b91",
+    "fromKnowledgeId": "knowledge-2298863a0d14",
+    "toKnowledgeId": "knowledge-43fa848728af",
+    "type": "CONTRADICTED_BY",
+    "taskIds": [
+      "research-research-api-1788799188008"
+    ],
+    "createdAt": "2026-09-07T16:39:49.968Z"
+  },
+  {
+    "relationshipId": "relationship-c7cc36ebb117",
+    "fromKnowledgeId": "knowledge-2298863a0d14",
+    "toKnowledgeId": "knowledge-36b42e9ef06e",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-research-api-1788799188008"
+    ],
+    "createdAt": "2026-09-07T16:39:49.968Z"
+  },
+  {
+    "relationshipId": "relationship-d6b2aabaa8a2",
+    "fromKnowledgeId": "knowledge-2518b6c53bc1",
+    "toKnowledgeId": "knowledge-09fdf6e40da8",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-research-api-1788800529402"
+    ],
+    "createdAt": "2026-09-07T17:02:11.893Z"
+  },
+  {
+    "relationshipId": "relationship-de7b92a3e623",
+    "fromKnowledgeId": "knowledge-057f9affca2b",
+    "toKnowledgeId": "knowledge-09fdf6e40da8",
+    "type": "CONTRADICTED_BY",
+    "taskIds": [
+      "research-research-api-1788800529402"
+    ],
+    "createdAt": "2026-09-07T17:02:11.893Z"
+  },
+  {
+    "relationshipId": "relationship-03ee478ec63d",
+    "fromKnowledgeId": "knowledge-057f9affca2b",
+    "toKnowledgeId": "knowledge-1252a8ce4f8b",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-research-api-1788800529402"
+    ],
+    "createdAt": "2026-09-07T17:02:11.893Z"
+  },
+  {
+    "relationshipId": "relationship-6b01b941cbe0",
+    "fromKnowledgeId": "knowledge-7724ea0a61de",
+    "toKnowledgeId": "knowledge-f2a3b3f4a6e4",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-research-api-1788803163790"
+    ],
+    "createdAt": "2026-09-07T17:46:13.067Z"
+  },
+  {
+    "relationshipId": "relationship-09d12f83b01e",
+    "fromKnowledgeId": "knowledge-17539d2ca144",
+    "toKnowledgeId": "knowledge-f2a3b3f4a6e4",
+    "type": "CONTRADICTED_BY",
+    "taskIds": [
+      "research-research-api-1788803163790"
+    ],
+    "createdAt": "2026-09-07T17:46:13.067Z"
+  },
+  {
+    "relationshipId": "relationship-6a60c21938e9",
+    "fromKnowledgeId": "knowledge-17539d2ca144",
+    "toKnowledgeId": "knowledge-4021052ae47f",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-research-api-1788803163790"
+    ],
+    "createdAt": "2026-09-07T17:46:13.067Z"
+  },
+  {
+    "relationshipId": "relationship-434a8fc9e224",
+    "fromKnowledgeId": "knowledge-c8a3b25b7112",
+    "toKnowledgeId": "knowledge-30a77e5f4238",
+    "type": "CONTRADICTED_BY",
+    "taskIds": [
+      "research-research-api-1788803998087"
+    ],
+    "createdAt": "2026-09-07T18:01:01.968Z"
+  },
+  {
+    "relationshipId": "relationship-8b33ca0d4cf6",
+    "fromKnowledgeId": "knowledge-3661e979e438",
+    "toKnowledgeId": "knowledge-163ff92a156b",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-research-api-1788803998087"
+    ],
+    "createdAt": "2026-09-07T18:01:01.968Z"
+  },
+  {
+    "relationshipId": "relationship-03f77021782c",
+    "fromKnowledgeId": "knowledge-3661e979e438",
+    "toKnowledgeId": "knowledge-8b813ba25174",
+    "type": "CONTRADICTED_BY",
+    "taskIds": [
+      "research-research-api-1788803998087"
+    ],
+    "createdAt": "2026-09-07T18:01:01.968Z"
+  },
+  {
+    "relationshipId": "relationship-7102759e1f2a",
+    "fromKnowledgeId": "knowledge-1300db14c114",
+    "toKnowledgeId": "knowledge-1ee5b1870acf",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-research-api-1788803998087"
+    ],
+    "createdAt": "2026-09-07T18:01:12.441Z"
+  },
+  {
+    "relationshipId": "relationship-d885529f7e9f",
+    "fromKnowledgeId": "knowledge-1300db14c114",
+    "toKnowledgeId": "knowledge-e698150619a9",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-research-api-1788803998087"
+    ],
+    "createdAt": "2026-09-07T18:01:12.441Z"
+  },
+  {
+    "relationshipId": "relationship-2f9e88ce094e",
+    "fromKnowledgeId": "knowledge-1300db14c114",
+    "toKnowledgeId": "knowledge-308930a3a40a",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-research-api-1788803998087"
+    ],
+    "createdAt": "2026-09-07T18:01:12.441Z"
+  },
+  {
+    "relationshipId": "relationship-959241f63f2b",
+    "fromKnowledgeId": "knowledge-1300db14c114",
+    "toKnowledgeId": "knowledge-ecbe587d2d8f",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-research-api-1788803998087"
+    ],
+    "createdAt": "2026-09-07T18:01:12.441Z"
+  },
+  {
+    "relationshipId": "relationship-dd8c764cee1d",
+    "fromKnowledgeId": "knowledge-0d281fdf7990",
+    "toKnowledgeId": "knowledge-e698150619a9",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-research-api-1788803998087"
+    ],
+    "createdAt": "2026-09-07T18:01:12.441Z"
+  },
+  {
+    "relationshipId": "relationship-55885baeb44f",
+    "fromKnowledgeId": "knowledge-308930a3a40a",
+    "toKnowledgeId": "knowledge-ecbe587d2d8f",
+    "type": "CONTRADICTED_BY",
+    "taskIds": [
+      "research-research-api-1788803998087"
+    ],
+    "createdAt": "2026-09-07T18:01:12.441Z"
+  },
+  {
+    "relationshipId": "relationship-f80297036a2b",
+    "fromKnowledgeId": "knowledge-09577d74a0bd",
+    "toKnowledgeId": "knowledge-a9319385ea2f",
+    "type": "CONTRADICTED_BY",
+    "taskIds": [
+      "research-research-api-1788804697594"
+    ],
+    "createdAt": "2026-09-07T18:12:09.106Z"
+  },
+  {
+    "relationshipId": "relationship-8c1956cd7a5e",
+    "fromKnowledgeId": "knowledge-b84e5844b34f",
+    "toKnowledgeId": "knowledge-2f51556a6991",
+    "type": "CONTRADICTED_BY",
+    "taskIds": [
+      "research-research-api-1788804697594"
+    ],
+    "createdAt": "2026-09-07T18:12:09.106Z"
+  },
+  {
+    "relationshipId": "relationship-c442e9345eb6",
+    "fromKnowledgeId": "knowledge-09577d74a0bd",
+    "toKnowledgeId": "knowledge-09577d74a0bd",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-research-api-1788804697594"
+    ],
+    "createdAt": "2026-09-07T18:12:17.939Z"
+  },
+  {
+    "relationshipId": "relationship-bcf0047fc175",
+    "fromKnowledgeId": "knowledge-a9319385ea2f",
+    "toKnowledgeId": "knowledge-09577d74a0bd",
+    "type": "CONTRADICTED_BY",
+    "taskIds": [
+      "research-research-api-1788804697594"
+    ],
+    "createdAt": "2026-09-07T18:12:17.939Z"
+  },
+  {
+    "relationshipId": "relationship-fd9287e81db7",
+    "fromKnowledgeId": "knowledge-a9319385ea2f",
+    "toKnowledgeId": "knowledge-a9319385ea2f",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-research-api-1788804697594"
+    ],
+    "createdAt": "2026-09-07T18:12:17.939Z"
+  },
+  {
+    "relationshipId": "relationship-5e53f3f68f14",
+    "fromKnowledgeId": "knowledge-b84e5844b34f",
+    "toKnowledgeId": "knowledge-b84e5844b34f",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-research-api-1788804697594"
+    ],
+    "createdAt": "2026-09-07T18:12:17.939Z"
+  },
+  {
+    "relationshipId": "relationship-2034574e3e69",
+    "fromKnowledgeId": "knowledge-2f51556a6991",
+    "toKnowledgeId": "knowledge-a9319385ea2f",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-research-api-1788804697594"
+    ],
+    "createdAt": "2026-09-07T18:12:17.939Z"
+  },
+  {
+    "relationshipId": "relationship-930470c0f703",
+    "fromKnowledgeId": "knowledge-2f51556a6991",
+    "toKnowledgeId": "knowledge-b84e5844b34f",
+    "type": "CONTRADICTED_BY",
+    "taskIds": [
+      "research-research-api-1788804697594"
+    ],
+    "createdAt": "2026-09-07T18:12:17.939Z"
+  },
+  {
+    "relationshipId": "relationship-6f65950646ee",
+    "fromKnowledgeId": "knowledge-2f51556a6991",
+    "toKnowledgeId": "knowledge-2f51556a6991",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-research-api-1788804697594"
+    ],
+    "createdAt": "2026-09-07T18:12:17.939Z"
+  },
+  {
+    "relationshipId": "relationship-ffeb2e7fe3fb",
+    "fromKnowledgeId": "knowledge-0a61cdf4e931",
+    "toKnowledgeId": "knowledge-5fb22a0656b7",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-research-api-1788872800629"
+    ],
+    "createdAt": "2026-09-08T13:06:46.949Z"
+  },
+  {
+    "relationshipId": "relationship-6bf1b334d0a2",
+    "fromKnowledgeId": "knowledge-8596266cb5f5",
+    "toKnowledgeId": "knowledge-5566239c5edd",
+    "type": "CONTRADICTED_BY",
+    "taskIds": [
+      "research-research-api-1788886744141"
+    ],
+    "createdAt": "2026-09-08T16:59:08.143Z"
+  },
+  {
+    "relationshipId": "relationship-b080ee615638",
+    "fromKnowledgeId": "knowledge-10b33e949dc0",
+    "toKnowledgeId": "knowledge-9ed370524d72",
+    "type": "CONTRADICTED_BY",
+    "taskIds": [
+      "research-research-api-1788886744141"
+    ],
+    "createdAt": "2026-09-08T16:59:08.143Z"
+  },
+  {
+    "relationshipId": "relationship-d79131f54104",
+    "fromKnowledgeId": "knowledge-257527c0f502",
+    "toKnowledgeId": "knowledge-4814a77495ec",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-research-api-1788886744141"
+    ],
+    "createdAt": "2026-09-08T16:59:18.207Z"
+  },
+  {
+    "relationshipId": "relationship-8b48e13d4718",
+    "fromKnowledgeId": "knowledge-92ef5dd77c02",
+    "toKnowledgeId": "knowledge-167a38b42c27",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-research-api-1788886744141"
+    ],
+    "createdAt": "2026-09-08T16:59:18.207Z"
+  },
+  {
+    "relationshipId": "relationship-88ac33682b3c",
+    "fromKnowledgeId": "knowledge-92ef5dd77c02",
+    "toKnowledgeId": "knowledge-5160eab00b11",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-research-api-1788886744141"
+    ],
+    "createdAt": "2026-09-08T16:59:18.207Z"
+  },
+  {
+    "relationshipId": "relationship-70d18005085f",
+    "fromKnowledgeId": "knowledge-92ef5dd77c02",
+    "toKnowledgeId": "knowledge-b7ae892e7db1",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-research-api-1788886744141"
+    ],
+    "createdAt": "2026-09-08T16:59:18.207Z"
+  },
+  {
+    "relationshipId": "relationship-5ab56a423098",
+    "fromKnowledgeId": "knowledge-3f0e46e5d3b0",
+    "toKnowledgeId": "knowledge-2a4fc42cc8cb",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-voice-1788892094747-3"
+    ],
+    "createdAt": "2026-09-08T18:28:22.524Z"
+  },
+  {
+    "relationshipId": "relationship-c7680810eb93",
+    "fromKnowledgeId": "knowledge-3f0e46e5d3b0",
+    "toKnowledgeId": "knowledge-73e03ef79f5d",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-voice-1788892094747-3"
+    ],
+    "createdAt": "2026-09-08T18:28:22.524Z"
+  },
+  {
+    "relationshipId": "relationship-bd2e478d6647",
+    "fromKnowledgeId": "knowledge-99d2ad447808",
+    "toKnowledgeId": "knowledge-b1a4369badc6",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-voice-1788892094747-3"
+    ],
+    "createdAt": "2026-09-08T18:28:22.524Z"
+  },
+  {
+    "relationshipId": "relationship-5b68219737fc",
+    "fromKnowledgeId": "knowledge-99d2ad447808",
+    "toKnowledgeId": "knowledge-73e03ef79f5d",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-voice-1788892094747-3"
+    ],
+    "createdAt": "2026-09-08T18:28:22.524Z"
+  },
+  {
+    "relationshipId": "relationship-33052f3bb0e6",
+    "fromKnowledgeId": "knowledge-2a4fc42cc8cb",
+    "toKnowledgeId": "knowledge-b1a4369badc6",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-voice-1788892094747-3"
+    ],
+    "createdAt": "2026-09-08T18:28:22.524Z"
+  },
+  {
+    "relationshipId": "relationship-eac2de75a770",
+    "fromKnowledgeId": "knowledge-2a4fc42cc8cb",
+    "toKnowledgeId": "knowledge-73e03ef79f5d",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-voice-1788892094747-3"
+    ],
+    "createdAt": "2026-09-08T18:28:22.524Z"
+  },
+  {
+    "relationshipId": "relationship-cbb5481d779e",
+    "fromKnowledgeId": "knowledge-b1a4369badc6",
+    "toKnowledgeId": "knowledge-73e03ef79f5d",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-voice-1788892094747-3"
+    ],
+    "createdAt": "2026-09-08T18:28:22.524Z"
+  },
+  {
+    "relationshipId": "relationship-fa0013dac4fc",
+    "fromKnowledgeId": "knowledge-b1a4369badc6",
+    "toKnowledgeId": "knowledge-3c58af9ad4e3",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-voice-1788892094747-3"
+    ],
+    "createdAt": "2026-09-08T18:28:24.855Z"
+  },
+  {
+    "relationshipId": "relationship-b90fa0624d8c",
+    "fromKnowledgeId": "knowledge-b1a4369badc6",
+    "toKnowledgeId": "knowledge-4354dd441c09",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-voice-1788892094747-3"
+    ],
+    "createdAt": "2026-09-08T18:28:24.855Z"
+  },
+  {
+    "relationshipId": "relationship-06e8acf3192d",
+    "fromKnowledgeId": "knowledge-b1a4369badc6",
+    "toKnowledgeId": "knowledge-661950fe9870",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-voice-1788892094747-3"
+    ],
+    "createdAt": "2026-09-08T18:28:24.855Z"
+  },
+  {
+    "relationshipId": "relationship-17a522157bfc",
+    "fromKnowledgeId": "knowledge-6508862726dd",
+    "toKnowledgeId": "knowledge-f41f2ca23fbd",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-voice-1788892094747-3"
+    ],
+    "createdAt": "2026-09-08T18:28:24.855Z"
+  },
+  {
+    "relationshipId": "relationship-60b9edec6533",
+    "fromKnowledgeId": "knowledge-6508862726dd",
+    "toKnowledgeId": "knowledge-3970c26e6eff",
+    "type": "CONTRADICTED_BY",
+    "taskIds": [
+      "research-voice-1788892094747-3"
+    ],
+    "createdAt": "2026-09-08T18:28:24.855Z"
+  },
+  {
+    "relationshipId": "relationship-666505c41f15",
+    "fromKnowledgeId": "knowledge-a2af7558bb19",
+    "toKnowledgeId": "knowledge-f41f2ca23fbd",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-voice-1788892094747-3"
+    ],
+    "createdAt": "2026-09-08T18:28:24.855Z"
+  },
+  {
+    "relationshipId": "relationship-afe3d459f314",
+    "fromKnowledgeId": "knowledge-a2af7558bb19",
+    "toKnowledgeId": "knowledge-fa5afc08fc17",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-voice-1788892094747-3"
+    ],
+    "createdAt": "2026-09-08T18:28:24.855Z"
+  },
+  {
+    "relationshipId": "relationship-8198e53cb977",
+    "fromKnowledgeId": "knowledge-a2af7558bb19",
+    "toKnowledgeId": "knowledge-3970c26e6eff",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-voice-1788892094747-3"
+    ],
+    "createdAt": "2026-09-08T18:28:24.855Z"
+  },
+  {
+    "relationshipId": "relationship-7f6053ca5156",
+    "fromKnowledgeId": "knowledge-a2af7558bb19",
+    "toKnowledgeId": "knowledge-661950fe9870",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-voice-1788892094747-3"
+    ],
+    "createdAt": "2026-09-08T18:28:24.855Z"
+  },
+  {
+    "relationshipId": "relationship-c33d8243da18",
+    "fromKnowledgeId": "knowledge-f41f2ca23fbd",
+    "toKnowledgeId": "knowledge-3970c26e6eff",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-voice-1788892094747-3"
+    ],
+    "createdAt": "2026-09-08T18:28:24.855Z"
+  },
+  {
+    "relationshipId": "relationship-3bbd0c5d574d",
+    "fromKnowledgeId": "knowledge-fa5afc08fc17",
+    "toKnowledgeId": "knowledge-661950fe9870",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-voice-1788892094747-3"
+    ],
+    "createdAt": "2026-09-08T18:28:24.855Z"
+  },
+  {
+    "relationshipId": "relationship-ff54de18f658",
+    "fromKnowledgeId": "knowledge-53329f484d33",
+    "toKnowledgeId": "knowledge-22c37d83b0a2",
+    "type": "CONTRADICTED_BY",
+    "taskIds": [
+      "research-voice-1788892139972-4"
+    ],
+    "createdAt": "2026-09-08T18:29:17.597Z"
+  },
+  {
+    "relationshipId": "relationship-e29e5e23caed",
+    "fromKnowledgeId": "knowledge-fed3bc85e441",
+    "toKnowledgeId": "knowledge-d1c6c7f30ab8",
+    "type": "CONTRADICTED_BY",
+    "taskIds": [
+      "research-research-api-1788892288331"
+    ],
+    "createdAt": "2026-09-08T18:31:33.101Z"
+  },
+  {
+    "relationshipId": "relationship-de8b0ab5ed09",
+    "fromKnowledgeId": "knowledge-ecc6c9d2b66c",
+    "toKnowledgeId": "knowledge-270d0b305a9c",
+    "type": "CONTRADICTED_BY",
+    "taskIds": [
+      "research-research-api-1788892288331"
+    ],
+    "createdAt": "2026-09-08T18:31:33.101Z"
+  },
+  {
+    "relationshipId": "relationship-1f2894f6089c",
+    "fromKnowledgeId": "knowledge-1fc5da901d50",
+    "toKnowledgeId": "knowledge-e47e4306bf32",
+    "type": "CONTRADICTED_BY",
+    "taskIds": [
+      "research-research-api-1788892289552"
+    ],
+    "createdAt": "2026-09-08T18:34:00.842Z"
+  },
+  {
+    "relationshipId": "relationship-551b1adeb255",
+    "fromKnowledgeId": "knowledge-b5fdb61c8f0b",
+    "toKnowledgeId": "knowledge-ee1ebe1675d3",
+    "type": "CONTRADICTED_BY",
+    "taskIds": [
+      "research-research-api-1788892289552"
+    ],
+    "createdAt": "2026-09-08T18:34:00.842Z"
+  },
+  {
+    "relationshipId": "relationship-45d45f631fe0",
+    "fromKnowledgeId": "knowledge-29ff4d05120a",
+    "toKnowledgeId": "knowledge-7ed74d45dec0",
+    "type": "CONTRADICTED_BY",
+    "taskIds": [
+      "research-research-api-1788892290183"
+    ],
+    "createdAt": "2026-09-08T18:35:27.361Z"
+  },
+  {
+    "relationshipId": "relationship-c3af806b4894",
+    "fromKnowledgeId": "knowledge-fd1adf2984e4",
+    "toKnowledgeId": "knowledge-e5b6deedda4c",
+    "type": "CONTRADICTED_BY",
+    "taskIds": [
+      "research-research-api-1788892290183"
+    ],
+    "createdAt": "2026-09-08T18:35:27.361Z"
+  },
+  {
+    "relationshipId": "relationship-1cd5f8a817a9",
+    "fromKnowledgeId": "knowledge-b613ab04fe23",
+    "toKnowledgeId": "knowledge-b67f45aceaf1",
+    "type": "CONTRADICTED_BY",
+    "taskIds": [
+      "research-research-api-1789057352986"
+    ],
+    "createdAt": "2026-09-10T16:22:43.858Z"
+  },
+  {
+    "relationshipId": "relationship-cba3bfaeea4b",
+    "fromKnowledgeId": "knowledge-9bed14a560be",
+    "toKnowledgeId": "knowledge-bbfa3b282fe6",
+    "type": "CONTRADICTED_BY",
+    "taskIds": [
+      "research-research-api-1789057352986"
+    ],
+    "createdAt": "2026-09-10T16:22:43.858Z"
+  },
+  {
+    "relationshipId": "relationship-7244c2c54e13",
+    "fromKnowledgeId": "knowledge-b1757a68c206",
+    "toKnowledgeId": "knowledge-15567590566b",
+    "type": "CONTRADICTED_BY",
+    "taskIds": [
+      "research-research-api-1789063484602"
+    ],
+    "createdAt": "2026-09-10T18:04:50.310Z"
+  },
+  {
+    "relationshipId": "relationship-1a413afe67d7",
+    "fromKnowledgeId": "knowledge-22922404f74e",
+    "toKnowledgeId": "knowledge-8513f406a90d",
+    "type": "CONTRADICTED_BY",
+    "taskIds": [
+      "research-research-api-1789063484602"
+    ],
+    "createdAt": "2026-09-10T18:04:50.310Z"
+  },
+  {
+    "relationshipId": "relationship-c25c9e0ad710",
+    "fromKnowledgeId": "knowledge-4f6c3d412308",
+    "toKnowledgeId": "knowledge-32e95f1db4db",
+    "type": "RELATED_TO",
+    "taskIds": [
+      "research-research-api-1789063484602"
+    ],
+    "createdAt": "2026-09-10T18:04:51.327Z"
+  }
+]

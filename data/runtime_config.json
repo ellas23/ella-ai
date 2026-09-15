@@ -1,0 +1,50 @@
+{
+  "voice": {
+    "model": "medium.en",
+    "language": "en",
+    "beamSize": 5,
+    "vad": true,
+    "wakeWordEnabled": true,
+    "wakeWord": "Ella",
+    "doubleClap": {
+      "enabled": false,
+      "spikeRatio": 7,
+      "minLevel": 400,
+      "cooldownSeconds": 0.8,
+      "minGapSeconds": 0.05,
+      "maxGapSeconds": 0.35
+    },
+    "microphone": {
+      "device": "",
+      "selectedDevice": null
+    }
+  },
+  "brain": {
+    "model": "gemma3:4b",
+    "temperature": 0,
+    "contextLength": 0,
+    "maxTokens": 5100,
+    "enabled": true
+  },
+  "personality": {
+    "name": "Ella",
+    "personality": "",
+    "tone": "",
+    "speakingStyle": "",
+    "systemInstructions": "",
+    "rules": "stop asking a lot of questions ",
+    "customBehavior": ""
+  },
+  "automaticMemory": true,
+  "research": {
+    "concurrency": 4,
+    "profile": "BALANCED",
+    "maxFollowUpIterations": 3
+  },
+  "worker": {
+    "enabled": true,
+    "workerId": "pi-worker",
+    "url": "http://192.168.1.147:8765",
+    "timeoutMs": 30000
+  }
+}

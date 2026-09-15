@@ -1,0 +1,9 @@
+node_modules
+venv_coqui
+models
+data/files/originals
+data/memory
+data/research
+data/*.json
+*.log
+.git

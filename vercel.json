@@ -1,0 +1,80 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/[...path].js",
+      "use": "@vercel/node",
+      "config": {
+        "maxDuration": 60
+      }
+    },
+    {
+      "src": "api/dashboard.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "admin-login.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "dashboard.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "bob-chat.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "bob-viewer.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "status.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "*.js",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "*.css",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/[...path].js"
+    },
+    {
+      "src": "/dashboard\\.html",
+      "dest": "/api/dashboard.js"
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "same-origin"
+        }
+      ]
+    }
+  ]
+}

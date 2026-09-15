@@ -1,0 +1,1228 @@
+[
+  {
+    "value": [
+      {
+        "requestId": "watch-test-lock_pc-1788806496619-sm307mkgvxc",
+        "command": "lock_pc",
+        "source": "iphone_shortcut",
+        "receivedAt": "2026-09-07T18:41:36.624Z",
+        "status": "SUCCESS",
+        "completedAt": "2026-09-07T18:41:36.692Z",
+        "response": {
+          "success": true,
+          "requestId": "watch-test-lock_pc-1788806496619-sm307mkgvxc",
+          "command": "lock_pc",
+          "status": "SUCCESS",
+          "message": "PC locked"
+        }
+      },
+      {
+        "requestId": "watch-test-shutdown_pc-1788806496694-fc3exlenv84",
+        "command": "shutdown_pc",
+        "source": "iphone_shortcut",
+        "receivedAt": "2026-09-07T18:41:36.723Z",
+        "status": "SUCCESS",
+        "completedAt": "2026-09-07T18:41:36.725Z",
+        "response": {
+          "success": true,
+          "requestId": "watch-test-shutdown_pc-1788806496694-fc3exlenv84",
+          "command": "shutdown_pc",
+          "status": "SUCCESS",
+          "message": "PC shutdown requested"
+        }
+      },
+      {
+        "requestId": "watch-test-restart_pc-1788806496733-5fos92c70rb",
+        "command": "restart_pc",
+        "source": "iphone_shortcut",
+        "receivedAt": "2026-09-07T18:41:36.791Z",
+        "status": "SUCCESS",
+        "completedAt": "2026-09-07T18:41:36.794Z",
+        "response": {
+          "success": true,
+          "requestId": "watch-test-restart_pc-1788806496733-5fos92c70rb",
+          "command": "restart_pc",
+          "status": "SUCCESS",
+          "message": "PC restart requested"
+        }
+      },
+      {
+        "requestId": "watch-test-sleep_pc-1788806496802-04a3kjrzadkr",
+        "command": "sleep_pc",
+        "source": "iphone_shortcut",
+        "receivedAt": "2026-09-07T18:41:36.824Z",
+        "status": "SUCCESS",
+        "completedAt": "2026-09-07T18:41:36.825Z",
+        "response": {
+          "success": true,
+          "requestId": "watch-test-sleep_pc-1788806496802-04a3kjrzadkr",
+          "command": "sleep_pc",
+          "status": "SUCCESS",
+          "message": "PC sleep requested"
+        }
+      },
+      {
+        "requestId": "watch-test-start_ella-1788806496828-d5fxpyqya4g",
+        "command": "start_ella",
+        "source": "iphone_shortcut",
+        "receivedAt": "2026-09-07T18:41:36.856Z",
+        "status": "SUCCESS",
+        "completedAt": "2026-09-07T18:41:36.857Z",
+        "response": {
+          "success": true,
+          "requestId": "watch-test-start_ella-1788806496828-d5fxpyqya4g",
+          "command": "start_ella",
+          "status": "SUCCESS",
+          "message": "Ella started",
+          "data": {
+            "action": "start",
+            "services": {}
+          }
+        }
+      },
+      {
+        "requestId": "watch-test-stop_ella-1788806496862-oqxkkaxr77n",
+        "command": "stop_ella",
+        "source": "iphone_shortcut",
+        "receivedAt": "2026-09-07T18:41:36.888Z",
+        "status": "SUCCESS",
+        "completedAt": "2026-09-07T18:41:36.889Z",
+        "response": {
+          "success": true,
+          "requestId": "watch-test-stop_ella-1788806496862-oqxkkaxr77n",
+          "command": "stop_ella",
+          "status": "SUCCESS",
+          "message": "Ella stopped",
+          "data": {
+            "action": "stop",
+            "services": {}
+          }
+        }
+      },
+      {
+        "requestId": "watch-test-restart_ella-1788806496891-bb25dtqjrwk",
+        "command": "restart_ella",
+        "source": "iphone_shortcut",
+        "receivedAt": "2026-09-07T18:41:36.905Z",
+        "status": "SUCCESS",
+        "completedAt": "2026-09-07T18:41:36.905Z",
+        "response": {
+          "success": true,
+          "requestId": "watch-test-restart_ella-1788806496891-bb25dtqjrwk",
+          "command": "restart_ella",
+          "status": "SUCCESS",
+          "message": "Ella restarted",
+          "data": {
+            "action": "restart",
+            "services": {}
+          }
+        }
+      },
+      {
+        "requestId": "watch-test-get_pc_status-1788806496907-jojqwtb1bkb",
+        "command": "get_pc_status",
+        "source": "iphone_shortcut",
+        "receivedAt": "2026-09-07T18:41:36.922Z",
+        "status": "SUCCESS",
+        "completedAt": "2026-09-07T18:41:37.931Z",
+        "response": {
+          "success": true,
+          "requestId": "watch-test-get_pc_status-1788806496907-jojqwtb1bkb",
+          "command": "get_pc_status",
+          "status": "SUCCESS",
+          "data": {
+            "cpu": 100,
+            "ram": 31,
+            "disk": 13,
+            "ella": "OFFLINE",
+            "research": {
+              "status": "IDLE",
+              "taskId": null,
+              "topic": null,
+              "elapsed": 0,
+              "remaining": 0,
+              "sources": 0,
+              "currentPhase": null
+            }
+          },
+          "message": "PC status retrieved"
+        }
+      },
+      {
+        "requestId": "watch-test-get_ella_status-1788806497936-wt0fwn4g4p",
+        "command": "get_ella_status",
+        "source": "iphone_shortcut",
+        "receivedAt": "2026-09-07T18:41:37.958Z",
+        "status": "SUCCESS",
+        "completedAt": "2026-09-07T18:41:37.961Z",
+        "response": {
+          "success": true,
+          "requestId": "watch-test-get_ella_status-1788806497936-wt0fwn4g4p",
+          "command": "get_ella_status",
+          "status": "SUCCESS",
+          "data": {
+            "state": "idle",
+            "status": "ONLINE",
+            "authentication": "CONFIGURED",
+            "supportedCommands": [
+              "lock_pc",
+              "shutdown_pc",
+              "restart_pc",
+              "sleep_pc",
+              "start_ella",
+              "stop_ella",
+              "restart_ella",
+              "get_pc_status",
+              "get_ella_status",
+              "get_research_status",
+              "cancel_research"
+            ],
+            "lastCommand": {
+              "command": "get_ella_status",
+              "requestId": "watch-test-get_ella_status-1788806497936-wt0fwn4g4p",
+              "status": "STARTED",
+              "receivedAt": "2026-09-07T18:41:37.958Z"
+            }
+          },
+          "message": "Ella status retrieved"
+        }
+      },
+      {
+        "requestId": "watch-test-get_research_status-1788806497965-f5xhl46mri",
+        "command": "get_research_status",
+        "source": "iphone_shortcut",
+        "receivedAt": "2026-09-07T18:41:37.973Z",
+        "status": "SUCCESS",
+        "completedAt": "2026-09-07T18:41:37.976Z",
+        "response": {
+          "success": true,
+          "requestId": "watch-test-get_research_status-1788806497965-f5xhl46mri",
+          "command": "get_research_status",
+          "status": "SUCCESS",
+          "data": {
+            "status": "IDLE",
+            "taskId": null,
+            "topic": null,
+            "elapsed": 0,
+            "remaining": 0,
+            "sources": 0,
+            "currentPhase": null
+          },
+          "message": "Research status retrieved"
+        }
+      },
+      {
+        "requestId": "watch-test-cancel_research-1788806497978-vyo5b6jijxe",
+        "command": "cancel_research",
+        "source": "iphone_shortcut",
+        "receivedAt": "2026-09-07T18:41:37.993Z",
+        "status": "SUCCESS",
+        "completedAt": "2026-09-07T18:41:37.996Z",
+        "response": {
+          "success": true,
+          "requestId": "watch-test-cancel_research-1788806497978-vyo5b6jijxe",
+          "command": "cancel_research",
+          "status": "SUCCESS",
+          "message": "No active research task."
+        }
+      },
+      {
+        "requestId": "watch-replay-test",
+        "command": "get_pc_status",
+        "source": "iphone_shortcut",
+        "receivedAt": "2026-09-07T18:41:38.005Z",
+        "status": "SUCCESS",
+        "completedAt": "2026-09-07T18:41:39.159Z",
+        "response": {
+          "success": true,
+          "requestId": "watch-replay-test",
+          "command": "get_pc_status",
+          "status": "SUCCESS",
+          "data": {
+            "cpu": 100,
+            "ram": 31,
+            "disk": 13,
+            "ella": "ONLINE",
+            "research": {
+              "status": "IDLE",
+              "taskId": null,
+              "topic": null,
+              "elapsed": 0,
+              "remaining": 0,
+              "sources": 0,
+              "currentPhase": null
+            }
+          },
+          "message": "PC status retrieved"
+        }
+      },
+      {
+        "requestId": "watch-test-lock_pc-1788806526506-103cuzk2scda",
+        "command": "lock_pc",
+        "source": "iphone_shortcut",
+        "receivedAt": "2026-09-07T18:42:06.510Z",
+        "status": "SUCCESS",
+        "completedAt": "2026-09-07T18:42:06.589Z",
+        "response": {
+          "success": true,
+          "requestId": "watch-test-lock_pc-1788806526506-103cuzk2scda",
+          "command": "lock_pc",
+          "status": "SUCCESS",
+          "message": "PC locked"
+        }
+      },
+      {
+        "requestId": "watch-test-shutdown_pc-1788806526591-hydcm0m6lrw",
+        "command": "shutdown_pc",
+        "source": "iphone_shortcut",
+        "receivedAt": "2026-09-07T18:42:06.626Z",
+        "status": "SUCCESS",
+        "completedAt": "2026-09-07T18:42:06.627Z",
+        "response": {
+          "success": true,
+          "requestId": "watch-test-shutdown_pc-1788806526591-hydcm0m6lrw",
+          "command": "shutdown_pc",
+          "status": "SUCCESS",
+          "message": "PC shutdown requested"
+        }
+      },
+      {
+        "requestId": "watch-test-restart_pc-1788806526634-t9uidz526c9",
+        "command": "restart_pc",
+        "source": "iphone_shortcut",
+        "receivedAt": "2026-09-07T18:42:06.642Z",
+        "status": "SUCCESS",
+        "completedAt": "2026-09-07T18:42:06.643Z",
+        "response": {
+          "success": true,
+          "requestId": "watch-test-restart_pc-1788806526634-t9uidz526c9",
+          "command": "restart_pc",
+          "status": "SUCCESS",
+          "message": "PC restart requested"
+        }
+      },
+      {
+        "requestId": "watch-test-sleep_pc-1788806526646-j4x9d5h8cm",
+        "command": "sleep_pc",
+        "source": "iphone_shortcut",
+        "receivedAt": "2026-09-07T18:42:06.657Z",
+        "status": "SUCCESS",
+        "completedAt": "2026-09-07T18:42:06.658Z",
+        "response": {
+          "success": true,
+          "requestId": "watch-test-sleep_pc-1788806526646-j4x9d5h8cm",
+          "command": "sleep_pc",
+          "status": "SUCCESS",
+          "message": "PC sleep requested"
+        }
+      },
+      {
+        "requestId": "watch-test-start_ella-1788806526660-fnqu8mf80q",
+        "command": "start_ella",
+        "source": "iphone_shortcut",
+        "receivedAt": "2026-09-07T18:42:06.675Z",
+        "status": "SUCCESS",
+        "completedAt": "2026-09-07T18:42:06.676Z",
+        "response": {
+          "success": true,
+          "requestId": "watch-test-start_ella-1788806526660-fnqu8mf80q",
+          "command": "start_ella",
+          "status": "SUCCESS",
+          "message": "Ella started",
+          "data": {
+            "action": "start",
+            "services": {}
+          }
+        }
+      },
+      {
+        "requestId": "watch-test-stop_ella-1788806526678-gl7907gwcs9",
+        "command": "stop_ella",
+        "source": "iphone_shortcut",
+        "receivedAt": "2026-09-07T18:42:06.690Z",
+        "status": "SUCCESS",
+        "completedAt": "2026-09-07T18:42:06.691Z",
+        "response": {
+          "success": true,
+          "requestId": "watch-test-stop_ella-1788806526678-gl7907gwcs9",
+          "command": "stop_ella",
+          "status": "SUCCESS",
+          "message": "Ella stopped",
+          "data": {
+            "action": "stop",
+            "services": {}
+          }
+        }
+      },
+      {
+        "requestId": "watch-test-restart_ella-1788806526694-x47ztc2g6yi",
+        "command": "restart_ella",
+        "source": "iphone_shortcut",
+        "receivedAt": "2026-09-07T18:42:06.705Z",
+        "status": "SUCCESS",
+        "completedAt": "2026-09-07T18:42:06.706Z",
+        "response": {
+          "success": true,
+          "requestId": "watch-test-restart_ella-1788806526694-x47ztc2g6yi",
+          "command": "restart_ella",
+          "status": "SUCCESS",
+          "message": "Ella restarted",
+          "data": {
+            "action": "restart",
+            "services": {}
+          }
+        }
+      },
+      {
+        "requestId": "watch-test-get_pc_status-1788806526708-voblo9keqri",
+        "command": "get_pc_status",
+        "source": "iphone_shortcut",
+        "receivedAt": "2026-09-07T18:42:06.727Z",
+        "status": "SUCCESS",
+        "completedAt": "2026-09-07T18:42:08.374Z",
+        "response": {
+          "success": true,
+          "requestId": "watch-test-get_pc_status-1788806526708-voblo9keqri",
+          "command": "get_pc_status",
+          "status": "SUCCESS",
+          "data": {
+            "cpu": 100,
+            "ram": 30,
+            "disk": 13,
+            "ella": "OFFLINE",
+            "research": {
+              "status": "IDLE",
+              "taskId": null,
+              "topic": null,
+              "elapsed": 0,
+              "remaining": 0,
+              "sources": 0,
+              "currentPhase": null
+            }
+          },
+          "message": "PC status retrieved"
+        }
+      },
+      {
+        "requestId": "watch-test-get_ella_status-1788806528380-2s8kp84hg5r",
+        "command": "get_ella_status",
+        "source": "iphone_shortcut",
+        "receivedAt": "2026-09-07T18:42:08.404Z",
+        "status": "SUCCESS",
+        "completedAt": "2026-09-07T18:42:08.417Z",
+        "response": {
+          "success": true,
+          "requestId": "watch-test-get_ella_status-1788806528380-2s8kp84hg5r",
+          "command": "get_ella_status",
+          "status": "SUCCESS",
+          "data": {
+            "state": "idle",
+            "status": "ONLINE",
+            "authentication": "CONFIGURED",
+            "supportedCommands": [
+              "lock_pc",
+              "shutdown_pc",
+              "restart_pc",
+              "sleep_pc",
+              "start_ella",
+              "stop_ella",
+              "restart_ella",
+              "get_pc_status",
+              "get_ella_status",
+              "get_research_status",
+              "cancel_research"
+            ],
+            "lastCommand": {
+              "command": "get_ella_status",
+              "requestId": "watch-test-get_ella_status-1788806528380-2s8kp84hg5r",
+              "status": "STARTED",
+              "receivedAt": "2026-09-07T18:42:08.404Z"
+            }
+          },
+          "message": "Ella status retrieved"
+        }
+      },
+      {
+        "requestId": "watch-test-get_research_status-1788806528420-kq7508pawcd",
+        "command": "get_research_status",
+        "source": "iphone_shortcut",
+        "receivedAt": "2026-09-07T18:42:08.429Z",
+        "status": "SUCCESS",
+        "completedAt": "2026-09-07T18:42:08.433Z",
+        "response": {
+          "success": true,
+          "requestId": "watch-test-get_research_status-1788806528420-kq7508pawcd",
+          "command": "get_research_status",
+          "status": "SUCCESS",
+          "data": {
+            "status": "IDLE",
+            "taskId": null,
+            "topic": null,
+            "elapsed": 0,
+            "remaining": 0,
+            "sources": 0,
+            "currentPhase": null
+          },
+          "message": "Research status retrieved"
+        }
+      },
+      {
+        "requestId": "watch-test-cancel_research-1788806528435-geijfarnij6",
+        "command": "cancel_research",
+        "source": "iphone_shortcut",
+        "receivedAt": "2026-09-07T18:42:08.445Z",
+        "status": "SUCCESS",
+        "completedAt": "2026-09-07T18:42:08.448Z",
+        "response": {
+          "success": true,
+          "requestId": "watch-test-cancel_research-1788806528435-geijfarnij6",
+          "command": "cancel_research",
+          "status": "SUCCESS",
+          "message": "No active research task."
+        }
+      },
+      {
+        "requestId": "e2e-status-1",
+        "command": "get_pc_status",
+        "source": "iphone_shortcut",
+        "receivedAt": "2026-09-07T18:42:19.112Z",
+        "status": "SUCCESS",
+        "completedAt": "2026-09-07T18:42:20.492Z",
+        "response": {
+          "success": true,
+          "requestId": "e2e-status-1",
+          "command": "get_pc_status",
+          "status": "SUCCESS",
+          "data": {
+            "cpu": 100,
+            "ram": 30,
+            "disk": 13,
+            "ella": "OFFLINE",
+            "research": {
+              "status": "IDLE",
+              "taskId": null,
+              "topic": null,
+              "elapsed": 0,
+              "remaining": 0,
+              "sources": 0,
+              "currentPhase": null
+            }
+          },
+          "message": "PC status retrieved"
+        }
+      },
+      {
+        "requestId": "e2e-restart-1",
+        "command": "restart_ella",
+        "source": "iphone_shortcut",
+        "receivedAt": "2026-09-07T18:42:20.531Z",
+        "status": "SUCCESS",
+        "completedAt": "2026-09-07T18:42:20.533Z",
+        "response": {
+          "success": true,
+          "requestId": "e2e-restart-1",
+          "command": "restart_ella",
+          "status": "SUCCESS",
+          "message": "Ella restarted",
+          "data": {
+            "action": "restart",
+            "services": {}
+          }
+        }
+      }
+    ],
+    "Count": 25
+  },
+  {
+    "requestId": "real-watch-verify-1788807462222",
+    "command": "get_ella_status",
+    "source": "iphone_shortcut",
+    "receivedAt": "2026-09-07T18:57:45.402Z",
+    "status": "SUCCESS",
+    "completedAt": "2026-09-07T18:57:45.476Z",
+    "response": {
+      "success": true,
+      "requestId": "real-watch-verify-1788807462222",
+      "command": "get_ella_status",
+      "status": "SUCCESS",
+      "data": {
+        "state": "error",
+        "status": "ONLINE",
+        "authentication": "CONFIGURED",
+        "supportedCommands": [
+          "lock_pc",
+          "shutdown_pc",
+          "restart_pc",
+          "sleep_pc",
+          "start_ella",
+          "stop_ella",
+          "restart_ella",
+          "get_pc_status",
+          "get_ella_status",
+          "get_research_status",
+          "cancel_research"
+        ],
+        "lastCommand": {
+          "command": "get_ella_status",
+          "requestId": "real-watch-verify-1788807462222",
+          "status": "STARTED",
+          "receivedAt": "2026-09-07T18:57:45.402Z"
+        }
+      },
+      "message": "Ella status retrieved"
+    }
+  },
+  {
+    "requestId": "watch-rotation-verify-1788808441803",
+    "command": "get_ella_status",
+    "source": "iphone_shortcut",
+    "receivedAt": "2026-09-07T19:14:02.105Z",
+    "status": "SUCCESS",
+    "completedAt": "2026-09-07T19:14:02.142Z",
+    "response": {
+      "success": true,
+      "requestId": "watch-rotation-verify-1788808441803",
+      "command": "get_ella_status",
+      "status": "SUCCESS",
+      "data": {
+        "state": "listening",
+        "status": "ONLINE",
+        "authentication": "CONFIGURED",
+        "supportedCommands": [
+          "lock_pc",
+          "shutdown_pc",
+          "restart_pc",
+          "sleep_pc",
+          "start_ella",
+          "stop_ella",
+          "restart_ella",
+          "get_pc_status",
+          "get_ella_status",
+          "get_research_status",
+          "cancel_research"
+        ],
+        "lastCommand": {
+          "command": "get_ella_status",
+          "requestId": "watch-rotation-verify-1788808441803",
+          "status": "STARTED",
+          "receivedAt": "2026-09-07T19:14:02.105Z"
+        }
+      },
+      "message": "Ella status retrieved"
+    }
+  },
+  {
+    "requestId": "watch-diagnose-1788808825758",
+    "command": "get_ella_status",
+    "source": "iphone_shortcut",
+    "receivedAt": "2026-09-07T19:20:26.008Z",
+    "status": "SUCCESS",
+    "completedAt": "2026-09-07T19:20:26.040Z",
+    "response": {
+      "success": true,
+      "requestId": "watch-diagnose-1788808825758",
+      "command": "get_ella_status",
+      "status": "SUCCESS",
+      "data": {
+        "state": "listening",
+        "status": "ONLINE",
+        "authentication": "CONFIGURED",
+        "supportedCommands": [
+          "lock_pc",
+          "shutdown_pc",
+          "restart_pc",
+          "sleep_pc",
+          "start_ella",
+          "stop_ella",
+          "restart_ella",
+          "get_pc_status",
+          "get_ella_status",
+          "get_research_status",
+          "cancel_research"
+        ],
+        "lastCommand": {
+          "command": "get_ella_status",
+          "requestId": "watch-diagnose-1788808825758",
+          "status": "STARTED",
+          "receivedAt": "2026-09-07T19:20:26.008Z"
+        }
+      },
+      "message": "Ella status retrieved"
+    }
+  },
+  {
+    "requestId": "4d0066f2-cf51-4847-b707-f3861fae1f89",
+    "command": "get_ella_status",
+    "source": "iphone_shortcut",
+    "receivedAt": "2026-09-08T00:06:33.100Z",
+    "status": "SUCCESS",
+    "completedAt": "2026-09-08T00:06:33.108Z",
+    "response": {
+      "success": true,
+      "requestId": "4d0066f2-cf51-4847-b707-f3861fae1f89",
+      "command": "get_ella_status",
+      "status": "SUCCESS",
+      "data": {
+        "state": "listening",
+        "status": "ONLINE",
+        "authentication": "CONFIGURED",
+        "supportedCommands": [
+          "lock_pc",
+          "shutdown_pc",
+          "restart_pc",
+          "sleep_pc",
+          "start_ella",
+          "stop_ella",
+          "restart_ella",
+          "get_pc_status",
+          "get_ella_status",
+          "get_research_status",
+          "cancel_research"
+        ],
+        "lastCommand": {
+          "command": "get_ella_status",
+          "requestId": "4d0066f2-cf51-4847-b707-f3861fae1f89",
+          "status": "STARTED",
+          "receivedAt": "2026-09-08T00:06:33.100Z"
+        }
+      },
+      "message": "Ella status retrieved"
+    }
+  },
+  {
+    "requestId": "42a70623-1345-42e5-a72d-cb621e27181e",
+    "command": "get_ella_status",
+    "source": "iphone_shortcut",
+    "receivedAt": "2026-09-08T00:06:40.117Z",
+    "status": "SUCCESS",
+    "completedAt": "2026-09-08T00:06:40.122Z",
+    "response": {
+      "success": true,
+      "requestId": "42a70623-1345-42e5-a72d-cb621e27181e",
+      "command": "get_ella_status",
+      "status": "SUCCESS",
+      "data": {
+        "state": "listening",
+        "status": "ONLINE",
+        "authentication": "CONFIGURED",
+        "supportedCommands": [
+          "lock_pc",
+          "shutdown_pc",
+          "restart_pc",
+          "sleep_pc",
+          "start_ella",
+          "stop_ella",
+          "restart_ella",
+          "get_pc_status",
+          "get_ella_status",
+          "get_research_status",
+          "cancel_research"
+        ],
+        "lastCommand": {
+          "command": "get_ella_status",
+          "requestId": "42a70623-1345-42e5-a72d-cb621e27181e",
+          "status": "STARTED",
+          "receivedAt": "2026-09-08T00:06:40.117Z"
+        }
+      },
+      "message": "Ella status retrieved"
+    }
+  },
+  {
+    "requestId": "a01088dd-887b-457b-9aa0-c62b0f98d927",
+    "command": "get_ella_status",
+    "source": "iphone_shortcut",
+    "receivedAt": "2026-09-08T00:07:12.493Z",
+    "status": "SUCCESS",
+    "completedAt": "2026-09-08T00:07:12.498Z",
+    "response": {
+      "success": true,
+      "requestId": "a01088dd-887b-457b-9aa0-c62b0f98d927",
+      "command": "get_ella_status",
+      "status": "SUCCESS",
+      "data": {
+        "state": "listening",
+        "status": "ONLINE",
+        "authentication": "CONFIGURED",
+        "supportedCommands": [
+          "lock_pc",
+          "shutdown_pc",
+          "restart_pc",
+          "sleep_pc",
+          "start_ella",
+          "stop_ella",
+          "restart_ella",
+          "get_pc_status",
+          "get_ella_status",
+          "get_research_status",
+          "cancel_research"
+        ],
+        "lastCommand": {
+          "command": "get_ella_status",
+          "requestId": "a01088dd-887b-457b-9aa0-c62b0f98d927",
+          "status": "STARTED",
+          "receivedAt": "2026-09-08T00:07:12.493Z"
+        }
+      },
+      "message": "Ella status retrieved"
+    }
+  },
+  {
+    "requestId": "9a1d9b2e-81b6-44f8-ba01-4b3be14d7741",
+    "command": "get_ella_status",
+    "source": "iphone_shortcut",
+    "receivedAt": "2026-09-08T00:08:02.461Z",
+    "status": "SUCCESS",
+    "completedAt": "2026-09-08T00:08:02.471Z",
+    "response": {
+      "success": true,
+      "requestId": "9a1d9b2e-81b6-44f8-ba01-4b3be14d7741",
+      "command": "get_ella_status",
+      "status": "SUCCESS",
+      "data": {
+        "state": "listening",
+        "status": "ONLINE",
+        "authentication": "CONFIGURED",
+        "supportedCommands": [
+          "lock_pc",
+          "shutdown_pc",
+          "restart_pc",
+          "sleep_pc",
+          "start_ella",
+          "stop_ella",
+          "restart_ella",
+          "get_pc_status",
+          "get_ella_status",
+          "get_research_status",
+          "cancel_research"
+        ],
+        "lastCommand": {
+          "command": "get_ella_status",
+          "requestId": "9a1d9b2e-81b6-44f8-ba01-4b3be14d7741",
+          "status": "STARTED",
+          "receivedAt": "2026-09-08T00:08:02.461Z"
+        }
+      },
+      "message": "Ella status retrieved"
+    }
+  },
+  {
+    "requestId": "351717b3-0f2b-42e5-ab2e-2b3dd3c6848d",
+    "command": "get_ella_status",
+    "source": "iphone_shortcut",
+    "receivedAt": "2026-09-08T00:15:34.564Z",
+    "status": "SUCCESS",
+    "completedAt": "2026-09-08T00:15:34.601Z",
+    "response": {
+      "success": true,
+      "requestId": "351717b3-0f2b-42e5-ab2e-2b3dd3c6848d",
+      "command": "get_ella_status",
+      "status": "SUCCESS",
+      "data": {
+        "state": "listening",
+        "status": "ONLINE",
+        "authentication": "CONFIGURED",
+        "supportedCommands": [
+          "lock_pc",
+          "shutdown_pc",
+          "restart_pc",
+          "sleep_pc",
+          "start_ella",
+          "stop_ella",
+          "restart_ella",
+          "get_pc_status",
+          "get_ella_status",
+          "get_research_status",
+          "cancel_research"
+        ],
+        "lastCommand": {
+          "command": "get_ella_status",
+          "requestId": "351717b3-0f2b-42e5-ab2e-2b3dd3c6848d",
+          "status": "STARTED",
+          "receivedAt": "2026-09-08T00:15:34.564Z"
+        }
+      },
+      "message": "Ella status retrieved"
+    }
+  },
+  {
+    "requestId": "425696f5-8e05-435a-89d1-84c6be1ad6bc",
+    "command": "get_ella_status",
+    "source": "iphone_shortcut",
+    "receivedAt": "2026-09-08T00:20:50.713Z",
+    "status": "SUCCESS",
+    "completedAt": "2026-09-08T00:20:50.717Z",
+    "response": {
+      "success": true,
+      "requestId": "425696f5-8e05-435a-89d1-84c6be1ad6bc",
+      "command": "get_ella_status",
+      "status": "SUCCESS",
+      "data": {
+        "state": "listening",
+        "status": "ONLINE",
+        "authentication": "CONFIGURED",
+        "supportedCommands": [
+          "lock_pc",
+          "shutdown_pc",
+          "restart_pc",
+          "sleep_pc",
+          "start_ella",
+          "stop_ella",
+          "restart_ella",
+          "get_pc_status",
+          "get_ella_status",
+          "get_research_status",
+          "cancel_research"
+        ],
+        "lastCommand": {
+          "command": "get_ella_status",
+          "requestId": "425696f5-8e05-435a-89d1-84c6be1ad6bc",
+          "status": "STARTED",
+          "receivedAt": "2026-09-08T00:20:50.713Z"
+        }
+      },
+      "message": "Ella status retrieved"
+    }
+  },
+  {
+    "requestId": "a82cd8a1-dfeb-434a-b681-14540ed3cac6",
+    "command": "lock_pc",
+    "source": "iphone_shortcut",
+    "receivedAt": "2026-09-08T00:22:18.945Z",
+    "status": "SUCCESS",
+    "completedAt": "2026-09-08T00:22:19.071Z",
+    "response": {
+      "success": true,
+      "requestId": "a82cd8a1-dfeb-434a-b681-14540ed3cac6",
+      "command": "lock_pc",
+      "status": "SUCCESS",
+      "message": "PC locked"
+    }
+  },
+  {
+    "requestId": "e100e4d5-056e-48f4-abf2-17f76dc61170",
+    "command": "lock_pc",
+    "source": "iphone_shortcut",
+    "receivedAt": "2026-09-08T00:22:34.609Z",
+    "status": "SUCCESS",
+    "completedAt": "2026-09-08T00:22:34.986Z",
+    "response": {
+      "success": true,
+      "requestId": "e100e4d5-056e-48f4-abf2-17f76dc61170",
+      "command": "lock_pc",
+      "status": "SUCCESS",
+      "message": "PC locked"
+    }
+  },
+  {
+    "requestId": "882a9027-1ad3-4c5e-9062-b4af58012668",
+    "command": "lock_pc",
+    "source": "iphone_shortcut",
+    "receivedAt": "2026-09-08T00:22:39.097Z",
+    "status": "SUCCESS",
+    "completedAt": "2026-09-08T00:22:39.720Z",
+    "response": {
+      "success": true,
+      "requestId": "882a9027-1ad3-4c5e-9062-b4af58012668",
+      "command": "lock_pc",
+      "status": "SUCCESS",
+      "message": "PC locked"
+    }
+  },
+  {
+    "requestId": "a9d66dc7-b68e-4c7b-b3e4-e819cf0bd9af",
+    "command": "start_ella",
+    "source": "iphone_shortcut",
+    "receivedAt": "2026-09-08T00:24:30.215Z",
+    "status": "SUCCESS",
+    "completedAt": "2026-09-08T00:24:32.569Z",
+    "response": {
+      "success": true,
+      "requestId": "a9d66dc7-b68e-4c7b-b3e4-e819cf0bd9af",
+      "command": "start_ella",
+      "status": "SUCCESS",
+      "message": "Ella started",
+      "data": {
+        "action": "start",
+        "services": {
+          "orb": "running",
+          "assistant": "running",
+          "recognizer": "faster-whisper"
+        }
+      }
+    }
+  },
+  {
+    "requestId": "d311ee81-901d-416e-b1d8-e2c696173fa7",
+    "command": "stop_ella",
+    "source": "iphone_shortcut",
+    "receivedAt": "2026-09-08T00:24:48.662Z",
+    "status": "SUCCESS",
+    "completedAt": "2026-09-08T00:25:20.792Z",
+    "response": {
+      "success": true,
+      "requestId": "d311ee81-901d-416e-b1d8-e2c696173fa7",
+      "command": "stop_ella",
+      "status": "SUCCESS",
+      "message": "Ella stopped",
+      "data": {
+        "action": "stop",
+        "services": {
+          "orb": "stopped",
+          "assistant": "stopped",
+          "recognizer": "stopped"
+        }
+      }
+    }
+  },
+  {
+    "requestId": "8372d2cd-81c6-4b3b-81d0-f33890bb4bae",
+    "command": "start_ella",
+    "source": "iphone_shortcut",
+    "receivedAt": "2026-09-08T00:25:33.274Z",
+    "status": "SUCCESS",
+    "completedAt": "2026-09-08T00:25:38.547Z",
+    "response": {
+      "success": true,
+      "requestId": "8372d2cd-81c6-4b3b-81d0-f33890bb4bae",
+      "command": "start_ella",
+      "status": "SUCCESS",
+      "message": "Ella started",
+      "data": {
+        "action": "start",
+        "services": {
+          "orb": "running",
+          "assistant": "running",
+          "recognizer": "faster-whisper"
+        }
+      }
+    }
+  },
+  {
+    "requestId": "50a95686-54ee-4b89-81a6-5339324d3983",
+    "command": "lock_pc",
+    "source": "iphone_shortcut",
+    "receivedAt": "2026-09-08T00:32:33.924Z",
+    "status": "SUCCESS",
+    "completedAt": "2026-09-08T00:32:33.973Z",
+    "response": {
+      "success": true,
+      "requestId": "50a95686-54ee-4b89-81a6-5339324d3983",
+      "command": "lock_pc",
+      "status": "SUCCESS",
+      "message": "PC locked"
+    }
+  },
+  {
+    "requestId": "1283fa6b-06e1-4c96-b62a-8ebde6dbd9c1",
+    "command": "stop_ella",
+    "source": "iphone_shortcut",
+    "receivedAt": "2026-09-08T14:53:45.575Z",
+    "status": "SUCCESS",
+    "completedAt": "2026-09-08T14:55:54.656Z",
+    "response": {
+      "success": true,
+      "requestId": "1283fa6b-06e1-4c96-b62a-8ebde6dbd9c1",
+      "command": "stop_ella",
+      "status": "SUCCESS",
+      "message": "Ella stopped",
+      "data": {
+        "action": "stop",
+        "services": {
+          "orb": "stopped",
+          "assistant": "stopped",
+          "recognizer": "stopped"
+        }
+      }
+    }
+  },
+  {
+    "requestId": "6d768d78-adb8-4130-aab3-fbdc41fe8b12",
+    "command": "lock_pc",
+    "source": "iphone_shortcut",
+    "receivedAt": "2026-09-08T15:03:08.017Z",
+    "status": "SUCCESS",
+    "completedAt": "2026-09-08T15:03:08.101Z",
+    "response": {
+      "success": true,
+      "requestId": "6d768d78-adb8-4130-aab3-fbdc41fe8b12",
+      "command": "lock_pc",
+      "status": "SUCCESS",
+      "message": "PC locked"
+    }
+  },
+  {
+    "requestId": "verify-c551c37ffca7412391b4ee5f34f7d7c6",
+    "command": "get_ella_status",
+    "source": "iphone_shortcut",
+    "receivedAt": "2026-09-08T23:27:21.773Z",
+    "status": "SUCCESS",
+    "completedAt": "2026-09-08T23:27:21.778Z",
+    "response": {
+      "success": true,
+      "requestId": "verify-c551c37ffca7412391b4ee5f34f7d7c6",
+      "command": "get_ella_status",
+      "status": "SUCCESS",
+      "data": {
+        "state": "idle",
+        "status": "ONLINE",
+        "authentication": "CONFIGURED",
+        "supportedCommands": [
+          "lock_pc",
+          "shutdown_pc",
+          "restart_pc",
+          "sleep_pc",
+          "start_ella",
+          "stop_ella",
+          "restart_ella",
+          "get_pc_status",
+          "get_ella_status",
+          "get_research_status",
+          "cancel_research"
+        ],
+        "lastCommand": {
+          "command": "get_ella_status",
+          "requestId": "verify-c551c37ffca7412391b4ee5f34f7d7c6",
+          "status": "STARTED",
+          "receivedAt": "2026-09-08T23:27:21.773Z"
+        }
+      },
+      "message": "Ella status retrieved"
+    }
+  },
+  {
+    "requestId": "d450191e-897f-43f8-8733-0e6377e3f480",
+    "command": "lock_pc",
+    "source": "iphone_shortcut",
+    "receivedAt": "2026-09-10T18:17:37.345Z",
+    "status": "SUCCESS",
+    "completedAt": "2026-09-10T18:17:38.261Z",
+    "response": {
+      "success": true,
+      "requestId": "d450191e-897f-43f8-8733-0e6377e3f480",
+      "command": "lock_pc",
+      "status": "SUCCESS",
+      "message": "PC locked"
+    }
+  },
+  {
+    "requestId": "11cdb2d9-db20-4f10-ab22-697cc154b517",
+    "command": "lock_pc",
+    "source": "iphone_shortcut",
+    "receivedAt": "2026-09-10T18:18:02.025Z",
+    "status": "SUCCESS",
+    "completedAt": "2026-09-10T18:18:04.471Z",
+    "response": {
+      "success": true,
+      "requestId": "11cdb2d9-db20-4f10-ab22-697cc154b517",
+      "command": "lock_pc",
+      "status": "SUCCESS",
+      "message": "PC locked"
+    }
+  },
+  {
+    "requestId": "ab9434c4-4ce4-41e0-887b-1a28e4859dbc",
+    "command": "start_ella",
+    "source": "iphone_shortcut",
+    "receivedAt": "2026-09-10T19:48:33.422Z",
+    "status": "STARTED"
+  },
+  {
+    "requestId": "934f47a8-fe69-4c3d-acc9-72894aa73046",
+    "command": "stop_ella",
+    "source": "iphone_shortcut",
+    "receivedAt": "2026-09-10T19:48:34.755Z",
+    "status": "SUCCESS",
+    "completedAt": "2026-09-10T19:49:04.031Z",
+    "response": {
+      "success": true,
+      "requestId": "934f47a8-fe69-4c3d-acc9-72894aa73046",
+      "command": "stop_ella",
+      "status": "SUCCESS",
+      "message": "Ella stopped",
+      "data": {
+        "action": "stop",
+        "services": {
+          "orb": "stopped",
+          "assistant": "stopped",
+          "recognizer": "stopped"
+        }
+      }
+    }
+  },
+  {
+    "requestId": "195a1bba-d5c5-4b4b-94e2-eb92959591a9",
+    "command": "lock_pc",
+    "source": "iphone_shortcut",
+    "receivedAt": "2026-09-10T20:38:41.921Z",
+    "status": "SUCCESS",
+    "completedAt": "2026-09-10T20:38:43.973Z",
+    "response": {
+      "success": true,
+      "requestId": "195a1bba-d5c5-4b4b-94e2-eb92959591a9",
+      "command": "lock_pc",
+      "status": "SUCCESS",
+      "message": "PC locked"
+    }
+  },
+  {
+    "requestId": "898c125f-4aa2-46a1-ab16-d94a41718fe9",
+    "command": "lock_pc",
+    "source": "iphone_shortcut",
+    "receivedAt": "2026-09-10T21:13:14.144Z",
+    "status": "SUCCESS",
+    "completedAt": "2026-09-10T21:13:16.595Z",
+    "response": {
+      "success": true,
+      "requestId": "898c125f-4aa2-46a1-ab16-d94a41718fe9",
+      "command": "lock_pc",
+      "status": "SUCCESS",
+      "message": "PC locked"
+    }
+  },
+  {
+    "requestId": "f9f09c86-0bf2-4232-8fd2-7bcfafd2d3de",
+    "command": "lock_pc",
+    "source": "iphone_shortcut",
+    "receivedAt": "2026-09-11T15:03:11.127Z",
+    "status": "SUCCESS",
+    "completedAt": "2026-09-11T15:03:11.530Z",
+    "response": {
+      "success": true,
+      "requestId": "f9f09c86-0bf2-4232-8fd2-7bcfafd2d3de",
+      "command": "lock_pc",
+      "status": "SUCCESS",
+      "message": "PC locked"
+    }
+  },
+  {
+    "requestId": "0209f465-78c1-4b48-adfb-e9baa45f979e",
+    "command": "lock_pc",
+    "source": "iphone_shortcut",
+    "receivedAt": "2026-09-11T15:04:13.078Z",
+    "status": "SUCCESS",
+    "completedAt": "2026-09-11T15:04:13.238Z",
+    "response": {
+      "success": true,
+      "requestId": "0209f465-78c1-4b48-adfb-e9baa45f979e",
+      "command": "lock_pc",
+      "status": "SUCCESS",
+      "message": "PC locked"
+    }
+  },
+  {
+    "requestId": "6f6c333d-3055-41dd-87fe-f1e014515370",
+    "command": "lock_pc",
+    "source": "iphone_shortcut",
+    "receivedAt": "2026-09-11T19:01:45.715Z",
+    "status": "SUCCESS",
+    "completedAt": "2026-09-11T19:01:45.765Z",
+    "response": {
+      "success": true,
+      "requestId": "6f6c333d-3055-41dd-87fe-f1e014515370",
+      "command": "lock_pc",
+      "status": "SUCCESS",
+      "message": "PC locked"
+    }
+  }
+]

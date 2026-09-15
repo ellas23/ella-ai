@@ -1,0 +1,14 @@
+{
+  "enabled": true,
+  "workerId": "pi-worker",
+  "url": "http://192.168.1.147:8765",
+  "token": "EllaPiWorker-2026-8765",
+  "timeoutMs": 30000,
+  "agentTimeoutMs": 900000,
+  "windowsWorkspaces": [
+    "C:\\Users\\Darbe\\OneDrive\\Desktop\\ella-ai-main\\ella-ai-main"
+  ],
+  "piWorkspaces": [
+    "/home/ben/ella-worker/workspace"
+  ]
+}

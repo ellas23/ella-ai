@@ -1,0 +1,28 @@
+[
+  {
+    "id": "erons-imac",
+    "name": "Erons iMac",
+    "host": "192.168.1.179",
+    "port": 22,
+    "username": "eronmosiergmail.com",
+    "platform": "macos",
+    "enabled": true,
+    "capabilities": [
+      "system_status",
+      "disk_status",
+      "process_list",
+      "service_status",
+      "service_start",
+      "service_stop",
+      "service_restart",
+      "mac_screen_view",
+      "reboot",
+      "shutdown"
+    ],
+    "screenViewerUrl": null,
+    "lastSeen": "2026-09-08T16:05:14.054Z",
+    "status": "online",
+    "createdAt": "2026-09-08T15:22:45.985Z",
+    "updatedAt": "2026-09-08T16:05:14.054Z"
+  }
+]

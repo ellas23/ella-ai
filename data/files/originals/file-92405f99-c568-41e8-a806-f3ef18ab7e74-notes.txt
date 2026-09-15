@@ -1,0 +1,1 @@
+Ella uses local Ollama for private answers.

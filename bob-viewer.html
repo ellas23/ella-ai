@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Bob — Isolated Browser</title>
+  <style>
+    :root { color-scheme: dark; font: 14px system-ui, sans-serif; background: #0b1220; color: #e5eefc; }
+    body { margin: 0; min-height: 100vh; display: grid; grid-template-rows: auto 1fr; background: #0b1220; }
+    header { display: flex; gap: 12px; align-items: center; padding: 10px 14px; border-bottom: 1px solid #263750; }
+    h1 { margin: 0; font-size: 15px; letter-spacing: .12em; } #status { color: #72e0a0; }
+    button, input { color: inherit; background: #14233a; border: 1px solid #385170; border-radius: 6px; padding: 7px 9px; }
+    input { flex: 1; min-width: 160px; } button { cursor: pointer; } button:hover { border-color: #66c8ff; }
+    main { display: grid; place-items: center; overflow: auto; padding: 18px; }
+    #screen { max-width: 100%; max-height: calc(100vh - 100px); object-fit: contain; border: 1px solid #385170; background: #050912; box-shadow: 0 12px 40px #0008; }
+  </style>
+</head>
+<body>
+  <header><h1>BOB</h1><span id="status">CONNECTING</span><input id="url" placeholder="https://example.com"><button id="go">Navigate</button><button id="reconnect">Reconnect</button><button id="stop">Stop</button></header>
+  <main><img id="screen" alt="Bob isolated browser screen"></main>
+  <script>
+    const $ = id => document.getElementById(id), screen = $('screen'), status = $('status');
+    let timer;
+    async function refresh() {
+      try {
+        const response = await fetch('/api/screenshot');
+        if (!response.ok) throw new Error((await response.json()).error || 'Screen unavailable');
+        screen.src = URL.createObjectURL(await response.blob());
+        status.textContent = 'LIVE';
+      } catch (error) { status.textContent = `ERROR: ${error.message}`; }
+    }
+    $('go').onclick = async () => { await fetch('/api/navigate', { method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify({ url: $('url').value }) }); refresh(); };
+    $('reconnect').onclick = async () => { status.textContent = 'CONNECTING'; await fetch('/api/reconnect', { method: 'POST' }); refresh(); };
+    $('stop').onclick = async () => { await fetch('/api/stop', { method: 'POST' }); status.textContent = 'STOPPED'; };
+    screen.addEventListener('click', event => {
+      const rect = screen.getBoundingClientRect(), x = event.offsetX * 1280 / rect.width, y = event.offsetY * 800 / rect.height;
+      fetch('/api/input', { method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify({ type:'mouse', eventType:'mousePressed', x, y, button:event.button === 2 ? 'right' : 'left' }) });
+    });
+    screen.addEventListener('contextmenu', event => event.preventDefault());
+    screen.addEventListener('wheel', event => {
+      event.preventDefault();
+      const rect = screen.getBoundingClientRect();
+      fetch('/api/input', { method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({ type:'mouse', eventType:'mouseWheel', x:event.offsetX * 1280 / rect.width, y:event.offsetY * 800 / rect.height, deltaY:event.deltaY, deltaX:event.deltaX }) });
+    }, { passive:false });
+    window.addEventListener('keydown', event => { if (event.target.tagName === 'INPUT') return; fetch('/api/input', { method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({ type:'key', key:event.key, code:event.code, text:event.key.length === 1 ? event.key : undefined }) }); });
+    refresh(); timer = setInterval(refresh, 1000);
+  </script>
+</body>
+</html>

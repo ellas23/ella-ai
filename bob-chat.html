@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Bob</title>
+  <style>
+    :root{color-scheme:dark;font-family:Inter,Segoe UI,system-ui,sans-serif;background:#0b1020;color:#edf2ff}
+    *{box-sizing:border-box}body{margin:0;min-height:100vh;display:flex;justify-content:center;background:radial-gradient(circle at top,#18264d,#0b1020 55%)}
+    main{width:min(900px,100%);height:100vh;display:flex;flex-direction:column;padding:24px 18px}
+    header{display:flex;justify-content:space-between;align-items:center;padding:8px 4px 18px}h1{margin:0;font-size:1.35rem}header small{color:#9eafd2}.voice-controls{display:flex;gap:8px;align-items:center;color:#9eafd2;font-size:.8rem}.voice-controls select{max-width:150px;background:#111a31;color:#fff;border:1px solid #34466e;border-radius:8px;padding:5px}.voice-controls button{padding:6px 9px;font-size:.8rem}.memory{border:1px solid #263558;border-radius:12px;padding:12px;margin-bottom:12px}.memory h2{font-size:1rem;margin:0 0 8px}.memory-list{display:flex;flex-wrap:wrap;gap:6px}.memory-item{background:#16213d;border-radius:9px;padding:7px 9px;font-size:.85rem}.memory-item button{padding:2px 7px;margin-left:6px;background:#47577e;font-size:.75rem}
+    #status{color:#9eafd2;font-size:.85rem}.chat{flex:1;overflow:auto;padding:12px 0;display:flex;flex-direction:column;gap:12px}
+    .message{max-width:78%;padding:12px 15px;border-radius:16px;white-space:pre-wrap;line-height:1.5}.user{align-self:flex-end;background:#4d6fff}.bob{align-self:flex-start;background:#202d4e}.error{color:#ff9a9a;text-align:center}
+    form{display:flex;gap:10px;padding-top:14px;border-top:1px solid #263558}input{flex:1;border:1px solid #34466e;background:#111a31;color:#fff;border-radius:12px;padding:13px 14px;font-size:1rem}button{border:0;border-radius:12px;padding:0 20px;background:#6a82ff;color:#fff;font-weight:700}button:disabled{opacity:.55}
+  </style>
+</head>
+<body>
+  <main>
+    <header><div><h1>Bob</h1><small>Your friendly AI chat</small></div><div><div id="status">Connecting...</div><div class="voice-controls"><button id="voiceToggle" type="button">Voice: On</button><button id="stopSpeaking" type="button">Stop</button><select id="voiceSelect" aria-label="Bob voice"><option value="">Default voice</option></select></div></div></header>
+    <section id="chat" class="chat" aria-live="polite"></section>
+    <section class="memory"><h2>What Bob remembers</h2><div id="memories" class="memory-list"><small>Loading...</small></div><button id="clearMemories" type="button">Forget everything</button></section>
+    <form id="form"><input id="message" autocomplete="off" maxlength="8000" placeholder="Message Bob..." required><button id="send">Send</button></form>
+  </main>
+  <script>
+    const chat = document.getElementById('chat'), form = document.getElementById('form'), input = document.getElementById('message'), send = document.getElementById('send'), status = document.getElementById('status'), voiceToggle = document.getElementById('voiceToggle'), stopSpeaking = document.getElementById('stopSpeaking'), voiceSelect = document.getElementById('voiceSelect');
+    let voiceEnabled = localStorage.getItem('bob-voice-enabled') !== 'false', availableVoices = [];
+    const conversationId = localStorage.getItem('bob-conversation-id') || crypto.randomUUID();
+    localStorage.setItem('bob-conversation-id', conversationId);
+    function add(role, text, className = role) { const item = document.createElement('div'); item.className = `message ${className}`; item.textContent = text; chat.appendChild(item); chat.scrollTop = chat.scrollHeight; return item; }
+    function updateVoiceControls() { voiceToggle.textContent = `Voice: ${voiceEnabled ? 'On' : 'Off'}`; }
+    function populateVoices() { availableVoices = window.speechSynthesis?.getVoices?.() || []; const selected = localStorage.getItem('bob-voice-name') || ''; voiceSelect.innerHTML = '<option value="">Default voice</option>' + availableVoices.map(voice => `<option value="${voice.name.replace(/"/g, '&quot;')}">${voice.name} (${voice.lang})</option>`).join(''); voiceSelect.value = selected; }
+    function speak(text) { if (!voiceEnabled || !window.speechSynthesis || !window.SpeechSynthesisUtterance) return; try { window.speechSynthesis.cancel(); const utterance = new SpeechSynthesisUtterance(text); const selected = availableVoices.find(voice => voice.name === voiceSelect.value); if (selected) utterance.voice = selected; utterance.rate = 1; utterance.onerror = () => { status.textContent = 'Voice unavailable · chat ready'; }; window.speechSynthesis.speak(utterance); } catch (_) { status.textContent = 'Voice unavailable · chat ready'; } }
+    async function loadStatus() { try { const response = await fetch('/api/public/status'); const data = await response.json(); status.textContent = `${data.status} · ${data.model}`; } catch (_) { status.textContent = 'Offline'; } }
+    voiceToggle.onclick = () => { voiceEnabled = !voiceEnabled; localStorage.setItem('bob-voice-enabled', String(voiceEnabled)); try { if (!voiceEnabled && window.speechSynthesis) window.speechSynthesis.cancel(); } catch (_) {} updateVoiceControls(); };
+    stopSpeaking.onclick = () => { try { if (window.speechSynthesis) window.speechSynthesis.cancel(); } catch (_) {} };
+    voiceSelect.onchange = () => localStorage.setItem('bob-voice-name', voiceSelect.value);
+    window.speechSynthesis?.addEventListener?.('voiceschanged', populateVoices); populateVoices(); updateVoiceControls();
+    form.addEventListener('submit', async event => { event.preventDefault(); const message = input.value.trim(); if (!message) return; input.value = ''; add('user', message); send.disabled = true; status.textContent = 'Thinking...'; try { const response = await fetch('/api/chat', { method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify({ message, conversationId }) }); const data = await response.json(); if (!response.ok) throw new Error(data.error || 'Bob is unavailable.'); add('bob', data.reply); status.textContent = `${data.model} · ready`; speak(data.reply); loadMemories(); } catch (error) { add('error', error.message, 'error'); status.textContent = 'Error'; } finally { send.disabled = false; input.focus(); } });
+    async function loadHistory() { try { const response = await fetch(`/api/chat/history?conversationId=${encodeURIComponent(conversationId)}`); const data = await response.json(); (data.items || []).forEach(item => add(item.role === 'bob' ? 'bob' : 'user', item.content)); } catch (_) {} }
+    async function loadMemories() { try { const response = await fetch('/api/memories'); const data = await response.json(); const target = document.getElementById('memories'); target.innerHTML = (data.memories || []).map(item => `<span class="memory-item">${item.text.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}<button type="button" data-memory-id="${item.id}">Delete</button></span>`).join('') || '<small>No saved memories yet.</small>'; target.querySelectorAll('[data-memory-id]').forEach(button => button.onclick = async () => { await fetch(`/api/memories/${encodeURIComponent(button.dataset.memoryId)}`, {method:'DELETE'}); loadMemories(); }); } catch (_) { document.getElementById('memories').textContent = 'Memory unavailable.'; } }
+    document.getElementById('clearMemories').onclick = async () => { if (confirm('Forget all Bob memories?')) { await fetch('/api/memories', {method:'DELETE'}); loadMemories(); } };
+    loadStatus(); loadHistory(); loadMemories(); input.focus();
+  </script>
+</body>
+</html>

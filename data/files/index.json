@@ -1,0 +1,106 @@
+[
+  {
+    "id": "file-92405f99-c568-41e8-a806-f3ef18ab7e74",
+    "filename": "notes.txt",
+    "extension": ".txt",
+    "mimeType": "application/octet-stream",
+    "size": 43,
+    "uploadedAt": "2026-09-10T12:49:53.290Z",
+    "indexedAt": "2026-09-10T12:49:53.290Z",
+    "status": "INDEXED",
+    "processingError": null,
+    "chunks": [
+      {
+        "id": "chunk-1",
+        "content": "Ella uses local Ollama for private answers.",
+        "start": 0
+      }
+    ],
+    "storagePath": "C:\\Users\\Darbe\\OneDrive\\Desktop\\ella-ai-main\\ella-ai-main\\data\\files\\originals\\file-92405f99-c568-41e8-a806-f3ef18ab7e74-notes.txt"
+  },
+  {
+    "id": "file-3c09aad7-7c31-4b12-abc4-886586eb3fb1",
+    "filename": "notes.txt",
+    "extension": ".txt",
+    "mimeType": "application/octet-stream",
+    "size": 43,
+    "uploadedAt": "2026-09-10T12:50:34.667Z",
+    "indexedAt": "2026-09-10T12:50:34.667Z",
+    "status": "ARCHIVED",
+    "processingError": null,
+    "chunks": [],
+    "storagePath": "C:\\Users\\Darbe\\OneDrive\\Desktop\\ella-ai-main\\ella-ai-main\\data\\files\\originals\\file-3c09aad7-7c31-4b12-abc4-886586eb3fb1-notes.txt",
+    "archivedAt": "2026-09-10T12:50:34.778Z"
+  },
+  {
+    "id": "file-06224e52-f4fa-4fda-8c0b-7df24eca8d34",
+    "filename": "README.md",
+    "extension": ".md",
+    "mimeType": "text/markdown",
+    "size": 2412,
+    "uploadedAt": "2026-09-10T13:10:10.556Z",
+    "indexedAt": "2026-09-10T13:10:10.556Z",
+    "status": "INDEXED",
+    "processingError": null,
+    "chunks": [
+      {
+        "id": "chunk-1",
+        "content": "# Pressroom remote control\n\nThis app can control the Windows PC that runs the server. The control API is protected by an access token generated at:\n\n`%LOCALAPPDATA%\\Pressroom\\access-token`\n\n## Use it from your phone\n\n1. Connect the Mac and phone to the same Wi-Fi network.\n2. Start the app on the Mac with `npm run build && npm run server`.\n3. Open the `Local phone URL` printed by the server.\n4. Paste the `Remote access token` printed by the server into the Remote PC panel.\n5. Tap **Connect**, then tap the screen image to click, use the arrow/Enter buttons, or send text.\n\nYou can also open the single combined website directly at `http://<MAC-LOCAL-IP>:8787` after running `npm run build` and `npm run server`. It shows the entire desktop, not a single browser tab.\n\nDo not expose port 8787 with router port forwarding. Tailscale keeps the control service on a private network. For a fixed token, set `REMOTE_CONTROL_TOKEN` before starting the server; otherwise the generated token persists between restarts.\n\nBrowser visit details do not require ActivityWatch. On macOS, the server checks the active Safari or Google Chrome tab every five seconds and records its URL, title, and time seen. Allow Terminal/Node under **System Settings → Privacy & Security → Automation** so it can read browser tabs.\n\nOn macOS, allow Screen Recording and Accessibility for Terminal (or the app running Node) unde",
+        "start": 0
+      },
+      {
+        "id": "chunk-2",
+        "content": "r **System Settings → Privacy & Security → Automation** so it can read browser tabs.\n\nOn macOS, allow Screen Recording and Accessibility for Terminal (or the app running Node) under System Settings > Privacy & Security. For audio on macOS, use the default output or set `REMOTE_AUDIO_DEVICE` to the name of a virtual audio device.\n\nFor one-key Mac setup, open Terminal in this folder and run:\n\n```bash\nchmod +x setup-mac.command\n./setup-mac.command\n```\n\nThe script installs BetterDisplay if needed, builds the app, opens BetterDisplay, and starts Ella. macOS privacy prompts and the initial headless-display choice still require confirmation because macOS does not allow scripts to grant those permissions silently.\n\nTo route Ella to the virtual monitor, stop the existing server first with `Ctrl+C`, then start it with the virtual display number and desktop offset:\n\n```bash\nREMOTE_DISPLAY_INDEX=2 REMOTE_DISPLAY_OFFSET_X=1920 REMOTE_DISPLAY_OFFSET_Y=0 npm run server\n```\n\nUse the display number shown by macOS for the BetterDisplay monitor. The offset is its position in **System Settings > Displays > Arrange**. Keep this Terminal window running.",
+        "start": 1220
+      }
+    ],
+    "storagePath": "C:\\Users\\Darbe\\OneDrive\\Desktop\\ella-ai-main\\ella-ai-main\\data\\files\\originals\\file-06224e52-f4fa-4fda-8c0b-7df24eca8d34-README.md"
+  },
+  {
+    "id": "file-dd108400-bf9d-4154-8a43-4fe9ecf702c9",
+    "filename": "live-test.png",
+    "extension": ".png",
+    "mimeType": "image/png",
+    "size": 68,
+    "uploadedAt": "2026-09-10T13:20:54.507Z",
+    "dimensions": {
+      "width": 1,
+      "height": 1
+    },
+    "indexedAt": "2026-09-10T13:22:46.656Z",
+    "status": "ARCHIVED",
+    "processingError": null,
+    "chunks": [],
+    "storagePath": "C:\\Users\\Darbe\\OneDrive\\Desktop\\ella-ai-main\\ella-ai-main\\data\\files\\originals\\file-dd108400-bf9d-4154-8a43-4fe9ecf702c9-live-test.png",
+    "analysis": "The image is a solid black square. There is nothing visible within it.",
+    "analysisModel": "gemma3:4b",
+    "analyzedAt": "2026-09-10T13:22:46.656Z",
+    "archivedAt": "2026-09-10T13:22:46.989Z"
+  },
+  {
+    "id": "file-5a802901-d02e-4c35-9717-3fbcc2ab55dd",
+    "filename": "IMG_1038.PNG",
+    "extension": ".png",
+    "mimeType": "image/png",
+    "size": 598553,
+    "uploadedAt": "2026-09-10T13:26:36.245Z",
+    "dimensions": {
+      "width": 1284,
+      "height": 2778
+    },
+    "indexedAt": "2026-09-10T13:27:46.755Z",
+    "status": "INDEXED",
+    "processingError": null,
+    "chunks": [
+      {
+        "id": "chunk-1",
+        "content": "Image filename: IMG_1038.PNG\nVisual analysis: The image shows a series of text messages on a smartphone screen. The messages are between individuals named Emily, K, Mmmmf fun, Bru, Yaa and are displayed in a chat window. The messages discuss a hypothetical situation regarding liking Kira. The phone shows a number with the count \"584\" and the time \"11:57\".",
+        "start": 0
+      }
+    ],
+    "storagePath": "C:\\Users\\Darbe\\OneDrive\\Desktop\\ella-ai-main\\ella-ai-main\\data\\files\\originals\\file-5a802901-d02e-4c35-9717-3fbcc2ab55dd-IMG_1038.PNG",
+    "analysis": "The image shows a series of text messages on a smartphone screen. The messages are between individuals named Emily, K, Mmmmf fun, Bru, Yaa and are displayed in a chat window. The messages discuss a hypothetical situation regarding liking Kira. The phone shows a number with the count \"584\" and the time \"11:57\".",
+    "analysisModel": "gemma3:4b",
+    "analyzedAt": "2026-09-10T13:27:46.755Z"
+  }
+]

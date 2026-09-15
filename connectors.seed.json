@@ -1,0 +1,21 @@
+{
+  "nodes": [
+    { "id": "ella", "name": "Ella", "type": "core", "status": "online" },
+    { "id": "google", "name": "Google", "type": "connector", "status": "offline", "lastUsed": null },
+    { "id": "gmail", "name": "Gmail", "type": "service", "status": "offline", "lastUsed": null },
+    { "id": "calendar", "name": "Calendar", "type": "service", "status": "offline", "lastUsed": null },
+    { "id": "discord", "name": "Discord", "type": "connector", "status": "offline", "lastUsed": null },
+    { "id": "spotify", "name": "Spotify", "type": "connector", "status": "offline", "lastUsed": null },
+    { "id": "weather", "name": "Weather", "type": "connector", "status": "offline", "lastUsed": null },
+    { "id": "pc", "name": "Main PC", "type": "device", "status": "online", "lastUsed": null }
+  ],
+  "edges": [
+    { "source": "ella", "target": "google" },
+    { "source": "google", "target": "gmail" },
+    { "source": "google", "target": "calendar" },
+    { "source": "ella", "target": "discord" },
+    { "source": "ella", "target": "spotify" },
+    { "source": "ella", "target": "weather" },
+    { "source": "ella", "target": "pc" }
+  ]
+}

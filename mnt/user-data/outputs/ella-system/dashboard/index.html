@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Ella // Command Center</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+<div id="topbar">
+  <div class="brand">ELLA <span>// COMMAND CENTER</span></div>
+  <div id="statusChips"></div>
+  <div id="connBadge">connecting...</div>
+</div>
+
+<div id="grid">
+  <div class="col left">
+    <div class="panel" id="systemPanel">
+      <div class="panel-title">SYSTEM</div>
+      <div class="stat-row"><span>CPU</span><b id="cpuVal">--%</b></div>
+      <canvas id="cpuGraph" width="220" height="50"></canvas>
+      <div class="stat-row"><span>RAM</span><b id="ramVal">--%</b></div>
+      <div class="stat-row"><span>UPTIME</span><b id="uptimeVal">--</b></div>
+      <div class="stat-row"><span>HOST</span><b id="hostVal">--</b></div>
+    </div>
+    <div class="panel" id="devicesPanel">
+      <div class="panel-title">DEVICES</div>
+      <div class="device-row"><span class="dot on"></span> MAIN PC <em>ONLINE</em></div>
+      <div class="device-row"><span class="dot on"></span> THINKPAD <em>ONLINE</em></div>
+    </div>
+  </div>
+
+  <div class="col center">
+    <div class="panel core-panel" id="corePanel">
+      <div class="panel-title">ELLA AI CORE</div>
+      <div class="core-status" id="coreStatus">STANDBY</div>
+      <canvas id="networkCanvas" width="640" height="440"></canvas>
+      <div class="net-controls">
+        <button id="addConnectorBtn">+ ADD CONNECTOR</button>
+        <span id="netHint">scroll to zoom · drag nodes · click for details</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="col right">
+    <div class="panel" id="activityPanel">
+      <div class="panel-title">LIVE ACTIVITY</div>
+      <div id="activityFeed"></div>
+    </div>
+  </div>
+</div>
+
+<div class="modal-backdrop" id="addModal">
+  <div class="modal">
+    <div class="panel-title">ADD CONNECTOR</div>
+    <label>NAME</label><input id="cName" placeholder="e.g. Notion"/>
+    <label>PARENT NODE</label><input id="cParent" placeholder="ella (default) or another node id"/>
+    <div class="modal-row">
+      <button id="cCancel">CANCEL</button>
+      <button id="cSave" class="primary">CONNECT</button>
+    </div>
+    <p class="fine">Actual credentials/API keys are never entered here — this only registers the node.
+      Secrets are handled by the Main PC backend, not this dashboard.</p>
+  </div>
+</div>
+
+<div class="modal-backdrop" id="nodeModal">
+  <div class="modal">
+    <div class="panel-title" id="nodeModalTitle">NODE</div>
+    <div id="nodeModalBody"></div>
+    <div class="modal-row">
+      <button id="nodeClose">CLOSE</button>
+      <button id="nodeRemove" class="danger">REMOVE</button>
+    </div>
+  </div>
+</div>
+
+<script src="dashboard-config.js"></script>
+<script src="dashboard.js"></script>
+</body>
+</html>

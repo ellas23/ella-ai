@@ -1,0 +1,618 @@
+[
+  {
+    "id": "confirm-78e65dcb-9442-4844-9757-87300752fda0",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T12:51:24.232Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-694d8d41-ffef-41a7-bfb1-6b45ab3b7663",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T12:51:45.436Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-e12eb534-52be-49ae-9714-c03131b0c839",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T12:54:07.193Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-30c16208-c763-49e1-82de-b717e2fd1331",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T12:54:30.266Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-d2166a3b-0524-4b88-ad51-3fa1a2730eaa",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T12:56:57.789Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-2673da83-af85-4883-8b42-39b9d27d6a91",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T12:57:18.733Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-8bbbde60-5629-4d89-8265-7f599ebedbb5",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T12:58:01.796Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-72fc22c4-add3-4e4d-b09c-1e01fd6aa329",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T13:08:05.211Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-5498b0f3-8553-45d6-bb96-5c16a754bef6",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T13:11:47.829Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-844b1632-d6a7-46ea-933e-cec84748a540",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T14:51:48.962Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-e4ae171b-d1ae-4772-95e0-c48a50ad813a",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T15:03:42.130Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-30244eee-b7a0-4ea5-8bef-8621bb185850",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T15:48:20.585Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-0ac6d4ce-908c-4174-b0f7-54b9c5c0e463",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T15:49:00.448Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-97fd93b5-ba34-45cd-8875-af01c7de8312",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T15:49:16.017Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-e8720365-7b96-45fd-af0f-a353a9482a60",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T15:52:40.873Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-9c41095e-6ddb-4169-ae45-2f9774c45f04",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T16:13:32.066Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-d22fa181-fa84-448e-bb8d-2e8c2f55ea48",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T16:24:56.724Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-c2c76f5b-f717-414e-b433-7110c57cfde8",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T16:51:40.943Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-f346ca60-eb04-4019-bc32-aa339643f9b8",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T16:57:45.381Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-78ea3c29-af14-4907-bb31-aa1d80eb3ed0",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T16:59:04.204Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-6719f2da-b5ce-4436-bce3-8aa272e61fc1",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T17:01:25.671Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-88565521-64f5-46be-a1ba-a9b965145c5e",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T17:01:53.694Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-04e120a5-dd88-4b8d-a265-96ed29094aa4",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T18:23:29.870Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-2ca4086d-9be0-49fc-9514-2793a28f27aa",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T18:24:44.961Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-cb99ae51-cde4-40a9-a735-0cd664d42d69",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T18:27:13.486Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-c5e39c2f-272a-47aa-a6b0-f401cd6763c9",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T20:14:40.644Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-30b52f27-e43e-4f14-9a57-ff766682ab98",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T20:15:00.642Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-0339b1a8-ca3d-41e1-b7c3-14ed21393df8",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T20:17:06.905Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-d2481382-d8d1-4e9c-9105-80c8ca431844",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T20:19:07.320Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-cbbd820c-c984-4a07-95b0-f9a803141b7f",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T20:22:31.210Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-83e98da2-2031-4e00-bb4e-66e83665803e",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T20:22:50.066Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-83f7f569-cae3-4bed-b425-9014c7a4ad7d",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T20:48:56.429Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-92ec106b-402d-4b14-a492-580e969e456f",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T20:51:52.023Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-44e8e038-03d7-485e-beaa-11fae0a05900",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T20:52:55.079Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-1ea50147-5f36-4d7b-8af1-f206179c4ad3",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T20:57:15.314Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-7e31f70e-2ff2-4f38-89fb-a1dfec61e9e9",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T20:58:48.542Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-bc5969d6-841b-4f97-9af6-042d6caa12e2",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T20:59:01.856Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-b952adbd-7a45-4f74-aafa-53a48e2d3d26",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T20:59:26.163Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-9da8626a-4e20-415d-b8cb-11c8bb1a1795",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T21:00:35.190Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-37db4fd6-b41c-4587-aaee-11389f3b5d30",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T21:02:11.704Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-b7e7ec08-c47e-4038-bccd-9402a946ccb4",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T21:05:48.893Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-c8dd34f6-a953-4796-82cd-f59ceedd50cb",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T21:07:17.107Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-8004d187-9c06-4f24-8b58-d8603af6b69e",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T21:19:12.673Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-cc318051-acb1-4d99-9f1b-2aec798152ea",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T21:20:06.048Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-a1238758-35f4-4f48-a53f-803b4a9d6591",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T22:06:47.618Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-f378841a-f04f-43d3-9785-2c6af22ab924",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T22:12:48.831Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-63b47152-5ae8-4b14-96af-4e52742c1b2b",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T22:16:47.484Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-5a1504e9-bb2f-4e6b-a8da-26df2c9efa10",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T22:17:48.555Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-d6b0b24c-0246-4707-a9cf-ffda5842ca1e",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T22:19:04.412Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-3a40c05c-657a-41bd-b5e2-2508b694e765",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T22:20:12.540Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-94223264-d7ee-4d9c-862e-b70268d5e079",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T22:20:41.194Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-4e6e208b-ae5b-4bd0-a5b5-6f7e0cfec9e9",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T23:15:13.562Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-7c2db039-e344-40eb-9f13-257b71b1cc6b",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T23:18:05.281Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-b57896e3-8c72-43de-b27c-67f38e28559e",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T23:27:13.068Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-6a94b3df-1f8a-4b4b-a8fa-cccfa960fb28",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-08T23:32:27.116Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-0f5cae8b-e228-4d1b-bff1-c1c8f5360f70",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-09T11:02:51.343Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-3edeea42-b163-4b13-8ea1-a46c7d169207",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-09T11:46:58.246Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-347a7fed-a47b-4372-8e1d-d107b00b62f2",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-10T12:34:45.471Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-3226429a-230f-4145-81c5-6b38876d512d",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-10T12:36:55.746Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-0a6d6a37-4509-4ba7-a34c-cd9de6caa703",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-10T12:39:56.135Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-401fdef2-a200-46ef-8b4a-f3b0e1fde160",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-10T12:41:02.219Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-4cf72bd2-a26a-458a-97bf-19bec19fc4e8",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-10T12:43:41.488Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-ef4f9f52-3ec5-4f23-99b9-a2847bf1481d",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-10T12:50:12.958Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-9fd63cb5-1a69-4cd1-9d93-dad2ac349b6c",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-10T12:54:54.349Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-e5de7d3d-ad13-4865-b65c-4915cb412988",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-10T12:55:22.391Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-a046a69a-800e-46fc-850c-439c115f74d1",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-10T12:55:52.620Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-8451ef42-f078-4a24-9ae9-33ff1fab5a02",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-10T13:05:11.019Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-4a2289ec-f7d3-4f09-a7db-b553bb30cc41",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-10T13:08:41.389Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-a8821b68-320f-4e3e-a2fb-19815363806d",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-10T13:23:23.982Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-c7e09a11-df5d-4184-aea0-2b8673477ea4",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-10T15:35:57.123Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-ece31e7a-9155-4ad5-9dca-f69c5bc59e6e",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-10T18:07:04.849Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-3c0908c7-19ea-4ccd-a9ec-0f53be79d9b5",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-10T18:19:34.240Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-41a09a97-7df2-4133-b0da-5117e96006aa",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-10T18:22:44.283Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-6a831dfb-dc2f-4bf5-b3fb-548ffb158583",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-10T20:38:22.201Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-2e144ba7-246d-4f2c-b075-a550b4445725",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-10T20:54:12.931Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-1edab173-8b09-47f7-9a5e-06e46e23554f",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-11T12:15:37.808Z",
+    "status": "PENDING"
+  },
+  {
+    "id": "confirm-30b99336-699f-4442-bfe9-08e7a096752e",
+    "action": "restart_windows",
+    "target": "",
+    "reason": "This action changes system state or may be destructive.",
+    "createdAt": "2026-09-11T13:40:08.375Z",
+    "status": "PENDING"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "TTS_STATUS": "IDLE",
+  "TTS_ENGINE": "Windows System.Speech SAPI",
+  "TTS_PROCESS": null,
+  "TTS_AUDIO_GENERATED": true,
+  "TTS_OUTPUT_DEVICE": "Windows default audio output device",
+  "TTS_LAST_ERROR": null,
+  "TTS_LAST_SPOKEN_TIME": "2026-09-12T15:21:11.031Z",
+  "updatedAt": "2026-09-12T15:21:11.032Z"
+}

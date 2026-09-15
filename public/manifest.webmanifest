@@ -1,0 +1,19 @@
+﻿{
+  "name": "Ella Command Center",
+  "short_name": "Ella CC",
+  "description": "Local-first Ella Command Center for voice, workers, telemetry, and verified actions.",
+  "start_url": "/dashboard.html",
+  "display": "standalone",
+  "background_color": "#07101a",
+  "theme_color": "#0b1220",
+  "orientation": "landscape",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
+

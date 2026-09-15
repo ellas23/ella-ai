@@ -1,0 +1,25 @@
+[Unit]
+Description=Ella restricted research and coding worker
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ben
+WorkingDirectory=/home/ben/ella-worker
+Environment=ELLA_WORKER_ID=pi-worker
+Environment=ELLA_WORKER_PORT=8765
+Environment=ELLA_WORKER_BIND=192.168.1.147
+Environment=ELLA_WORKSPACES=/home/ben/ella-worker/workspace
+EnvironmentFile=/etc/ella-worker/worker.env
+ExecStart=/usr/bin/python3 /home/ben/ella-worker/worker_agent.py
+Restart=always
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/home/ben/ella-worker/workspace
+
+[Install]
+WantedBy=multi-user.target
